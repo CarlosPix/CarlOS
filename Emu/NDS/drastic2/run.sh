@@ -11,12 +11,12 @@ echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
 cd $MYDIR
 
-./gptokeyb -k "drastic" &
+#./gptokeyb -k "drastic" &
 
 ./drastic "$1"
 sync
 
-killall -9 gptokeyb
+#killall -9 gptokeyb
 
 echo $sv > /proc/sys/vm/swappiness
 echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
