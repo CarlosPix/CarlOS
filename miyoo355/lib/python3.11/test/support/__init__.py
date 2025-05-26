@@ -56,6 +56,7 @@ __all__ = [
     "run_with_tz", "PGO", "missing_compiler_executable",
     "ALWAYS_EQ", "NEVER_EQ", "LARGEST", "SMALLEST",
     "LOOPBACK_TIMEOUT", "INTERNET_TIMEOUT", "SHORT_TIMEOUT", "LONG_TIMEOUT",
+    "skip_on_s390x",
     ]
 
 
@@ -767,7 +768,11 @@ def python_is_optimized():
     for opt in cflags.split():
         if opt.startswith('-O'):
             final_opt = opt
-    return final_opt not in ('', '-O0', '-Og')
+    if sysconfig.get_config_var("CC") == "gcc":
+        non_opts = ('', '-O0', '-Og')
+    else:
+        non_opts = ('', '-O0')
+    return final_opt not in non_opts
 
 
 def check_cflags_pgo():
@@ -2238,3 +2243,7 @@ def copy_python_src_ignore(path, names):
             'build',
         }
     return ignored
+
+#Windows doesn't have os.uname() but it doesn't support s390x.
+skip_on_s390x = unittest.skipIf(hasattr(os, 'uname') and os.uname().machine == 's390x',
+                                'skipped on s390x')

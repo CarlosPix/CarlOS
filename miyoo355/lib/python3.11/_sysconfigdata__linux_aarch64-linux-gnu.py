@@ -12,14 +12,14 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wsign-compare',
  'BASECPPFLAGS': '',
  'BASEMODLIBS': '',
- 'BINDIR': '/usr/local/bin',
- 'BINLIBDEST': '/usr/local/lib/python3.11',
+ 'BINDIR': '/mnt/SDCARD/miyoo355/bin',
+ 'BINLIBDEST': '/mnt/SDCARD/miyoo355/lib/python3.11',
  'BLDLIBRARY': '-L. -lpython3.11',
  'BLDSHARED': 'aarch64-miyooflip-linux-gnu-gcc -shared',
  'BOOTSTRAP_HEADERS': '\\',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
- 'BUILD_GNU_TYPE': 'x86_64-pc-linux-gnu',
+ 'BUILD_GNU_TYPE': 'aarch64-unknown-none',
  'BYTESTR_DEPS': '\\',
  'CC': 'aarch64-miyooflip-linux-gnu-gcc',
  'CCSHARED': '-fPIC',
@@ -38,19 +38,18 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_LDFLAGS': '',
  'CONFIGURE_LDFLAGS_NODIST': '-fno-semantic-interposition',
  'CONFIGURE_LDFLAGS_NOLTO': '',
- 'CONFIG_ARGS': "'-host=aarch64-miyooflip-linux-gnu' "
-                "'--build=x86_64-pc-linux-gnu' '--with-build-python' "
-                "'--disable-ipv6' 'ac_cv_file__dev_ptmx=yes' "
-                "'ac_cv_file__dev_ptc=no' '--enable-optimizations' "
-                "'--enable-shared' 'build_alias=x86_64-pc-linux-gnu' "
+ 'CONFIG_ARGS': "'--host=aarch64-miyooflip-linux-gnu' '--build=aarch64' "
+                "'--prefix=/mnt/SDCARD/miyoo355' '--with-build-python' "
+                "'--disable-ipv6' '--enable-optimizations' '--enable-shared' "
+                "'build_alias=aarch64' "
                 "'host_alias=aarch64-miyooflip-linux-gnu' "
                 "'CC=aarch64-miyooflip-linux-gnu-gcc'",
- 'CONFINCLUDEDIR': '/usr/local/include',
- 'CONFINCLUDEPY': '/usr/local/include/python3.11',
+ 'CONFINCLUDEDIR': '/mnt/SDCARD/miyoo355/include',
+ 'CONFINCLUDEPY': '/mnt/SDCARD/miyoo355/include/python3.11',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/home/ninoh-fox/Escritorio/Python-3.11.8/coverage.info',
+ 'COVERAGE_INFO': '/home/ninoh-fox/Descargas/Python-3.11.12/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
- 'COVERAGE_REPORT': '/home/ninoh-fox/Escritorio/Python-3.11.8/lcov-report',
+ 'COVERAGE_REPORT': '/home/ninoh-fox/Descargas/Python-3.11.12/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--rc lcov_branch_coverage=1 --branch-coverage '
                             '--title "CPython 3.11 LCOV report [commit $(shell '
                             ')]"',
@@ -63,11 +62,12 @@ build_time_vars = {'ABIFLAGS': '',
  'DEEPFREEZE_DEPS': './Tools/scripts/deepfreeze.py '
                     './Programs/_freeze_module.py \\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
- 'DESTDIRS': '/usr/local /usr/local/lib /usr/local/lib/python3.11 '
-             '/usr/local/lib/python3.11/lib-dynload',
- 'DESTLIB': '/usr/local/lib/python3.11',
+ 'DESTDIRS': '/mnt/SDCARD/miyoo355 /mnt/SDCARD/miyoo355/lib '
+             '/mnt/SDCARD/miyoo355/lib/python3.11 '
+             '/mnt/SDCARD/miyoo355/lib/python3.11/lib-dynload',
+ 'DESTLIB': '/mnt/SDCARD/miyoo355/lib/python3.11',
  'DESTPATH': '',
- 'DESTSHARED': '/usr/local/lib/python3.11/lib-dynload',
+ 'DESTSHARED': '/mnt/SDCARD/miyoo355/lib/python3.11/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -591,11 +591,11 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE__GETPTY': 0,
  'HOSTRUNNER': '',
  'HOST_GNU_TYPE': 'aarch64-miyooflip-linux-gnu',
- 'INCLDIRSTOMAKE': '/usr/local/include /usr/local/include '
-                   '/usr/local/include/python3.11 '
-                   '/usr/local/include/python3.11',
- 'INCLUDEDIR': '/usr/local/include',
- 'INCLUDEPY': '/usr/local/include/python3.11',
+ 'INCLDIRSTOMAKE': '/mnt/SDCARD/miyoo355/include /mnt/SDCARD/miyoo355/include '
+                   '/mnt/SDCARD/miyoo355/include/python3.11 '
+                   '/mnt/SDCARD/miyoo355/include/python3.11',
+ 'INCLUDEDIR': '/mnt/SDCARD/miyoo355/include',
+ 'INCLUDEPY': '/mnt/SDCARD/miyoo355/include/python3.11',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -611,8 +611,8 @@ build_time_vars = {'ABIFLAGS': '',
  'LDSHARED': 'aarch64-miyooflip-linux-gnu-gcc -shared',
  'LDVERSION': '3.11',
  'LIBC': '',
- 'LIBDEST': '/usr/local/lib/python3.11',
- 'LIBDIR': '/usr/local/lib',
+ 'LIBDEST': '/mnt/SDCARD/miyoo355/lib/python3.11',
+ 'LIBDIR': '/mnt/SDCARD/miyoo355/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
  'LIBEXPAT_CFLAGS': '-I./Modules/expat -Wsign-compare -DNDEBUG -g  -O3 -Wall '
                     '-fno-semantic-interposition -std=c11 -Wextra '
@@ -636,8 +636,8 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBMPDEC_OBJS': '\\',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/usr/local/lib/pkgconfig',
- 'LIBPL': '/usr/local/lib/python3.11/config-3.11-aarch64-linux-gnu',
+ 'LIBPC': '/mnt/SDCARD/miyoo355/lib/pkgconfig',
+ 'LIBPL': '/mnt/SDCARD/miyoo355/lib/python3.11/config-3.11-aarch64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.11.a',
  'LIBRARY_DEPS': 'libpython3.11.a libpython3.11.so libpython3.so',
@@ -658,13 +658,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/usr/local/lib/python3.11',
+ 'MACHDESTLIB': '/mnt/SDCARD/miyoo355/lib/python3.11',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'aarch64-miyooflip-linux-gnu-gcc',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
  'MAKESETUP': './Modules/makesetup',
- 'MANDIR': '/usr/local/share/man',
+ 'MANDIR': '/mnt/SDCARD/miyoo355/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'atexit  faulthandler  posix  _signal  _tracemalloc  '
                    '_codecs  _collections  errno  _io  itertools  _sre  '
@@ -911,10 +911,10 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHONFRAMEWORKINSTALLDIR': '',
  'PYTHONFRAMEWORKPREFIX': '',
  'PYTHONPATH': '',
- 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Escritorio/Python-3.11.8 '
+ 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Descargas/Python-3.11.12 '
                      '_PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) '
                      'PYTHONPATH=$(shell test -f pybuilddir.txt && echo '
-                     '/home/ninoh-fox/Escritorio/Python-3.11.8/`cat '
+                     '/home/ninoh-fox/Descargas/Python-3.11.12/`cat '
                      'pybuilddir.txt`:)./Lib '
                      '_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__linux_aarch64-linux-gnu '
                      'python3.11',
@@ -975,7 +975,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/usr/local/lib',
+ 'SCRIPTDIR': '/mnt/SDCARD/miyoo355/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
  'SHLIBS': '-ldl  -lpthread',
@@ -1018,18 +1018,18 @@ build_time_vars = {'ABIFLAGS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TESTOPTS': '',
  'TESTPATH': '',
- 'TESTPYTHON': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Escritorio/Python-3.11.8 '
+ 'TESTPYTHON': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Descargas/Python-3.11.12 '
                '_PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) '
                'PYTHONPATH=$(shell test -f pybuilddir.txt && echo '
-               '/home/ninoh-fox/Escritorio/Python-3.11.8/`cat '
+               '/home/ninoh-fox/Descargas/Python-3.11.12/`cat '
                'pybuilddir.txt`:)./Lib '
                '_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__linux_aarch64-linux-gnu '
                'python3.11',
  'TESTPYTHONOPTS': '',
- 'TESTRUNNER': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Escritorio/Python-3.11.8 '
+ 'TESTRUNNER': '_PYTHON_PROJECT_BASE=/home/ninoh-fox/Descargas/Python-3.11.12 '
                '_PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) '
                'PYTHONPATH=$(shell test -f pybuilddir.txt && echo '
-               '/home/ninoh-fox/Escritorio/Python-3.11.8/`cat '
+               '/home/ninoh-fox/Descargas/Python-3.11.12/`cat '
                'pybuilddir.txt`:)./Lib '
                '_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__linux_aarch64-linux-gnu '
                'python3.11 ./Tools/scripts/run_tests.py',
@@ -1046,8 +1046,8 @@ build_time_vars = {'ABIFLAGS': '',
  'UPDATE_FILE': './Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'VERSION': '3.11',
- 'WASM_ASSETS_DIR': './usr/local',
- 'WASM_STDLIB': './usr/local/lib/python3.11/os.py',
+ 'WASM_ASSETS_DIR': './mnt/SDCARD/miyoo355',
+ 'WASM_STDLIB': './mnt/SDCARD/miyoo355/lib/python3.11/os.py',
  'WHEEL_PKG_DIR': '',
  'WINDOW_HAS_FLAGS': 1,
  'WITH_DECIMAL_CONTEXTVAR': 1,
@@ -1062,9 +1062,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/home/ninoh-fox/Escritorio/Python-3.11.8',
- 'abs_srcdir': '/home/ninoh-fox/Escritorio/Python-3.11.8',
- 'datarootdir': '/usr/local/share',
- 'exec_prefix': '/usr/local',
- 'prefix': '/usr/local',
+ 'abs_builddir': '/home/ninoh-fox/Descargas/Python-3.11.12',
+ 'abs_srcdir': '/home/ninoh-fox/Descargas/Python-3.11.12',
+ 'datarootdir': '/mnt/SDCARD/miyoo355/share',
+ 'exec_prefix': '/mnt/SDCARD/miyoo355',
+ 'prefix': '/mnt/SDCARD/miyoo355',
  'srcdir': '.'}

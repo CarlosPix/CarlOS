@@ -9,6 +9,7 @@ import io
 import itertools
 import os
 import posixpath
+import re
 import shutil
 import stat
 import struct
@@ -559,7 +560,15 @@ class ZipInfo (object):
 
     def is_dir(self):
         """Return True if this archive member is a directory."""
-        return self.filename[-1] == '/'
+        if self.filename.endswith('/'):
+            return True
+        # The ZIP format specification requires to use forward slashes
+        # as the directory separator, but in practice some ZIP files
+        # created on Windows can use backward slashes.  For compatibility
+        # with the extraction code which already handles this:
+        if os.path.altsep:
+            return self.filename.endswith((os.path.sep, os.path.altsep))
+        return False
 
 
 # ZIP encryption uses the CRC32 one-byte primitive for scrambling some
@@ -2204,7 +2213,7 @@ def _parents(path):
 def _ancestry(path):
     """
     Given a path with elements separated by
-    posixpath.sep, generate all elements of that path
+    posixpath.sep, generate all elements of that path.
 
     >>> list(_ancestry('b/d'))
     ['b/d', 'b']
@@ -2216,9 +2225,14 @@ def _ancestry(path):
     ['b']
     >>> list(_ancestry(''))
     []
+
+    Multiple separators are treated like a single.
+
+    >>> list(_ancestry('//b//d///f//'))
+    ['//b//d///f', '//b//d', '//b']
     """
     path = path.rstrip(posixpath.sep)
-    while path and path != posixpath.sep:
+    while path.rstrip(posixpath.sep):
         yield path
         path, tail = posixpath.split(path)
 

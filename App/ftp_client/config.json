@@ -1,0 +1,6 @@
+{
+	"label":        "Ftp client",
+	"icon":	        "led.png",
+	"launch":       "launch.sh",
+	"description":  "FTP file lan transfer"
+}

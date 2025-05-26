@@ -1,0 +1,59 @@
+Sun May 25 18:13:09 2025 bftpd[2940]: Quitting.
+Sun May 25 18:13:19 2025 bftpd[2974]: Quitting.
+Sun May 25 18:13:31 2025 bftpd[3010]: Quitting.
+Sun May 25 18:17:22 2025 bftpd[3738]: Incoming connection from 192.168.1.108.
+Sun May 25 20:17:25 2025 bftpd[3738]: Login as user 'root' failed.
+Sun May 25 20:17:25 2025 bftpd[3738]: Quitting.
+Sun May 25 18:18:14 2025 bftpd[3894]: Incoming connection from 192.168.1.108.
+Sun May 25 20:18:14 2025 bftpd[3894]: Login as user 'root' failed.
+Sun May 25 20:18:14 2025 bftpd[3894]: Quitting.
+Sun May 25 18:19:16 2025 bftpd[4096]: Incoming connection from 192.168.1.108.
+Sun May 25 18:19:16 2025 bftpd[4096]: Successfully logged in as user 'ftp'.
+Sun May 25 18:19:16 2025 bftpd[4096]: Chdir failed: No such file or directory.
+Sun May 25 18:22:02 2025 bftpd[4096]: Changed directory to 'Roms'.
+Sun May 25 18:22:10 2025 bftpd[4096]: Changed directory to 'PS'.
+Sun May 25 18:22:19 2025 bftpd[4670]: Incoming connection from 192.168.1.108.
+Sun May 25 18:22:19 2025 bftpd[4670]: Successfully logged in as user 'ftp'.
+Sun May 25 18:22:19 2025 bftpd[4670]: Chdir failed: No such file or directory.
+Sun May 25 18:22:19 2025 bftpd[4670]: Changed directory to '/Roms/PS'.
+Sun May 25 18:22:19 2025 bftpd[4670]: Client is storing file 'Alundra (S) [SLES-01258].chd'.
+Sun May 25 18:23:17 2025 bftpd[4670]: File transmission successful.
+Sun May 25 18:23:42 2025 bftpd[4096]: Quitting.
+Sun May 25 18:23:46 2025 bftpd[4670]: Quitting.
+Sun May 25 18:39:41 2025 bftpd[2488]: Incoming connection from 192.168.1.108.
+Sun May 25 18:39:41 2025 bftpd[2488]: Successfully logged in as user 'ftp'.
+Sun May 25 18:39:41 2025 bftpd[2488]: Chdir failed: No such file or directory.
+Sun May 25 18:39:41 2025 bftpd[2488]: Changed directory to '/Roms/PS'.
+Sun May 25 18:39:48 2025 bftpd[2488]: Quitting.
+Mon May 26 01:29:58 2025 bftpd[16539]: Incoming connection from 192.168.1.108.
+Mon May 26 01:29:58 2025 bftpd[16539]: Successfully logged in as user 'ftp'.
+Mon May 26 01:29:58 2025 bftpd[16539]: Chdir failed: No such file or directory.
+Mon May 26 01:29:58 2025 bftpd[16539]: Changed directory to '/Roms/PS'.
+Mon May 26 01:30:04 2025 bftpd[16539]: Quitting.
+Mon May 26 01:30:37 2025 bftpd[17315]: Incoming connection from 192.168.1.108.
+Mon May 26 03:30:37 2025 bftpd[17315]: Login as user 'root' failed.
+Mon May 26 03:30:37 2025 bftpd[17315]: Quitting.
+Mon May 26 01:30:48 2025 bftpd[17550]: Incoming connection from 192.168.1.108.
+Mon May 26 03:30:48 2025 bftpd[17550]: Login as user 'root' failed.
+Mon May 26 03:30:48 2025 bftpd[17550]: Quitting.
+Mon May 26 01:30:54 2025 bftpd[17656]: Incoming connection from 192.168.1.108.
+Mon May 26 03:30:54 2025 bftpd[17656]: Login as user 'root' failed.
+Mon May 26 03:30:54 2025 bftpd[17656]: Quitting.
+Mon May 26 01:31:07 2025 bftpd[17936]: Incoming connection from 192.168.1.108.
+Mon May 26 03:31:08 2025 bftpd[17936]: Login as user 'root' failed.
+Mon May 26 03:31:08 2025 bftpd[17936]: Quitting.
+Mon May 26 01:31:13 2025 bftpd[18043]: Incoming connection from 192.168.1.108.
+Mon May 26 03:31:13 2025 bftpd[18043]: Login as user 'root' failed.
+Mon May 26 03:31:13 2025 bftpd[18043]: Quitting.
+Mon May 26 01:31:29 2025 bftpd[18367]: Incoming connection from 192.168.1.108.
+Mon May 26 03:31:29 2025 bftpd[18367]: Login as user 'root' failed.
+Mon May 26 03:31:29 2025 bftpd[18367]: Quitting.
+Mon May 26 01:31:40 2025 bftpd[18588]: Incoming connection from 192.168.1.108.
+Mon May 26 01:31:40 2025 bftpd[18588]: Successfully logged in as user 'ftp'.
+Mon May 26 01:31:40 2025 bftpd[18588]: Chdir failed: No such file or directory.
+Mon May 26 01:34:19 2025 bftpd[21005]: Incoming connection from 192.168.1.108.
+Mon May 26 01:34:20 2025 bftpd[21005]: Successfully logged in as user 'ftp'.
+Mon May 26 01:34:20 2025 bftpd[21005]: Chdir failed: No such file or directory.
+Mon May 26 01:34:23 2025 bftpd[21005]: Changed directory to '/'.
+Mon May 26 01:34:23 2025 bftpd[21005]: Changed directory to 'BIOS'.
+Mon May 26 01:34:30 2025 bftpd[21005]: Changed directory to '..'.

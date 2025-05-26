@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3.11
+#!/mnt/SDCARD/miyoo355/bin/python3.11
 
 import pydoc
 if __name__ == '__main__':

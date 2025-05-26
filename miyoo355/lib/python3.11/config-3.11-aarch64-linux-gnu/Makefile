@@ -31,8 +31,8 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 VERSION=	3.11
 srcdir=		.
 
-abs_srcdir=	/home/ninoh-fox/Escritorio/Python-3.11.8
-abs_builddir=	/home/ninoh-fox/Escritorio/Python-3.11.8
+abs_srcdir=	/home/ninoh-fox/Descargas/Python-3.11.12
+abs_builddir=	/home/ninoh-fox/Descargas/Python-3.11.12
 
 
 CC=		aarch64-miyooflip-linux-gnu-gcc
@@ -134,7 +134,7 @@ MULTIARCH=	aarch64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"aarch64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/usr/local
+prefix=		/mnt/SDCARD/miyoo355
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -351,7 +351,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '-host=aarch64-miyooflip-linux-gnu' '--build=x86_64-pc-linux-gnu' '--with-build-python' '--disable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--enable-optimizations' '--enable-shared' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=aarch64-miyooflip-linux-gnu' 'CC=aarch64-miyooflip-linux-gnu-gcc'
+CONFIG_ARGS=	 '--host=aarch64-miyooflip-linux-gnu' '--build=aarch64' '--prefix=/mnt/SDCARD/miyoo355' '--with-build-python' '--disable-ipv6' '--enable-optimizations' '--enable-shared' 'build_alias=aarch64' 'host_alias=aarch64-miyooflip-linux-gnu' 'CC=aarch64-miyooflip-linux-gnu-gcc'
 
 
 # Subdirectories with code
@@ -418,7 +418,7 @@ FREEZE_MODULE=$(FREEZE_MODULE_BOOTSTRAP)
 FREEZE_MODULE_DEPS=$(FREEZE_MODULE_BOOTSTRAP_DEPS)
 
 _PYTHON_HOST_PLATFORM=linux-aarch64
-BUILD_GNU_TYPE=	x86_64-pc-linux-gnu
+BUILD_GNU_TYPE=	aarch64-unknown-none
 HOST_GNU_TYPE=	aarch64-miyooflip-linux-gnu
 
 # The task to run while instrumented when building the profile-opt target.
@@ -2156,6 +2156,7 @@ TESTSUBDIRS=	ctypes/test \
 		test/test_json \
 		test/test_module \
 		test/test_peg_generator \
+		test/test_pydoc \
 		test/test_sqlite3 \
 		test/test_tomllib \
 		test/test_tomllib/data \
@@ -2190,7 +2191,11 @@ TESTSUBDIRS=	ctypes/test \
 		tkinter/test/test_tkinter \
 		tkinter/test/test_ttk \
 		unittest/test \
-		unittest/test/testmock
+		unittest/test/testmock \
+		test/test_concurrent_futures \
+		test/test_multiprocessing_fork \
+		test/test_multiprocessing_forkserver \
+		test/test_multiprocessing_spawn
 
 TEST_MODULES=yes
 libinstall:	all $(srcdir)/Modules/xxmodule.c

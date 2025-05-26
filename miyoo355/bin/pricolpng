@@ -1,4 +1,4 @@
-#!/mnt/SDCARD/miyoo355/bin/python
+#!/mnt/SDCARD/miyoo355/bin/python3.11
 
 # http://www.python.org/doc/2.4.4/lib/module-itertools.html
 import itertools

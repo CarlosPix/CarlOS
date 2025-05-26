@@ -1,4 +1,4 @@
-#!/mnt/SDCARD/miyoo355/bin/python
+#!/mnt/SDCARD/miyoo355/bin/python3.11
 # priforgepng
 
 """Forge PNG image from raw computation."""
