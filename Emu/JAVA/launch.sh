@@ -4,7 +4,8 @@ progdir=`dirname "$0"`
 cd $progdir
 #mount -t squashfs localejava.img tools/share/locale
 #mount --bind tools/share /usr/share
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
+export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
+export LD_LIBRARY_PATH="$progdir/lib:/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 export LOCPATH="tools/share/locale"
 export HOME=$progdir
 

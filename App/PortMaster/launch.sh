@@ -1,6 +1,8 @@
 #!/bin/bash
 export HOME=/mnt/SDCARD/Roms/PORTS
 export PYSDL2_DLL_PATH=/mnt/SDCARD/App/PortMaster/lib
+mkdir -p /mnt/SDCARD/Roms/PORTS/root
+mount --bind /mnt/SDCARD/Roms/PORTS/root/ /root 
 
 cd /mnt/SDCARD/Roms/PORTS/PortMaster
 ./PortMaster.sh
@@ -86,6 +88,8 @@ echo -e "\n\e[1;35mResumen final:\e[0m"
 echo "Total procesados: $total"
 echo -e "\e[32mÉxitos: $success\e[0m"
 echo -e "\e[31mFallos: $failures\e[0m"
+
+umount /root
 
 unset HOME
 unset PYSDL2_DLL_PATH

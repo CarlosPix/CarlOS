@@ -34,6 +34,14 @@
 		{
 			"name": "MAME2010",
 			"launch": "launch3.sh"
+		},
+		{
+			"name": "FBNEO SA",
+			"launch": "launch4.sh"
+		},
+		{
+			"name": "FBNEO SA DPAD",
+			"launch": "launch5.sh"
 		}
 		
 	]

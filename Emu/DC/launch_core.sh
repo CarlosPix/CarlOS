@@ -1,7 +1,8 @@
 #!/bin/sh
 echo $0 $*
 progdir=`dirname "$0"`
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
+export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
+export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 RA_DIR=$progdir/../../RetroArch
 EMU_DIR=$progdir
 

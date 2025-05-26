@@ -28,6 +28,14 @@
         {
             "name": "FB Alpha",
             "launch": "launch_fba.sh"
-        }		
+        },
+		{
+			"name": "FBNEO SA",
+			"launch": "fbneosa.sh"
+		},
+		{
+			"name": "FBNEO SA DPAD",
+			"launch": "fbneosa_dpad.sh"
+		}		
     ]
 }

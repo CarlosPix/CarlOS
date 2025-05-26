@@ -6,7 +6,8 @@ echo 1 > /sys/devices/system/cpu/cpu3/online
 echo $0 $*
 progdir=`dirname "$0"`
 cd $progdir
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
+export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
+export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 
 echo "=============================================="
 echo "==================== PPSSPP  ================="

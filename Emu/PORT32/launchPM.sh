@@ -6,6 +6,9 @@ echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
 
+mkdir -p /mnt/SDCARD/Roms/PORTS/root
+mount --bind /mnt/SDCARD/Roms/PORTS/root/ /root 
+
 port="$1"
 
 sed -i '
@@ -38,6 +41,7 @@ pkill -9 oga_controls
 mount | grep 'squashfs on /tmp/' | awk '{print $3}' | xargs -r -I{} sh -c 'umount -l "{}" || true'
 mount | grep 'squashfs on /mnt/sdcard/Roms/PORTS/' | awk '{print $3}' | xargs -r -I{} sh -c 'umount -l "{}" || true'
 mount | grep 'on /mnt/sdcard/Roms/PORTS/' | awk '{print $3}' | xargs -r -I{} sh -c 'umount -l "{}" || true'
+umount /root
 sync
 
 echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor

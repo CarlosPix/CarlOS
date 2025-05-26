@@ -1,6 +1,6 @@
 #!/bin/sh
 progdir=`dirname "$0"`
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
+export LD_LIBRARY_PATH="$progdir:${LD_LIBRARY_PATH}"
 
 RA_DIR=$progdir/../../RetroArch
 EMU_DIR=$progdir

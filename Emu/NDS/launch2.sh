@@ -2,7 +2,8 @@
 echo $0 $*
 progdir=`dirname "$0"`/drastic
 cd $progdir
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
+export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
+export LD_LIBRARY_PATH="$progdir/lib:/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 
 echo "=============================================="
 echo "==================== DRASTIC  ================="
