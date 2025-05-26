@@ -46,6 +46,31 @@ if [ ! -f "/tmp/swapfileon" ]; then
 	sync
 fi
 
+# Make keys ssh
+
+rsa_key="/userdata/dropbear_rsa_host_key"
+ecdsa_key="/userdata/dropbear_ecdsa_host_key"
+ed25519_key="/userdata/dropbear_ed25519_host_key"
+
+if [ ! -f "$rsa_key" ]; then
+    dropbearkey -t rsa -f "$rsa_key"
+fi
+
+if [ ! -f "$ecdsa_key" ]; then
+    dropbearkey -t ecdsa -f "$ecdsa_key"
+fi
+
+if [ ! -f "$ed25519_key" ]; then
+    dropbearkey -t ed25519 -f "$ed25519_key"
+fi
+
+if [ ! -f /tmp/sshmount ]; then
+mount -o bind /mnt/SDCARD/miyoo355/etc/passwd /etc/passwd
+mount -o bind /mnt/SDCARD/miyoo355/etc/group /etc/group
+mount -o bind /mnt/SDCARD/miyoo355/etc/shadow /etc/shadow
+touch /tmp/sshmount
+fi
+
 if [ ! -f "/tmp/timezone" ]; then
 if [ ! -f "/data/timezone" ]; then
 	touch /data/timezone

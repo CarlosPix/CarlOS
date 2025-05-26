@@ -1,0 +1,6 @@
+{
+	"label":        "SSH client",
+	"icon":	        "ssh.png",
+	"launch":       "launch.sh",
+	"description":  "SSH lan terminal command"
+}

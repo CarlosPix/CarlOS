@@ -177,6 +177,7 @@ if [ ${miyoo_fw_update} -eq 1 ] ; then
         if [ "$oldversion" = "$version" ];then
             echo "same version [$version], skip."
             miyoo_fw_update=0
+			rm $FIRMWARE_FILE
         else
             echo "get new version[$version], do upgrade."
             miyoo_fw_update=1
@@ -184,6 +185,7 @@ if [ ${miyoo_fw_update} -eq 1 ] ; then
     else
         echo "get invalid $TARGET_MODEL firmware"
         miyoo_fw_update=0
+		rm $FIRMWARE_FILE
     fi
 fi
 
