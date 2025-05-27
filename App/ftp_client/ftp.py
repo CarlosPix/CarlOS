@@ -7,19 +7,24 @@ import os
 import shutil
 import pygame
 from pygame.locals import *
+import pygame.gfxdraw
+from os import listdir
+from urllib.parse import quote_plus, unquote_plus
 
-SCREEN_WIDTH = 640
-SCREEN_HEIGHT = 480
 start_color = (0, 0, 0)
 end_color = (0, 0, 80)
 duration = 10 * 1000
 steps = 100
 
 def initialize_pygame():
-    if not pygame.display.get_init():
-        pygame.display.init()
-    if not pygame.font.get_init():
-        pygame.font.init()
+    pygame.display.init()
+    pygame.font.init()
+    
+    display_info = pygame.display.Info()
+    global SCREEN_WIDTH, SCREEN_HEIGHT
+    SCREEN_WIDTH = display_info.current_w
+    SCREEN_HEIGHT = display_info.current_h
+    
     pygame.mouse.set_visible(False)
     return pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
