@@ -78,62 +78,62 @@ https://www.lexaloffle.com/pico-8.php
 
 ### 6.1.- System Hotkeys:
 
-Menu + Dpad Up = Increase screen brightness
+• Menu + Dpad Up = Increase screen brightness
 
-Menu + Dpad Down = Decrease screen brightness
+• Menu + Dpad Down = Decrease screen brightness
 
-Select + Start + L1 + R1 = Force close process (if everything else fails)
+• Select + Start + L1 + R1 = Force close process (if everything else fails)
 
-Menu + Start = Exit any application
+• Menu + Start = Exit any application
 
 
 ### 6.2.- RetroArch Hotkeys:
 
-MENU + START = Exit games
+• MENU + START = Exit games
 
-MENU + X = RetroArch Menu
+• MENU + X = RetroArch Menu
 
-MENU + B = Toggle FAST FORWARD
+• MENU + B = Toggle FAST FORWARD
 
-MENU + A = Pause Game
+• MENU + A = Pause Game
 
-MENU + Y = toggle Show FPS
+• MENU + Y = toggle Show FPS
 
-MENU + R1 = SAVE STATE (Save at any time)
+• MENU + R1 = SAVE STATE (Save at any time)
 
-MENU + L1 = LOAD STATE (Load at any time)
+• MENU + L1 = LOAD STATE (Load at any time)
 
-MENU + R2 = INCREASE SAVE STATE SLOT (Select save slot)
+• MENU + R2 = INCREASE SAVE STATE SLOT (Select save slot)
 
-SELECT + L2 = DECREASE SAVE STATE SLOT (Select save slot)
+• SELECT + L2 = DECREASE SAVE STATE SLOT (Select save slot)
 
-MENU + R3 = Reset game
+• MENU + R3 = Reset game
 
-L3 + DESIRED BUTTON = Enable button turbo
+• L3 + DESIRED BUTTON = Enable button turbo
 
 
 ### 6.3.- Drastic Hotkeys
 
 
-L2 BUTTON - SWITCH SCREENS
+• L2 BUTTON - SWITCH SCREENS
 
-R2 BUTTON - TOGGLE PENCIL MODE
+• R2 BUTTON - TOGGLE PENCIL MODE
 
-MENU + LEFT D-PAD - PREVIOUS OVERLAY
+• MENU + LEFT D-PAD - PREVIOUS OVERLAY
 
-MENU + RIGHT D-PAD - NEXT OVERLAY
+• MENU + RIGHT D-PAD - NEXT OVERLAY
 
-MENU + A BUTTON - SWITCH TO MAIN SCREEN ONLY
+• MENU + A BUTTON - SWITCH TO MAIN SCREEN ONLY
 
-MENU + START - EMULATOR QUICK MENU
+• MENU + START - EMULATOR QUICK MENU
 
-MENU + SELECT - EMULATOR ADVANCED MENU
+• MENU + SELECT - EMULATOR ADVANCED MENU
 
-MENU + L2 - LOAD SAVESTATE
+• MENU + L2 - LOAD SAVESTATE
 
-MENU + R2 - SAVE SAVESTATE
+• MENU + R2 - SAVE SAVESTATE
 
-MENU + B BUTTON - SMOOTHING / PIXEL MODE
+• MENU + B BUTTON - SMOOTHING / PIXEL MODE
 
 
 
