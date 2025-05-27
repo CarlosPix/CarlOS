@@ -91,11 +91,13 @@ Menu + Start = Exit any application
 
 MENU + START = Exit games
 
-MENU + Y = RetroArch Menu
+MENU + X = RetroArch Menu
 
 MENU + B = Toggle FAST FORWARD
 
 MENU + A = Pause Game
+
+MENU + Y = toggle Show FPS
 
 MENU + R1 = SAVE STATE (Save at any time)
 
@@ -108,6 +110,30 @@ SELECT + L2 = DECREASE SAVE STATE SLOT (Select save slot)
 MENU + R3 = Reset game
 
 L3 + DESIRED BUTTON = Enable button turbo
+
+
+### 6.3.- Drastic Hotkeys
+
+
+L2 BUTTON - SWITCH SCREENS
+
+R2 BUTTON - TOGGLE PENCIL MODE
+
+MENU + LEFT D-PAD - PREVIOUS OVERLAY
+
+MENU + RIGHT D-PAD - NEXT OVERLAY
+
+MENU + A BUTTON - SWITCH TO MAIN SCREEN ONLY
+
+MENU + START - EMULATOR QUICK MENU
+
+MENU + SELECT - EMULATOR ADVANCED MENU
+
+MENU + L2 - LOAD SAVESTATE
+
+MENU + R2 - SAVE SAVESTATE
+
+MENU + B BUTTON - SMOOTHING / PIXEL MODE
 
 
 
