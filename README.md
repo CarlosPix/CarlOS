@@ -135,6 +135,7 @@ https://www.lexaloffle.com/pico-8.php
 
 • MENU + B BUTTON - SMOOTHING / PIXEL MODE
 
+• MENU + L1 - EXIT DRASTIC
 
 
 # 7.- Complete systems list
