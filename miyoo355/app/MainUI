@@ -100,5 +100,16 @@ runifnecessary(){
 runifnecessary "controlmon" /mnt/SDCARD/miyoo355/bin/controlmon
 #keykill MainUI
 #run launcher
+if [ ! -f /tmp/loadingset ]; then
+pkill -9 fbdisplay
+hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
+if [ "$hdmipugin" == "connected" ] ; then
+    fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
+	touch /tmp/loadingset
+else
+    fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+	touch /tmp/loadingset
+fi
+fi
 /usr/miyoo/bin/MainUI
 sync
