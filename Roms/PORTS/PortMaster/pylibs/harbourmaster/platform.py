@@ -767,7 +767,7 @@ class PlatformTrimUI(PlatformBase):
         logger.debug(f'Copy {TU_DIR / "control.txt"} -> {PM_DIR / "control.txt"}')
         shutil.copy(TU_DIR / "control.txt", PM_DIR / "control.txt")
 
-        CONTROL_HACK = Path("/roms/ports/PortMaster/control.txt")
+        CONTROL_HACK = Path("/mnt/SDCARD/Roms/PORTS/PortMaster/control.txt")
         if not CONTROL_HACK.parent.is_dir():
             CONTROL_HACK.parent.mkdir(parents=True)
 
@@ -1010,7 +1010,7 @@ class PlatformMiyoo(PlatformBase):
         shutil.copy(MY_DIR / "PortMaster.txt", PM_DIR / "PortMaster.sh")
 
         # CONTROL HACK
-        CONTROL_HACK = Path("/root/.local/share/PortMaster/control.txt")
+        CONTROL_HACK = Path("/mnt/SDCARD/Roms/PORTS/PortMaster/control.txt")
         if not CONTROL_HACK.parent.is_dir():
             CONTROL_HACK.parent.mkdir(parents=True)
 
