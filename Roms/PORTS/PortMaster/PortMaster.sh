@@ -7,10 +7,11 @@
 
 export HOME="/mnt/SDCARD/Roms/PORTS"
 export controlfolder="/mnt/SDCARD/Roms/PORTS/PortMaster"
-export directory="/mnt/SDCARD/Roms/PORTS"
-export XDG_DATA_HOME="${HOME}"
-export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
-export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
+export directory="/mnt/SDCARD/Roms/PORTS/"
+export XDG_DATA_HOME="$HOME"
+export PATH="/mnt/SDCARD/miyoo355/bin/:$PATH"
+export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:$LD_LIBRARY_PATH"
+export LD_PRELOAD=""
 
 ESUDO=""
 ESUDOKILL="-1" # for 351Elec and EmuELEC use "-1" (numeric one) or "-k" 
@@ -116,8 +117,6 @@ export TERM=linux
 # cat /dev/zero > /dev/fb0 2>/dev/null
 # cat /dev/zero > /dev/fb0 2>/dev/null
 
-source "$controlfolder/funcs.txt"
-
 pm_message "Starting PortMaster."
 
 $ESUDO chmod -R +x .
@@ -136,8 +135,5 @@ done
 
 unset LD_LIBRARY_PATH
 unset SDL_GAMECONTROLLERCONFIG
-unset HOME
-unset controlfolder
-unset directory
-unset XDG_DATA_HOME
 PATH="$OLD_PATH"
+

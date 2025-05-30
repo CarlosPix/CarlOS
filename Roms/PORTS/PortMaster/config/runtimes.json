@@ -1,9 +1,9 @@
 {
     "dotnet-8.0.12.squashfs": {
         "local": {
-            "arch": null,
-            "md5": null,
-            "status": "Not Installed"
+            "arch": "aarch64",
+            "md5": "9ec894aafc022ac97771e9828000464d",
+            "status": "Verified"
         },
         "name": "DotNet 8.0.12",
         "remote": {

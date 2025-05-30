@@ -5,8 +5,8 @@
 
 controlfolder="/mnt/mmc/MUOS/PortMaster"
 
-if [ ! -z "$(df | grep '/mnt/SDCARD')" ]; then
-  directory="mnt/SDCARD"
+if [ ! -z "$(df | grep '/mnt/sdcard')" ]; then
+  directory="mnt/sdcard"
 else
   directory="mnt/mmc"
 fi

@@ -961,6 +961,7 @@
             "beyondtotalloss.screenshot.png",
             "blarglike.screenshot.png",
             "bloodxthirsty.screenshot.png",
+            "bouncinghero.screenshot.png",
             "braid.screenshot.png",
             "brotherbrother.screenshot.png",
             "canabalt-hf.screenshot.png",
@@ -969,9 +970,11 @@
             "caseandbot_murder.screenshot.jpg",
             "cavecrawler2.screenshot.png",
             "cavelotf.screenshot.png",
+            "chasmal.screenshot.png",
             "comeback.screenshot.png",
             "crashlands.screenshot.png",
             "crop_and_claw.screenshot.png",
+            "crunkyfun.screenshot.png",
             "cursedgem.screenshot.png",
             "darkdeity2.screenshot.png",
             "deathroad.screenshot.jpg",
@@ -982,6 +985,7 @@
             "dokimon.screenshot.png",
             "driftsurvivor.screenshot.png",
             "dustaet.screenshot.png",
+            "eyecontact.screenshot.png",
             "faiththeunholytrinity.screenshot.png",
             "fell.screenshot.png",
             "fireboy.screenshot.png",
@@ -1043,16 +1047,36 @@
             "submachinelegacy.screenshot.png",
             "superhaxagon.screenshot.png",
             "superstarpunk.screenshot.png",
+            "thedeadprince.screenshot.png",
             "thefinalboss.screenshot.png",
             "theflayedman.screenshot.png",
             "thunderpunch.screenshot.png",
             "udongeinx.screenshot.jpg",
+            "undertaleredyellow.screenshot.png",
+            "vampiregarden.screenshot.png",
             "wesnoth.screenshot.png",
             "xess.screenshot.png",
             "xga.screenshot.png",
             "zzt.screenshot.png"
         ],
-        "md5": "8724c490f11a3d14f7781bf3417e58e3"
+        "md5": "126b36a28055005ecc24a02eab055617"
     },
-    "images.zip": "d54a7530a7ce5d2ad5ca32892142d056"
+    "images.010.zip": {
+        "images": [
+            "formlessstar.screenshot.png",
+            "izelsobservatory.screenshot.png",
+            "koreader.screenshot.png",
+            "madhouse.screenshot.png",
+            "matchstickelegy.screenshot.png",
+            "megamansunrise.screenshot.png",
+            "minecraftjava.screenshot.png",
+            "mpd.screenshot.png",
+            "overwrite.screenshot.png",
+            "predetermined.screenshot.png",
+            "stingyseating.screenshot.png",
+            "tinamp.screenshot.png"
+        ],
+        "md5": "e7bd4ba0581a8a3fc9b6f6ffcf66d8c8"
+    },
+    "images.zip": "21f071faef5c274e59a01df4d6d6f44b"
 }

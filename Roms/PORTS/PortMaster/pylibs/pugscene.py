@@ -159,6 +159,7 @@ class BaseScene:
 
     def scene_activate(self):
         if not self.active:
+            self.gui.animations.change_scene()
             self.active = True
             self.gui.sounds.easy_music(self.music, volume=max(0, min(self.music_volume, 128)))
             self.gui.set_data("scene.title", self.scene_title)
@@ -640,7 +641,7 @@ class OptionScene(BaseScene):
                 description=_("Location where ports should be installed to."))
 
         if self.gui.hm.device['name'] == 'muOS':
-            if '/mnt/SDCARD' in subprocess.getoutput(['df']):
+            if '/mnt/sdcard' in subprocess.getoutput(['df']):
                 MUOS_MMC_TOGGLE = Path('/mnt/mmc/MUOS/PortMaster/config/muos_mmc_master_race.txt')
 
                 self.tags['option_list'].add_option(
@@ -941,7 +942,7 @@ class OptionScene(BaseScene):
                     self.gui.hm.platform.do_move_ports()
 
             if selected_option == 'muos-port-mode-toggle':
-                if '/mnt/SDCARD' in subprocess.getoutput(['df']):
+                if '/mnt/sdcard' in subprocess.getoutput(['df']):
                     MUOS_MMC_TOGGLE = Path('/mnt/mmc/MUOS/PortMaster/config/muos_mmc_master_race.txt')
 
                     language_map = {
