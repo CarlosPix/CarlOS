@@ -1010,7 +1010,7 @@ class PlatformMiyoo(PlatformBase):
         shutil.copy(MY_DIR / "PortMaster.txt", PM_DIR / "PortMaster.sh")
 
         # CONTROL HACK
-        CONTROL_HACK = Path("/mnt/SDCARD/Roms/PORTS/PortMaster/control.txt")
+        CONTROL_HACK = Path("/root/.local/share/PortMaster/control.txt")
         if not CONTROL_HACK.parent.is_dir():
             CONTROL_HACK.parent.mkdir(parents=True)
 
