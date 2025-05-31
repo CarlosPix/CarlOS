@@ -29,6 +29,7 @@ export HOME="/mnt/SDCARD/Roms/PORTS"
 export controlfolder="/mnt/SDCARD/Roms/PORTS/PortMaster"
 export directory="/mnt/SDCARD/Roms/PORTS"
 export XDG_DATA_HOME=${HOME}
+source "$controlfolder/funcs.txt"
 
 cd "${directory}" && ./"$(basename "$port")"
 
