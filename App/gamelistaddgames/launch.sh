@@ -85,19 +85,29 @@ for SYSTEM_DIR in "$ROMS_DIR"/*; do
   head -n -1 "$GAMELIST" > "$TMPGAMELIST"
 
   for ext in $EXTS; do
-    for file in "$SYSTEM_DIR"/*."$ext"; do
+    # Find all files with the given extension in SYSTEM_DIR and its subdirectories
+    while IFS= read -rd '' file; do
       [ -e "$file" ] || continue
+
+      # Compute the relative path from SYSTEM_DIR
+      rel_filename="${file#$SYSTEM_DIR/}"
+      # Strip trailing slash if present
+      rel_filename="${rel_filename%%/}"
+
+      grep -Fxq "$rel_filename" "$LISTED" && continue
+
       filename=$(basename "$file")
       name="${filename%.*}"
 
-      grep -Fxq "$filename" "$LISTED" && continue
+      # respect subfolders for images
+      image_rel_name="${rel_filename%.*}"
 
       echo "  <game>" >> "$TMPGAMELIST"
-      echo "    <path>$filename</path>" >> "$TMPGAMELIST"
+      echo "    <path>$rel_filename</path>" >> "$TMPGAMELIST"
       echo "    <name>$name</name>" >> "$TMPGAMELIST"
-      echo "    <image>./media/images/$name.png</image>" >> "$TMPGAMELIST"
+      echo "    <image>./media/images/$image_rel_name.png</image>" >> "$TMPGAMELIST"
       echo "  </game>" >> "$TMPGAMELIST"
-    done
+    done < <(find "$SYSTEM_DIR" -type f -name "*.$ext" -print0)
   done
 
   echo '</gameList>' >> "$TMPGAMELIST"
