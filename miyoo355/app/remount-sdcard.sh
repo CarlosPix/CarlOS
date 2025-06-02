@@ -1,5 +1,10 @@
 #!/bin/bash
 
+killall -9 keymon
+killall -9 btmanager
+killall -9 hardwareservice
+killall -9 miyoo_inputd
+
 umount -l /media/sdcard1
 
 if [ -b /dev/mmcblk1p1 ]; then
