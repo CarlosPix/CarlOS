@@ -1,5 +1,18 @@
 #!/bin/bash
 
+if [ ! -f /tmp/remountsd ]; then
+if [ ! -d /media/sdcard0/miyoo355 ]; then
+TARGET_VERSION_FILE=$(cat /usr/miyoo/version)
+if [ $TARGET_VERSION_FILE == "20250527210639" ]; then
+touch /tmp/remountsd
+cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
+chmod a+x /tmp/remount-sdcard.sh
+/tmp/remount-sdcard.sh &
+exit
+fi
+fi
+fi
+
 export SDCARD_PATH="/mnt/SDCARD"
 export HOME="${SDCARD_PATH}"
 export SWAPFILE="${SDCARD_PATH}/cachefile"
@@ -10,6 +23,13 @@ export USER=root
 if [ ! -f /tmp/profilemount ]; then
 mount -o bind /mnt/SDCARD/miyoo355/app/profile /etc/profile
 touch /tmp/profilemount
+fi
+
+if [ ! -f /tmp/mountsdcard1 ]; then
+if [ -d /media/sdcard1/Roms ]; then
+mount -o bind /media/sdcard1/Roms /mnt/sdcard/Roms
+touch /mnt/mountsdcard1
+fi
 fi
 
 #set cores
