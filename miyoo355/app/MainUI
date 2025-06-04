@@ -117,6 +117,13 @@ runifnecessary(){
     done
 }
 
+if [ -f /tmp/remountsd ]; then
+runifnecessary "keymon" /mnt/SDCARD/miyoo355/app/keymon
+runifnecessary "btmanager" /mnt/SDCARD/miyoo355/app/btmanager
+runifnecessary "hardwareservice" /mnt/SDCARD/miyoo355/app/hardwareservice
+runifnecessary "miyoo_inputd" /mnt/SDCARD/miyoo355/app/miyoo_inputd
+fi
+
 runifnecessary "controlmon" /mnt/SDCARD/miyoo355/bin/controlmon
 #keykill MainUI
 #run launcher
