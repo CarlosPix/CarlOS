@@ -1,16 +1,16 @@
 #!/bin/bash
 
 if [ ! -f /tmp/remountsd ]; then
-if [ ! -d /media/sdcard0/miyoo355 ]; then
-TARGET_VERSION_FILE=$(cat /usr/miyoo/version)
-if [ $TARGET_VERSION_FILE == "20250527210639" ]; then
-touch /tmp/remountsd
-cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
-chmod a+x /tmp/remount-sdcard.sh
-/tmp/remount-sdcard.sh &
-exit
-fi
-fi
+   if [ ! -d /media/sdcard0/miyoo355 ]; then
+      TARGET_VERSION_FILE=$(cat /usr/miyoo/version)
+      if [ $TARGET_VERSION_FILE == "20250527210639" ]; then
+         touch /tmp/remountsd
+         cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
+         chmod a+x /tmp/remount-sdcard.sh
+         /tmp/remount-sdcard.sh &
+         exit
+      fi
+   fi
 fi
 
 export SDCARD_PATH="/mnt/SDCARD"
@@ -21,35 +21,40 @@ export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:/usr/miyoo/lib:/usr/lib"
 export USER=root
 
 if [ ! -f /tmp/profilemount ]; then
-mount -o bind /mnt/SDCARD/miyoo355/app/profile /etc/profile
-touch /tmp/profilemount
+   mount -o bind /mnt/SDCARD/miyoo355/app/profile /etc/profile
+   touch /tmp/profilemount
 fi
 
 if [ ! -f /tmp/mountsdcard1 ]; then
-if [ -d /media/sdcard1/Roms ]; then
-mount -o bind /media/sdcard1/Roms /mnt/sdcard/Roms
-touch /mnt/mountsdcard1
-fi
+   if [ -d /media/sdcard1/Roms ]; then
+      mount -o bind /media/sdcard1/Roms /mnt/sdcard/Roms
+      touch /mnt/mountsdcard1
+   fi
 fi
 
 #set cores
 #enable core 1, disable 0.
+echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 1104000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
 echo 1 > /sys/devices/system/cpu/cpu0/online
 echo 1 > /sys/devices/system/cpu/cpu1/online
-echo 1 > /sys/devices/system/cpu/cpu3/online
-echo 1 > /sys/devices/system/cpu/cpu2/online
+echo 0 > /sys/devices/system/cpu/cpu3/online
+echo 0 > /sys/devices/system/cpu/cpu2/online
+
+#set gpu
+echo dmc_ondemand > /sys/class/devfreq/dmc/governor
 
 # check swap size
 if [ ! -f "/tmp/swapck" ]; then
-if [ -f "${SWAPFILE}" ]; then
-SWAPSIZE=$(ls -l "${SWAPFILE}" | awk '{print $5}')
-MINSIZE=$((512 * 1024 * 1024))
+   if [ -f "${SWAPFILE}" ]; then
+      SWAPSIZE=$(ls -l "${SWAPFILE}" | awk '{print $5}')
+      MINSIZE=$((512 * 1024 * 1024))
 
-if [ "$SWAPSIZE" -ne "$MINSIZE" ]; then
-	rm "${SWAPFILE}"
-fi
-touch /tmp/swapck
-fi
+      if [ "$SWAPSIZE" -ne "$MINSIZE" ]; then
+	     rm "${SWAPFILE}"
+      fi
+      touch /tmp/swapck
+   fi
 fi
 
 # Enable swap
@@ -85,23 +90,23 @@ if [ ! -f "$ed25519_key" ]; then
 fi
 
 if [ ! -f /tmp/sshmount ]; then
-mount -o bind /mnt/SDCARD/miyoo355/etc/passwd /etc/passwd
-mount -o bind /mnt/SDCARD/miyoo355/etc/group /etc/group
-mount -o bind /mnt/SDCARD/miyoo355/etc/shadow /etc/shadow
-touch /tmp/sshmount
+   mount -o bind /mnt/SDCARD/miyoo355/etc/passwd /etc/passwd
+   mount -o bind /mnt/SDCARD/miyoo355/etc/group /etc/group
+   mount -o bind /mnt/SDCARD/miyoo355/etc/shadow /etc/shadow
+   touch /tmp/sshmount
 fi
 
 if [ ! -f "/tmp/timezone" ]; then
-if [ ! -f "/data/timezone" ]; then
-	touch /data/timezone
-fi
+   if [ ! -f "/data/timezone" ]; then
+	  touch /data/timezone
+   fi
 
-tz_value=$(grep '"timezone"' /mnt/SDCARD/system.json | sed -E 's/.*"timezone"[[:space:]]*:[[:space:]]*"([^"]*)".*/\1/')
+   tz_value=$(grep '"timezone"' /mnt/SDCARD/system.json | sed -E 's/.*"timezone"[[:space:]]*:[[:space:]]*"([^"]*)".*/\1/')
 
-if [ -f "/data/timezone" ]; then
-    echo "$tz_value" > /data/timezone
-	touch /tmp/timezone
-fi
+   if [ -f "/data/timezone" ]; then
+      echo "$tz_value" > /data/timezone
+	  touch /tmp/timezone
+   fi
 fi
 
 runifnecessary(){
@@ -118,25 +123,29 @@ runifnecessary(){
 }
 
 if [ -f /tmp/remountsd ]; then
-runifnecessary "keymon" /mnt/SDCARD/miyoo355/app/keymon
-runifnecessary "btmanager" /mnt/SDCARD/miyoo355/app/btmanager
-runifnecessary "hardwareservice" /mnt/SDCARD/miyoo355/app/hardwareservice
-runifnecessary "miyoo_inputd" /mnt/SDCARD/miyoo355/app/miyoo_inputd
+   runifnecessary "keymon" /mnt/SDCARD/miyoo355/app/keymon
+   runifnecessary "btmanager" /mnt/SDCARD/miyoo355/app/btmanager
+   runifnecessary "hardwareservice" /mnt/SDCARD/miyoo355/app/hardwareservice
+   runifnecessary "miyoo_inputd" /mnt/SDCARD/miyoo355/app/miyoo_inputd
 fi
 
 runifnecessary "controlmon" /mnt/SDCARD/miyoo355/bin/controlmon
 #keykill MainUI
 #run launcher
 if [ ! -f /tmp/loadingset ]; then
-pkill -9 fbdisplay
-hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
-if [ "$hdmipugin" == "connected" ] ; then
-    fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
-	touch /tmp/loadingset
-else
-    fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
-	touch /tmp/loadingset
+   pkill -9 fbdisplay
+   hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
+   if [ "$hdmipugin" == "connected" ] ; then
+      fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
+	  touch /tmp/loadingset
+   else
+      fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+	  touch /tmp/loadingset
+   fi
 fi
-fi
+
+killall -9 gptokeyb
+killall -9 gptokeyb2
+
 /usr/miyoo/bin/MainUI
 sync
