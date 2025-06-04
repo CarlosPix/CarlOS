@@ -8,7 +8,7 @@ if [ ! -f /tmp/remountsd ]; then
          cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
          chmod a+x /tmp/remount-sdcard.sh
          /tmp/remount-sdcard.sh &
-         exit
+         exit 0
       fi
    fi
 fi
@@ -122,13 +122,6 @@ runifnecessary(){
     done
 }
 
-if [ -f /tmp/remountsd ]; then
-   runifnecessary "keymon" /mnt/SDCARD/miyoo355/app/keymon
-   runifnecessary "btmanager" /mnt/SDCARD/miyoo355/app/btmanager
-   runifnecessary "hardwareservice" /mnt/SDCARD/miyoo355/app/hardwareservice
-   runifnecessary "miyoo_inputd" /mnt/SDCARD/miyoo355/app/miyoo_inputd
-fi
-
 runifnecessary "controlmon" /mnt/SDCARD/miyoo355/bin/controlmon
 #keykill MainUI
 #run launcher
@@ -147,5 +140,5 @@ fi
 killall -9 gptokeyb
 killall -9 gptokeyb2
 
-/usr/miyoo/bin/MainUI
+/mnt/SDCARD/miyoo355/app/Main
 sync

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+/etc/init.d/S60mainui stop
 killall -9 keymon
 killall -9 btmanager
 killall -9 hardwareservice
@@ -17,5 +18,14 @@ if [ -b /dev/mmcblk1p1 ]; then
     mount -t vfat /dev/mmcblk1p1 /media/sdcard1
 fi
 
-/mnt/sdcard/miyoo355/app/MainUI &
-exit
+sleep 0.5
+sync
+
+export PATH="/mnt/SDCARD/miyoo355/bin:/usr/miyoo/bin:/usr/bin:/usr/sbin"
+export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:/usr/miyoo/lib:/usr/lib"
+
+/etc/init.d/S60mainui start
+sync
+sleep 0.5
+exit 0
+
