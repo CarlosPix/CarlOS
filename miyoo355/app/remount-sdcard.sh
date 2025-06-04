@@ -17,5 +17,5 @@ if [ -b /dev/mmcblk1p1 ]; then
     mount -t vfat /dev/mmcblk1p1 /media/sdcard1
 fi
 
-/mnt/SDCARD/miyoo355/app/MainUI &
+/mnt/sdcard/miyoo355/app/MainUI &
 exit

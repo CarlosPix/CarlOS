@@ -6,7 +6,7 @@ HOME="$APPDIR"
 
 cd $HOME
 PATH="/mnt/SDCARD/miyoo355/bin:$PATH"
-LD_LIBRARY_PATH="$HOME/lib:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="$HOME/lib:/mnt/SDCARD/miyoo355/lib:$LD_LIBRARY_PATH"
 
 echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 echo 1608000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
@@ -24,7 +24,7 @@ cfg_path="$HOME/.config/mupen64plus/mupen64plus.cfg"
 sed -i "/^\s*ScreenWidth\s*=/c\ScreenWidth = $width" "$cfg_path"
 sed -i "/^\s*ScreenHeight\s*=/c\ScreenHeight = $height" "$cfg_path"
 
-gptokeyb -k "mupen64plus" &
+gptokeyb -k "mupen64plus" -c "mupen64plus.gptk" &
 
 ./mupen64plus "$1"
 
