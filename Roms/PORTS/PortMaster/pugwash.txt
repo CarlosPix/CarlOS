@@ -2521,3 +2521,313 @@ OSError: [Errno 30] Read-only file system: '/mnt/SDCARD/Roms/PORTS/gardenstory/a
 2025-05-30 11:57:04.044 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Roms/PORTS/PortMaster/themes/Zelda/theme.json
 2025-05-30 11:57:06.474 | INFO     | __main__:portmaster_check_update:1900 - Checking for updates: 2025.05.30-0758 vs 2025.05.30-0758
 2025-05-30 11:57:28.783 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing DotNet 8.0.12
+2025-05-30 12:30:56.973 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-30 12:30:56.981 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-30 12:30:56.982 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-30 12:30:56.983 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-30 12:30:56.985 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-30 12:30:56.986 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-30 12:30:56.988 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-30 12:30:56.990 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-30 12:30:56.991 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-30 12:30:57.027 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-30 12:30:57.035 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:30:57.038 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-30 12:30:57.040 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:30:58.889 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Roms/PORTS/PortMaster/themes/Zelda/theme.json
+2025-05-30 12:31:14.410 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-30 12:31:14.413 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-30 12:31:14.415 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-30 12:31:14.417 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-30 12:31:14.418 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-30 12:31:14.420 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-30 12:31:14.421 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-30 12:31:14.424 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-30 12:31:14.426 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-30 12:31:14.451 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-30 12:31:14.459 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:31:14.461 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-30 12:31:14.462 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:31:14.716 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Roms/PORTS/PortMaster/themes/Zelda/theme.json
+2025-05-30 12:32:49.172 | WARNING  | harbourmaster.source:_load_images:121 - Port image basic_theme.zip - screenshot for unknown port.
+2025-05-30 12:32:49.176 | WARNING  | harbourmaster.source:_load_images:121 - Port image doom.zip - screenshot for unknown port.
+2025-05-30 12:32:49.178 | WARNING  | harbourmaster.source:_load_images:121 - Port image fallout.zip - screenshot for unknown port.
+2025-05-30 12:32:49.180 | WARNING  | harbourmaster.source:_load_images:121 - Port image ff_vii.zip - screenshot for unknown port.
+2025-05-30 12:32:49.183 | WARNING  | harbourmaster.source:_load_images:121 - Port image hiviz.zip - screenshot for unknown port.
+2025-05-30 12:32:49.185 | WARNING  | harbourmaster.source:_load_images:121 - Port image stardew.zip - screenshot for unknown port.
+2025-05-30 12:32:49.188 | WARNING  | harbourmaster.source:_load_images:121 - Port image zelda.zip - screenshot for unknown port.
+2025-05-30 12:32:59.027 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-30 12:32:59.030 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-30 12:32:59.032 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-30 12:32:59.034 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-30 12:32:59.037 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-30 12:32:59.040 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-30 12:32:59.041 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-30 12:32:59.043 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-30 12:32:59.046 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-30 12:32:59.070 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-30 12:32:59.078 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:32:59.080 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-30 12:32:59.081 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:32:59.326 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-05-30 12:40:31.192 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Cave Crawler 2
+2025-05-30 12:40:31.815 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.3
+2025-05-30 12:40:32.977 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Westonpack 0.2
+2025-05-30 12:41:32.488 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Doukutsu-rs
+2025-05-30 12:44:10.057 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-30 12:44:10.062 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-30 12:44:10.065 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-30 12:44:10.068 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-30 12:44:10.071 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-30 12:44:10.072 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-30 12:44:10.073 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-30 12:44:10.075 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-30 12:44:10.076 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-30 12:44:10.098 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-30 12:44:10.102 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:44:10.104 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-30 12:44:10.106 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:44:12.988 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-05-30 12:44:34.076 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Cave Story (Evo)
+2025-05-30 12:45:07.822 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-30 12:45:07.827 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-30 12:45:07.830 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-30 12:45:07.833 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-30 12:45:07.834 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-30 12:45:07.837 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-30 12:45:07.838 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-30 12:45:07.840 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-30 12:45:07.842 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-30 12:45:07.863 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-30 12:45:07.869 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:45:07.870 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-30 12:45:07.872 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-30 12:45:10.745 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-05-31 13:12:12.147 | WARNING  | __main__:main:2033 - No internet connection found, running in offline mode.
+2025-05-31 13:12:12.288 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-05-31 13:12:12.292 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-05-31 13:12:12.295 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-05-31 13:12:12.298 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-05-31 13:12:12.301 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-05-31 13:12:12.304 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-05-31 13:12:12.305 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-05-31 13:12:12.308 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-05-31 13:12:12.310 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-05-31 13:12:12.351 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-05-31 13:12:12.357 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-31 13:12:12.359 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-05-31 13:12:12.361 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-05-31 13:12:14.178 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-05-31 13:12:24.513 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-GUI/releases/latest/download/version.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faf3d51d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-05-31 13:12:24.519 | ERROR    | __main__:portmaster_check_update:1887 - Unable to download https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json
+2025-06-01 21:39:43.355 | WARNING  | __main__:main:2033 - No internet connection found, running in offline mode.
+2025-06-01 21:39:43.482 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-06-01 21:39:43.486 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-01 21:39:43.489 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-01 21:39:43.492 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-01 21:39:43.497 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-01 21:39:43.499 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-01 21:39:43.502 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-01 21:39:43.504 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-01 21:39:43.506 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-01 21:39:43.541 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-01 21:39:43.547 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-01 21:39:43.548 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-01 21:39:43.549 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-01 21:39:45.893 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-01 21:39:56.210 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-GUI/releases/latest/download/version.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f979ca8d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-01 21:39:56.216 | ERROR    | __main__:portmaster_check_update:1887 - Unable to download https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json
+2025-06-02 09:32:11.183 | WARNING  | __main__:main:2033 - No internet connection found, running in offline mode.
+2025-06-02 09:32:11.312 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-06-02 09:32:11.317 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-02 09:32:11.319 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-02 09:32:11.324 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-02 09:32:11.327 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-02 09:32:11.330 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-02 09:32:11.332 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-02 09:32:11.333 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-02 09:32:11.335 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-02 09:32:11.376 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-02 09:32:11.383 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-02 09:32:11.384 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-02 09:32:11.386 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-02 09:32:13.216 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-02 09:32:23.545 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-GUI/releases/latest/download/version.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8a5f0610>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-02 09:32:23.553 | ERROR    | __main__:portmaster_check_update:1887 - Unable to download https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json
+2025-06-03 20:29:42.545 | INFO     | __main__:__init__:531 - PM: 2025.05.30-0758
+2025-06-03 20:29:42.553 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 20:29:42.555 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 20:29:42.557 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 20:29:42.560 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 20:29:42.561 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 20:29:42.562 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 20:29:42.565 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 20:29:42.566 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 20:29:42.608 | INFO     | harbourmaster.hardware:new_device_info:498 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 20:29:42.619 | INFO     | harbourmaster.hardware:device_info:701 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 20:29:42.622 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 20:29:42.623 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'es_ES'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 20:29:44.449 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-03 20:29:46.142 | INFO     | __main__:portmaster_check_update:1900 - Checking for updates: 2025.05.31-1002 vs 2025.05.30-0758
+2025-06-03 20:31:07.669 | WARNING  | harbourmaster.util:download:456 - No md5 to check against: 596de79b0abac6940dba594d2ff6fff1
+2025-06-03 20:31:07.673 | INFO     | harbourmaster.harbour:_install_portmaster:1560 - Installing PortMaster.zip
+2025-06-03 20:31:10.124 | INFO     | harbourmaster.platform:set_gcd_mode:242 - PlatformMiyoo: Set GCD Mode None
+2025-06-03 20:59:53.480 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-03 20:59:53.486 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 20:59:53.489 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 20:59:53.491 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 20:59:53.494 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 20:59:53.496 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 20:59:53.497 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 20:59:53.498 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 20:59:53.500 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 20:59:53.535 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 20:59:53.542 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 20:59:53.545 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 20:59:53.547 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 20:59:55.367 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Roms/PORTS/PortMaster/themes/Zelda/theme.json
+2025-06-03 21:00:15.917 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing DotNet 8.0.12
+2025-06-03 21:00:44.788 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-03 21:00:44.791 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 21:00:44.794 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 21:00:44.797 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 21:00:44.799 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 21:00:44.801 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 21:00:44.802 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 21:00:44.806 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 21:00:44.808 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 21:00:44.831 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 21:00:44.839 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:00:44.841 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 21:00:44.842 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:00:45.102 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/SDCARD/Roms/PORTS/PortMaster/themes/Zelda/theme.json
+2025-06-03 21:00:46.686 | INFO     | __main__:portmaster_check_update:1900 - Checking for updates: 2025.05.31-1002 vs 2025.05.31-1002
+2025-06-03 21:00:56.370 | WARNING  | harbourmaster.source:_load_images:121 - Port image basic_theme.zip - screenshot for unknown port.
+2025-06-03 21:00:56.374 | WARNING  | harbourmaster.source:_load_images:121 - Port image doom.zip - screenshot for unknown port.
+2025-06-03 21:00:56.377 | WARNING  | harbourmaster.source:_load_images:121 - Port image fallout.zip - screenshot for unknown port.
+2025-06-03 21:00:56.379 | WARNING  | harbourmaster.source:_load_images:121 - Port image ff_vii.zip - screenshot for unknown port.
+2025-06-03 21:00:56.381 | WARNING  | harbourmaster.source:_load_images:121 - Port image hiviz.zip - screenshot for unknown port.
+2025-06-03 21:00:56.383 | WARNING  | harbourmaster.source:_load_images:121 - Port image stardew.zip - screenshot for unknown port.
+2025-06-03 21:00:56.386 | WARNING  | harbourmaster.source:_load_images:121 - Port image zelda.zip - screenshot for unknown port.
+2025-06-03 21:01:03.273 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-03 21:01:03.276 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 21:01:03.278 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 21:01:03.280 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 21:01:03.282 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 21:01:03.284 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 21:01:03.286 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 21:01:03.290 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 21:01:03.293 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 21:01:03.317 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 21:01:03.325 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:01:03.327 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 21:01:03.329 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:01:03.592 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-03 21:01:48.214 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing DotNet 8.0.12
+2025-06-03 21:01:51.364 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.2.2
+2025-06-03 21:01:54.359 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.3
+2025-06-03 21:01:59.018 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.4
+2025-06-03 21:02:05.506 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 2.1.6
+2025-06-03 21:02:07.569 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.0.6_v1
+2025-06-03 21:02:09.362 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.1.2
+2025-06-03 21:02:11.197 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.2.3
+2025-06-03 21:02:12.988 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.3.4
+2025-06-03 21:02:14.655 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.4.5
+2025-06-03 21:02:16.430 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.5.2
+2025-06-03 21:02:18.289 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.5.3
+2025-06-03 21:02:20.105 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.6
+2025-06-03 21:02:21.774 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 4.0.4
+2025-06-03 21:02:23.986 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 4.1.3
+2025-06-03 21:02:26.260 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Java jdk11.0.11
+2025-06-03 21:02:42.360 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Java jdk17.0.10
+2025-06-03 21:02:55.051 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Java jdk8.0.452
+2025-06-03 21:02:58.989 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Java jre17.0.13
+2025-06-03 21:03:02.424 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Java jre23.0.2
+2025-06-03 21:03:06.420 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Mesapack 0.1
+2025-06-03 21:03:10.411 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Mono 6.12.0.122
+2025-06-03 21:03:23.941 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Python 3.11
+2025-06-03 21:03:26.938 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Pyxel 2.2.8
+2025-06-03 21:03:30.006 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Real Live VM
+2025-06-03 21:03:31.835 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Ren'Py 8.1.3
+2025-06-03 21:03:33.770 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Ren'Py 8.3.4
+2025-06-03 21:03:36.117 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Solarus 1.6.5
+2025-06-03 21:03:37.550 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Westonpack 0.2
+2025-06-03 21:03:57.132 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-03 21:03:57.136 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 21:03:57.138 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 21:03:57.140 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 21:03:57.144 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 21:03:57.145 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 21:03:57.147 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 21:03:57.149 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 21:03:57.151 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 21:03:57.176 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 21:03:57.183 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:03:57.185 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 21:03:57.187 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:03:57.502 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-03 21:03:58.960 | INFO     | __main__:portmaster_check_update:1900 - Checking for updates: 2025.05.31-1002 vs 2025.05.31-1002
+2025-06-03 21:04:54.267 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-03 21:04:54.270 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-03 21:04:54.273 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-03 21:04:54.275 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-03 21:04:54.277 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-03 21:04:54.281 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-03 21:04:54.285 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-03 21:04:54.289 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-03 21:04:54.292 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-03 21:04:54.318 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-03 21:04:54.324 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:04:54.326 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-03 21:04:54.327 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-03 21:04:57.216 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-03 21:05:27.850 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Cave Crawler 2
+2025-06-03 21:05:28.440 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.3
+2025-06-03 21:05:29.597 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Westonpack 0.2
+2025-06-03 21:05:43.228 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Cave Crawler
+2025-06-03 21:05:43.932 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot/FRT 3.5.2
+2025-06-03 21:06:15.357 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing Slime 3k Demake
+2025-06-03 21:06:18.161 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Westonpack 0.2
+2025-06-03 21:06:18.575 | INFO     | harbourmaster.harbour:check_runtime:1851 - Installing Godot 4.3
+2025-06-04 10:40:58.172 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-04 10:40:58.179 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-04 10:40:58.181 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-04 10:40:58.183 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-04 10:40:58.185 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-04 10:40:58.187 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-04 10:40:58.188 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-04 10:40:58.191 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-04 10:40:58.192 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-04 10:40:58.227 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-04 10:40:58.233 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-04 10:40:58.234 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-04 10:40:58.235 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-04 10:41:00.584 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-04 10:41:20.903 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-GUI/releases/latest/download/version.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f5900d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:41:20.907 | ERROR    | __main__:portmaster_check_update:1887 - Unable to download https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json
+2025-06-04 10:41:41.461 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/featured_ports.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/featured_ports.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f47a090>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:42:01.499 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/ports_info.json.md5': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/ports_info.json.md5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f479d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:42:21.559 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/ports_info.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/ports_info.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f479cd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:42:41.616 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/porters.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/porters.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f479910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:44:08.929 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-New/releases/latest/download/ports.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-New/releases/latest/download/ports.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7772a650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:44:28.983 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/latest/download/ports.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster-MV/PortMaster-MV-New/releases/latest/download/ports.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f77729410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:45:25.793 | INFO     | __main__:__init__:531 - PM: 2025.05.31-1002
+2025-06-04 10:45:25.796 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-06-04 10:45:25.799 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2.so,  2.32.6
+2025-06-04 10:45:25.801 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_ttf-2.0.so, 2.0.18
+2025-06-04 10:45:25.804 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_image-2.0.so, 2.8.8
+2025-06-04 10:45:25.806 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/App/PortMaster/lib/libSDL2_mixer-2.0.so, 2.0.4
+2025-06-04 10:45:25.807 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-06-04 10:45:25.810 | INFO     | __main__:__init__:547 - Opened GameController 0: b'X360 Controller'
+2025-06-04 10:45:25.812 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux'
+2025-06-04 10:45:25.835 | INFO     | harbourmaster.hardware:new_device_info:504 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip'}
+2025-06-04 10:45:25.843 | INFO     | harbourmaster.hardware:device_info:707 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-04 10:45:25.845 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-06-04 10:45:25.846 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250527210639', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-06-04 10:45:26.082 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/Roms/PORTS/PortMaster/pylibs/default_theme/theme.json
+2025-06-04 10:45:46.294 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-GUI/releases/latest/download/version.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f79ead350>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:45:46.298 | ERROR    | __main__:portmaster_check_update:1887 - Unable to download https://github.com/PortsMaster/PortMaster-GUI/releases/latest/download/version.json
+2025-06-04 10:46:06.489 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/featured_ports.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/featured_ports.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f79d99f50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:46:26.529 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/ports_info.json.md5': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/ports_info.json.md5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f79d99cd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:46:46.596 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/ports_info.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/ports_info.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f79d99bd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-04 10:47:06.653 | ERROR    | harbourmaster.util:fetch:63 - Failed to download 'https://github.com/PortsMaster/PortMaster-Info/raw/main/porters.json': HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /PortsMaster/PortMaster-Info/raw/main/porters.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f79d9a210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
