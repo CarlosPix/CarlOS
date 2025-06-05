@@ -14,6 +14,14 @@ echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
 
+mkdir -p ./cheats
+mkdir -p ./input_record
+mkdir -p ./mnt
+mkdir -p ./profiles
+mkdir -p ./savestates
+mkdir -p ./scripts
+mkdir -p ./slot2
+
 ./launch.sh "$1"
 
 echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
