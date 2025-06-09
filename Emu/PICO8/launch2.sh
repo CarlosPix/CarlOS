@@ -3,8 +3,8 @@
 EMU_DIR="/mnt/SDCARD/Emu/PICO8"
 GAMEDIR="/mnt/SDCARD/App/Pico8"
 
-$EMU_DIR/cpufreq.sh
-$EMU_DIR/cpuswitch1.sh
+#$EMU_DIR/cpufreq.sh
+#$EMU_DIR/cpuswitch1.sh
 
 HOME="$GAMEDIR"
 

@@ -2,7 +2,7 @@
 echo $0 $*
 EMU_DIR=/mnt/SDCARD/Emu/SS
 
-$EMU_DIR/cpuswitch.sh
+#$EMU_DIR/cpuswitch.sh
 $EMU_DIR/performance.sh
 
 cd $EMU_DIR

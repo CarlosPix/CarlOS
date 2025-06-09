@@ -10,7 +10,7 @@ EMU_DIR=$progdir
 
 cd $RA_DIR/
 
-$EMU_DIR/cpuswitch.sh
+#$EMU_DIR/cpuswitch.sh
 $EMU_DIR/cpufreq.sh
 
 

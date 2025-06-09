@@ -1,0 +1,26 @@
+{
+"label":"ATOMISWAVE",
+"icon":"ic-atomis.png",
+"iconsel":"ic-atomis-80-n.png",
+"effectsh":"effect.sh",
+"background":"bg.png",
+"themecolor":"FFFFFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/ATOMIS",
+"imgpath":"../../Roms/ATOMIS/media/images",
+"gamelist":"../../Roms/ATOMIS/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"chd|cue|cdi|gdi|m3u",
+"launchlist": [
+        {
+            "name": "FLYCAST STANDALONE",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "FLYCAST CORE",
+            "launch": "launch_core.sh"
+        }
+    ]
+}

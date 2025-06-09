@@ -9,7 +9,6 @@ echo "==================== flycast ================="
 echo "=============================================="
 
 $progdir./cpufreq.sh
-$progdir./cpuswitch.sh
 
 export HOME=$progdir
 #export SDL_AUDIODRIVER=dsp

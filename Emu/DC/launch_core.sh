@@ -7,7 +7,6 @@ RA_DIR=$progdir/../../RetroArch
 EMU_DIR=$progdir
 
 
-$EMU_DIR/cpuswitch.sh
 $EMU_DIR/cpufreq.sh
 
 
