@@ -12,9 +12,80 @@ libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
 Starting DraStic (version r2.5.0.4)
 
-arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.Checking directory /mnt/sdcard/Emu/NDS/drastic2/backup: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/backup: It's there.
 Checking directory /mnt/sdcard/Emu/NDS/drastic2/savestates: It's there.
 Checking directory /mnt/sdcard/Emu/NDS/drastic2/config: It's there.
 Checking directory /mnt/sdcard/Emu/NDS/drastic2/profiles: It's there.
@@ -29,8 +100,9 @@ Joystick hasn't been opened yet
 SDL input: Setting default controls for Generic X-Box Pad
 Loading directory config file /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cf2
 Loading config file /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cfg
+arm_release_ver: g13p0-01eac0, rk_so_ver: 3
   1 joystick(s) found.
-Got memory mapped buffer at 0xeefec000 (drastic_mapped_memory.dat)
+Got memory mapped buffer at 0xefbe5000 (drastic_mapped_memory.dat)
 Using memory map offset 0
 Direct mapping main RAM to 2000000
 Direct mapping main RAM to 2400000
@@ -47,10 +119,8 @@ ALSA output: requested period size of 2048, got 2048.
 ALSA output: Using synchronous engine.
 1524.326172 cycles per output sample (0.000656 samples per cycle)
 Loaded 6722 games in database file /mnt/sdcard/Emu/NDS/drastic2/game_database.xml.
-Loaded cheat directory from database file /mnt/sdcard/Emu/NDS/drastic2/usrcheat.dat. Loaded 3204 games.
+Loaded cheat directory from database file /mnt/sdcard/Emu/NDS/drastic2/usrcheat.dat. Loaded 6481 games.
 Processing command line options.
-OpenGL support is either not configured in SDL or not available in current SDL video driver (NDS) or platform
-OpenGL support is either not configured in SDL or not available in current SDL video driver (NDS) or platform
 Loading gamecard file /media/sdcard0/Emu/NDS/../../Roms/NDS/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).nds.
 Attempting to load lua script /mnt/sdcard/Emu/NDS/drastic2/scripts/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).lua
 Attempting to load lua script /mnt/sdcard/Emu/NDS/drastic2/scripts/default.lua
@@ -90,11 +160,9 @@ Calling recompiler event update handler (@ 0x847f0e4).
 Remapping ITCM limit from 2000000 to 2000000
 Remapping DTCM from 27e0000, 4000 to 27c0000, 4000
 DTCM moved off of main RAM, remapping main RAM to it.
-Initializing screen: scale 1 orientation 0 depth 32
-Loading state /mnt/sdcard/Emu/NDS/drastic2/savestates/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It)_10.dss
-Error: savestate /mnt/sdcard/Emu/NDS/drastic2/savestates/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It)_10.dss does not exist
-Saving backup data file.
- Saving DeSmuME footer.
+Initializing screen: scale 2 orientation 0 depth 32
+Initializing screen: scale 2 orientation 0 depth 32
+DMA from gamecard modified code.
 0 mini hash hits out of 0 accesses (nan%)
 0 hash accesses:
  nan% hit in one hop
@@ -102,11 +170,3 @@ Saving backup data file.
  nan% hit in three hops
  nan% hit in four or more hops
 Saving directory config to file named /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cf2
-[SDL] MMIYOO_VideoQuit
-[SDL] Wait for savestate complete
-[SDL] Free TTF resources
-[SDL] Free GFX resources
-[SDL] Wait for video_handler exit
-[SDL] Free FB resources
-[SDL] Free Event resources
-[SDL] Free Lang resources

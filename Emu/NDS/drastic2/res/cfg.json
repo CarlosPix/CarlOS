@@ -1,7 +1,7 @@
 {
   "pen":3,
-  "theme":0,
-  "mode":5,
+  "theme":5,
+  "mode":3,
   "xv":20,
   "alpha":5,
   "position":0,
@@ -15,7 +15,7 @@
   "alt":3,
   "swap_l1l2":0,
   "swap_r1r2":0,
-  "lang":"english",
+  "lang":"spanish_sp",
   "keys_rotate":0,
   "menu_c0":"0xffffff",
   "menu_c1":"0x000000",
