@@ -1,0 +1,6 @@
+{
+	"label":        "CPU/GPU control",
+	"icon":	        "cpu.png",
+	"launch":       "launch.sh",
+	"description":  "CPU/GPU configurator"
+}

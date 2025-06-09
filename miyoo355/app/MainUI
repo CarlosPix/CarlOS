@@ -36,6 +36,7 @@ fi
 #enable core 1, disable 0.
 echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 echo 1104000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+echo 1104000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 echo 1 > /sys/devices/system/cpu/cpu0/online
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 0 > /sys/devices/system/cpu/cpu3/online
@@ -43,6 +44,31 @@ echo 0 > /sys/devices/system/cpu/cpu2/online
 
 #set gpu
 echo dmc_ondemand > /sys/class/devfreq/dmc/governor
+
+#create cpuconfig file
+OUTFILE="/userdata/cpuconfig.cfg"
+
+if [ ! -f "$OUTFILE" ]; then
+CPU_GOVERNOR=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 2>/dev/null)
+CPU_MAX=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 2>/dev/null)
+CPU_MIN=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 2>/dev/null)
+CPU_0=$(cat /sys/devices/system/cpu/cpu0/online 2>/dev/null)
+CPU_1=$(cat /sys/devices/system/cpu/cpu1/online 2>/dev/null)
+CPU_2=$(cat /sys/devices/system/cpu/cpu2/online 2>/dev/null)
+CPU_3=$(cat /sys/devices/system/cpu/cpu3/online 2>/dev/null)
+GPU_GOVERNOR=$(cat /sys/class/devfreq/dmc/governor 2>/dev/null)
+
+cat <<EOF > "$OUTFILE"
+CPU_GOVERNOR=$CPU_GOVERNOR
+CPU_MAX=$CPU_MAX
+CPU_MIN=$CPU_MIN
+CPU_0=$CPU_0
+CPU_1=$CPU_1
+CPU_2=$CPU_2
+CPU_3=$CPU_3
+GPU_GOVERNOR=$GPU_GOVERNOR
+EOF
+fi
 
 # check swap size
 if [ ! -f "/tmp/swapck" ]; then
