@@ -3,7 +3,7 @@
     "api": "PortMasterV3",
     "name": "PortMaster",
     "url": "https://github.com/PortsMaster/PortMaster-New/releases/latest/download/ports.json",
-    "last_checked": "2025-06-03T21:01:39.137930",
+    "last_checked": "2025-06-10T08:50:21.496620",
     "version": 2,
     "data": {
         "ports": [
@@ -32,6 +32,7 @@
             "avp.zip",
             "alphaman.zip",
             "alruna.zip",
+            "ambidextro.zip",
             "anarch.zip",
             "angband.zip",
             "annalynn.zip",
@@ -95,6 +96,7 @@
             "bluerevolver.zip",
             "blues.brothers.zip",
             "bbja.zip",
+            "bombastic.zip",
             "boneraiserminions.zip",
             "bonesintheboneyard.zip",
             "boni.zip",
@@ -311,6 +313,7 @@
             "falling_time.zip",
             "fallout1.zip",
             "fallout2.zip",
+            "falseskies.zip",
             "farmner.zip",
             "feather.park.zip",
             "fell.zip",
@@ -419,6 +422,7 @@
             "hijinx.zip",
             "hikoban.zip",
             "hocoslamfy.zip",
+            "hojiya.zip",
             "holonomy.zip",
             "holotzcastle.zip",
             "honeyguardian.zip",
@@ -527,6 +531,7 @@
             "luminousslash.zip",
             "lunarlux.zip",
             "mableandthewood.zip",
+            "maddeningeu.zip",
             "madhouse.zip",
             "magicvigilante.zip",
             "magicalbroom.zip",
@@ -715,6 +720,7 @@
             "putridshotultra.zip",
             "puztrix_playdate.zip",
             "pyk.zip",
+            "pyxeljack.zip",
             "qyoblaster.zip",
             "q2pro.zip",
             "quadrupleback.zip",
@@ -789,6 +795,7 @@
             "serioussam-tfe.zip",
             "serioussam-tse.zip",
             "sevenkingdoms.zip",
+            "shackolantern.zip",
             "shackle.zip",
             "shadow.warrior.zip",
             "shadowwrangler.zip",
@@ -911,6 +918,7 @@
             "techmaniac.zip",
             "templeofkashteki.zip",
             "tempuslocus.zip",
+            "tenjutsu48h.zip",
             "terminus.zip",
             "theaspect.zip",
             "thecorruptionwithin.zip",
@@ -980,6 +988,7 @@
             "undertale.zip",
             "undertaleredyellow.zip",
             "utyellow.zip",
+            "unfathomable.zip",
             "ungratefulbirdsngd.zip",
             "unlikely.zip",
             "upo.zip",
@@ -1001,6 +1010,7 @@
             "voidstranger.zip",
             "vortexion.zip",
             "vvvvvv.zip",
+            "vylan.zip",
             "wakingmars.zip",
             "walthrosrenewal.zip",
             "waternet.zip",
@@ -1255,6 +1265,12 @@
                 "size": 8882911,
                 "md5": "681b4c39118189b19c4c471eed409f55",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-01-02_1923/alruna.zip"
+            },
+            "ambidextro.zip": {
+                "name": "ambidextro.zip",
+                "size": 312984,
+                "md5": "3d1a39a65aecd59f60d1d1db62f15f5d",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2213/ambidextro.zip"
             },
             "anarch.zip": {
                 "name": "anarch.zip",
@@ -1634,11 +1650,17 @@
                 "md5": "aefb9e80d882aa55fa2c5f32295befdd",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-04-01_0052/bbja.zip"
             },
+            "bombastic.zip": {
+                "name": "bombastic.zip",
+                "size": 13888179,
+                "md5": "861c5239f9c958d3d6ab2cf83b36740b",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/bombastic.zip"
+            },
             "boneraiserminions.zip": {
                 "name": "boneraiserminions.zip",
-                "size": 15110816,
-                "md5": "13947f7cd81a52227f33d6e7e4cb99b2",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-31_1354/boneraiserminions.zip"
+                "size": 15110813,
+                "md5": "f296bd07b58976b86e6280c7c0cff156",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/boneraiserminions.zip"
             },
             "bonesintheboneyard.zip": {
                 "name": "bonesintheboneyard.zip",
@@ -2386,9 +2408,9 @@
             },
             "deltarune.zip": {
                 "name": "deltarune.zip",
-                "size": 7998626,
-                "md5": "dc02673d133795e100e13b3f42ccfe09",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/deltarune.zip"
+                "size": 8004405,
+                "md5": "5fe9d3ce86cfddac0ee3754aca70d427",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/deltarune.zip"
             },
             "demodome.zip": {
                 "name": "demodome.zip",
@@ -2930,6 +2952,12 @@
                 "md5": "82c6c8f030d18dbb7ee2c3092a672607",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-11-28_0901/fallout2.zip"
             },
+            "falseskies.zip": {
+                "name": "falseskies.zip",
+                "size": 2642821,
+                "md5": "17d7613247e0bb79c56347c0a58300ea",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/falseskies.zip"
+            },
             "farmner.zip": {
                 "name": "farmner.zip",
                 "size": 139226625,
@@ -3029,8 +3057,8 @@
             "flipofdark.zip": {
                 "name": "flipofdark.zip",
                 "size": 7781880,
-                "md5": "70559463d21c04895978def379582bc4",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/flipofdark.zip"
+                "md5": "c86568343c23f530e2e98e2ab8d1b67f",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/flipofdark.zip"
             },
             "flipoflight.zip": {
                 "name": "flipoflight.zip",
@@ -3578,6 +3606,12 @@
                 "md5": "172bdb9af5893e141fef7c89db6774da",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-21_0130/hocoslamfy.zip"
             },
+            "hojiya.zip": {
+                "name": "hojiya.zip",
+                "size": 14215860,
+                "md5": "40886ae46d67d677eb8dcc47242e7ead",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/hojiya.zip"
+            },
             "holonomy.zip": {
                 "name": "holonomy.zip",
                 "size": 4053373,
@@ -4012,9 +4046,9 @@
             },
             "leapyear.zip": {
                 "name": "leapyear.zip",
-                "size": 8674924,
-                "md5": "df5d243fcfbe55eec9f34823c85f8ede",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-02-09_0212/leapyear.zip"
+                "size": 8670555,
+                "md5": "3e5647fcbbc6f0a3229ce8fbd262d531",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/leapyear.zip"
             },
             "leftdeadspace.zip": {
                 "name": "leftdeadspace.zip",
@@ -4225,6 +4259,12 @@
                 "size": 31402689,
                 "md5": "b1ce0af462b8bd13b3762106ce7bcc62",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-12-09_2009/mableandthewood.zip"
+            },
+            "maddeningeu.zip": {
+                "name": "maddeningeu.zip",
+                "size": 9124032,
+                "md5": "eb62be30484a01359b8dad09864dc76f",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/maddeningeu.zip"
             },
             "madhouse.zip": {
                 "name": "madhouse.zip",
@@ -5354,6 +5394,12 @@
                 "md5": "4a7ee559d8ab77a76f30bb543b6ce609",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-10-14_0748/pyk.zip"
             },
+            "pyxeljack.zip": {
+                "name": "pyxeljack.zip",
+                "size": 7984,
+                "md5": "43ba1871447cb66b3ce1f9ab5e83bc9e",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/pyxeljack.zip"
+            },
             "qyoblaster.zip": {
                 "name": "qyoblaster.zip",
                 "size": 16033438,
@@ -5798,6 +5844,12 @@
                 "md5": "dc9b833885632d043d800a1ff81b8169",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-03-19_1507/sevenkingdoms.zip"
             },
+            "shackolantern.zip": {
+                "name": "shackolantern.zip",
+                "size": 25326986,
+                "md5": "32db6a1eb81b13b6f9e3cebb8a4ab99c",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/shackolantern.zip"
+            },
             "shackle.zip": {
                 "name": "shackle.zip",
                 "size": 25425778,
@@ -6040,9 +6092,9 @@
             },
             "sonic.mania.zip": {
                 "name": "sonic.mania.zip",
-                "size": 2550996,
-                "md5": "d3633f62131cef2fa696960f1e4d8c0b",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-01_1304/sonic.mania.zip"
+                "size": 2551042,
+                "md5": "3a3f863a7dbea8adcf269b97968d00bd",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/sonic.mania.zip"
             },
             "srb2kart.zip": {
                 "name": "srb2kart.zip",
@@ -6530,6 +6582,12 @@
                 "md5": "d9b054ccabefdc26cbb5cad4ee7d3519",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-10-15_2128/tempuslocus.zip"
             },
+            "tenjutsu48h.zip": {
+                "name": "tenjutsu48h.zip",
+                "size": 26215969,
+                "md5": "60139b04ffae97d2b9e363a0d2f830b2",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/tenjutsu48h.zip"
+            },
             "terminus.zip": {
                 "name": "terminus.zip",
                 "size": 16236178,
@@ -6688,9 +6746,9 @@
             },
             "tinamp.zip": {
                 "name": "tinamp.zip",
-                "size": 88687825,
-                "md5": "20137e3d2d584ee0640339b1edfb3b7d",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-29_1057/tinamp.zip"
+                "size": 89897052,
+                "md5": "b951388e0c45cbe4739e0d6d966d01e2",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/tinamp.zip"
             },
             "tiny-crate.zip": {
                 "name": "tiny-crate.zip",
@@ -6944,6 +7002,12 @@
                 "md5": "73cab9952524e970865a1a2478789760",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-08_0303/utyellow.zip"
             },
+            "unfathomable.zip": {
+                "name": "unfathomable.zip",
+                "size": 303279,
+                "md5": "31cf13cca44a821f5fc7eff0eb1ab205",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/unfathomable.zip"
+            },
             "ungratefulbirdsngd.zip": {
                 "name": "ungratefulbirdsngd.zip",
                 "size": 29302546,
@@ -7069,6 +7133,12 @@
                 "size": 64575873,
                 "md5": "99a1b7aa357a2605c915afd1e73f3d2b",
                 "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-12_1413/vvvvvv.zip"
+            },
+            "vylan.zip": {
+                "name": "vylan.zip",
+                "size": 63957,
+                "md5": "f53f86c5ae3cf63f31bd74dc8120ee3d",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/vylan.zip"
             },
             "wakingmars.zip": {
                 "name": "wakingmars.zip",
@@ -7294,9 +7364,9 @@
             },
             "gameinfo.zip": {
                 "name": "gameinfo.zip",
-                "size": 134899077,
-                "md5": "6046d7866681d8cfe1a3cdba2d5ba5c6",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/gameinfo.zip"
+                "size": 136199173,
+                "md5": "e4a6a57271b22fb3804dae5c80fc3410",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/gameinfo.zip"
             },
             "images.000.zip": {
                 "name": "images.000.zip",
@@ -8392,18 +8462,23 @@
             },
             "images.010.zip": {
                 "name": "images.010.zip",
-                "size": 742357,
-                "md5": "64ca46d4d99d7212c68318d13499d743",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/images.010.zip",
+                "size": 1532579,
+                "md5": "185d78ba7e013ea7fc6aed1dc6007b79",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/images.010.zip",
                 "images": [
+                    "ambidextro.screenshot.png",
+                    "bombastic.screenshot.png",
                     "circlebreaker.screenshot.png",
+                    "falseskies.screenshot.png",
                     "flipofdark.screenshot.png",
                     "flipoflight.screenshot.png",
                     "formlessstar.screenshot.png",
+                    "hojiya.screenshot.png",
                     "izelsobservatory.screenshot.png",
                     "juurru.screenshot.png",
                     "koreader.screenshot.png",
                     "lonelyspace.screenshot.png",
+                    "maddeningeu.screenshot.png",
                     "madhouse.screenshot.png",
                     "matchstickelegy.screenshot.png",
                     "megamansunrise.screenshot.png",
@@ -8411,17 +8486,22 @@
                     "mpd.screenshot.png",
                     "overwrite.screenshot.png",
                     "predetermined.screenshot.png",
+                    "pyxeljack.screenshot.png",
+                    "shackolantern.screenshot.png",
                     "stepbystep.screenshot.png",
                     "stingyseating.screenshot.png",
                     "supermutantalienassault.screenshot.png",
-                    "tinamp.screenshot.png"
+                    "tenjutsu48h.screenshot.png",
+                    "tinamp.screenshot.png",
+                    "unfathomable.screenshot.png",
+                    "vylan.screenshot.png"
                 ]
             },
             "images.zip": {
                 "name": "images.zip",
-                "size": 74093572,
-                "md5": "cdb48ecfed428b261af7175c5bf916cb",
-                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/images.zip"
+                "size": 74883794,
+                "md5": "584f8a4f651c491f48fb18f07082bbe8",
+                "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2213/images.zip"
             },
             "dotnet-8.0.12.squashfs": {
                 "name": "DotNet 8.0.12",
@@ -9759,6 +9839,68 @@
                     "release_id": "2025-01-02_1923",
                     "size": 8882911,
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-01-02_1923/alruna.zip"
+                }
+            },
+            "ambidextro.zip": {
+                "version": 4,
+                "name": "ambidextro.zip",
+                "items": [
+                    "Ambidextro.sh",
+                    "ambidextro"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Ambidextro",
+                    "porter": [
+                        "lowlevel.1989"
+                    ],
+                    "desc": "Ambidextro is a multiplayer for a single player. Learn to control two characters at the same time, one with each hand. Develop your ambidexterity and rescue both the prince and the princess simultaneously.",
+                    "desc_md": null,
+                    "inst": "Copy the file Ambidextro.pck into the folder:  /roms/ports/ambidextro/\n",
+                    "inst_md": null,
+                    "genres": [
+                        "arcade"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [
+                        "weston_pkg_0.2.squashfs",
+                        "godot_4.3.squashfs"
+                    ],
+                    "store": [
+                        {
+                            "name": "steam",
+                            "gameurl": "https://store.steampowered.com/app/3445580/Ambidextro/",
+                            "developerurl": "https://www.majorariatto.com/"
+                        },
+                        {
+                            "name": "itch",
+                            "gameurl": "https://majorariatto.itch.io/ambidextro",
+                            "developerurl": "https://www.majorariatto.com/"
+                        }
+                    ],
+                    "availability": "paid",
+                    "reqs": [
+                        "analog_2"
+                    ],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-04",
+                    "date_updated": "2025-06-09",
+                    "md5": "3d1a39a65aecd59f60d1d1db62f15f5d",
+                    "release_id": "2025-06-09_2213",
+                    "size": 312984,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2213/ambidextro.zip"
                 }
             },
             "anarch.zip": {
@@ -12715,6 +12857,59 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-04-01_0052/bbja.zip"
                 }
             },
+            "bombastic.zip": {
+                "version": 4,
+                "name": "bombastic.zip",
+                "items": [
+                    "Bombastic.sh",
+                    "bombastic"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Bombastic",
+                    "porter": [
+                        "tabreturn"
+                    ],
+                    "desc": "Play as Splodey, a bomb with an explosive spring in his step! Use his exploding jump to traverse rooms and solve puzzles. Destroy all of the orange blocks and TNT to progress through the levels!",
+                    "desc_md": null,
+                    "inst": "Download the game free at itch.io (https://jamierowan.itch.io/bombastic). Download, extract, and copy the game files to the bombastic/gamedata folder.",
+                    "inst_md": "Download the game free at [itch.io](https://jamierowan.itch.io/bombastic). Download, extract, and copy the game files to the `bombastic/gamedata` folder.",
+                    "genres": [
+                        "platformer",
+                        "puzzle"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "itch.io",
+                            "gameurl": "https://jamierowan.itch.io/bombastic",
+                            "developerurl": "https://jamierowan.itch.io"
+                        }
+                    ],
+                    "availability": "free",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "861c5239f9c958d3d6ab2cf83b36740b",
+                    "release_id": "2025-06-09_2012",
+                    "size": 13888179,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/bombastic.zip"
+                }
+            },
             "boneraiserminions.zip": {
                 "version": 4,
                 "name": "boneraiserminions.zip",
@@ -12731,7 +12926,7 @@
                     "desc": "Amass an army of undead to fight endless waves of heroes intent to end your boneraising ways! In this gothic auto-battler rogue-lite Survivor-like, use the bones of slain heroes to raise your minions, collect relics and spells, and unlock meta upgrades, all to survive King Gigald's crusade! \nThis has been updated to work with the latest version (v36.14)",
                     "desc_md": null,
                     "inst": "Purchase the game from steam. Download the game and transfer all the game files to ports/boneraiserminions/assets.",
-                    "inst_md": "Purchase the game from [Steam](https://store.steampowered.com/app/1944570/Boneraiser_Minions/). Open steam console via Windows+R: Type: steam://open/console, download the latest version by typing: download\\\\_depot download_depot 1944570 1944571 7846858657771989862 in the console. When the download is complete, it will tell you the location of the folder. Transfer all the game files to ports/boneraiserminions/assets.",
+                    "inst_md": "Purchase the game from [Steam](https://store.steampowered.com/app/1944570/Boneraiser_Minions/). Open steam console via Windows+R: Type: steam://open/console, download the latest version by typing: `download_depot 1944570 1944571 7846858657771989862` in the console. When the download is complete, it will tell you the location of the folder. Transfer all the game files to ports/boneraiserminions/assets.",
                     "genres": [
                         "other"
                     ],
@@ -12762,11 +12957,11 @@
                 },
                 "source": {
                     "date_added": "2024-04-24",
-                    "date_updated": "2025-05-31",
-                    "md5": "13947f7cd81a52227f33d6e7e4cb99b2",
-                    "release_id": "2025-05-31_1354",
-                    "size": 15110816,
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-31_1354/boneraiserminions.zip"
+                    "date_updated": "2025-06-06",
+                    "md5": "f296bd07b58976b86e6280c7c0cff156",
+                    "release_id": "2025-06-06_1351",
+                    "size": 15110813,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/boneraiserminions.zip"
                 }
             },
             "bonesintheboneyard.zip": {
@@ -18600,12 +18795,14 @@
                     "porter": [
                         "Jeod"
                     ],
-                    "desc": "In this sequel to Undertale, Kris and Susie are drawn into a mysterious Dark World, where they join forces with Ralsei to close the Dark Fountains and restore balance. Along the way, they encounter strange foes, form unlikely friendships, and uncover new mysteries tied to the world of monsters.",
+                    "desc": "Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-4 will be available on launch, with more planned as free updates!",
                     "desc_md": null,
-                    "inst": "Download the Deltarune LTS Demo on Steam (switch to the LTS beta branch) or Itch.io and add all files to `ports/deltarune/assets/install`.",
+                    "inst": "Choose where to download the game from and add all files to `ports/deltarune/assets/install`.",
                     "inst_md": null,
                     "genres": [
-                        "adventure"
+                        "action",
+                        "adventure",
+                        "rpg"
                     ],
                     "image": {
                         "screenshot": "screenshot.png",
@@ -18618,6 +18815,19 @@
                     "rtr": false,
                     "exp": false,
                     "runtime": [],
+                    "store": [
+                        {
+                            "name": "Steam",
+                            "gameurl": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+                            "developerurl": ""
+                        },
+                        {
+                            "name": "Itch.io",
+                            "gameurl": "https://tobyfox.itch.io/deltarune",
+                            "developerurl": ""
+                        }
+                    ],
+                    "availability": "paid",
                     "reqs": [],
                     "arch": [
                         "aarch64"
@@ -18626,11 +18836,11 @@
                 },
                 "source": {
                     "date_added": "2024-10-31",
-                    "date_updated": "2025-06-03",
-                    "md5": "dc02673d133795e100e13b3f42ccfe09",
-                    "release_id": "2025-06-03_1321",
-                    "size": 7998626,
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/deltarune.zip"
+                    "date_updated": "2025-06-06",
+                    "md5": "5fe9d3ce86cfddac0ee3754aca70d427",
+                    "release_id": "2025-06-06_1351",
+                    "size": 8004405,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/deltarune.zip"
                 }
             },
             "demodome.zip": {
@@ -22900,6 +23110,63 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-11-28_0901/fallout2.zip"
                 }
             },
+            "falseskies.zip": {
+                "version": 4,
+                "name": "falseskies.zip",
+                "items": [
+                    "False Skies.sh",
+                    "falseskies"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "False Skies",
+                    "porter": [
+                        "tabreturn"
+                    ],
+                    "desc": "Create a party, layer on new classes, and uncover the mystery behind the seeming reappearance of a long-gone city in this classicly-styled RPG.",
+                    "desc_md": null,
+                    "inst": "Purchase the game on itch.io (https://feenicks.itch.io/false-skies) or Steam (https://store.steampowered.com/app/1830040/False_Skies). Copy the '.rpg' file to the 'falseskies' folder. You can also play the demo version by following the same steps.",
+                    "inst_md": "Purchase the game on [itch.io](https://feenicks.itch.io/false-skies) or [Steam](https://store.steampowered.com/app/1830040/False_Skies). Copy the `.rpg` file to the `falseskies` folder. You can also play the demo version by following the same steps.",
+                    "genres": [
+                        "rpg"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "itch.io",
+                            "gameurl": "https://feenicks.itch.io/false-skies",
+                            "developerurl": "https://feenicks.itch.io"
+                        },
+                        {
+                            "name": "Steam",
+                            "gameurl": "https://store.steampowered.com/app/1830040/False_Skies",
+                            "developerurl": "https://store.steampowered.com/search/?developer=Feenicks"
+                        }
+                    ],
+                    "availability": "paid",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "17d7613247e0bb79c56347c0a58300ea",
+                    "release_id": "2025-06-09_2012",
+                    "size": 2642821,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/falseskies.zip"
+                }
+            },
             "farmner.zip": {
                 "version": 4,
                 "name": "farmner.zip",
@@ -23673,7 +23940,7 @@
                     "desc": "A small precision platformer where you can instantly flip onto the ceiling and walls. You lost your slice of fruit, and have to get it back.\nFlip of Dark is a fangame for Flip of Light, by Leko.",
                     "desc_md": null,
                     "inst": "Download flipofdark.zip from itch.io and unzip the contents to ports/flipofdark/assets\n",
-                    "inst_md": "Download flipofdark.zip from (itch.io)[https://antidissmist.itch.io/flip-of-dark] and unzip the contents to ports/flipofdark/assets\n",
+                    "inst_md": "Download flipofdark.zip from [itch.io](https://antidissmist.itch.io/flip-of-dark) and unzip the contents to ports/flipofdark/assets\n",
                     "genres": [
                         "platformer"
                     ],
@@ -23704,11 +23971,11 @@
                 },
                 "source": {
                     "date_added": "2025-06-03",
-                    "date_updated": "2025-06-03",
-                    "md5": "70559463d21c04895978def379582bc4",
+                    "date_updated": "2025-06-06",
+                    "md5": "c86568343c23f530e2e98e2ab8d1b67f",
+                    "release_id": "2025-06-06_1351",
                     "size": 7781880,
-                    "release_id": "2025-06-03_1321",
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/flipofdark.zip"
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/flipofdark.zip"
                 }
             },
             "flipoflight.zip": {
@@ -23754,8 +24021,8 @@
                     "date_added": "2025-06-03",
                     "date_updated": "2025-06-03",
                     "md5": "22baa141f49bb42c21cf3a213b1656b7",
-                    "size": 7997560,
                     "release_id": "2025-06-03_1321",
+                    "size": 7997560,
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/flipoflight.zip"
                 }
             },
@@ -27983,6 +28250,61 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-21_0130/hocoslamfy.zip"
                 }
             },
+            "hojiya.zip": {
+                "version": 4,
+                "name": "hojiya.zip",
+                "items": [
+                    "Hojiya.sh",
+                    "hojiya"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Hojiya",
+                    "porter": [
+                        "NotYourAveragePaladin"
+                    ],
+                    "desc": "Hojiya is a 2D adventure platformer in a coastal fantasy world, where the daylight will be crucial for our plant boy protagonist.\nSTORY:\nNogaru and Iara are two brave siblings, will explore forest, jungles, and deserts; by collecting artifacts, challenging cunning creatures, and defeating perilous villains, will find their origins, in this emotive adventure throughout marvelous lands, to uncover the fate of a lost culture.\nSolve mysteries, help people to save their islands of the impending doom caused by the evil corporation Xiphos.\nFEATURES:\nA lot of Items to search,collect and trade!\nVarious creatures and enemies\nand meet the people of this world",
+                    "desc_md": null,
+                    "inst": "Get 'Hojiya.zip' from https://leafxel.itch.io/hojiya and once you've downloaded it, extract the zip file and copy everything into the assets folder.",
+                    "inst_md": null,
+                    "genres": [
+                        "adventure",
+                        "rpg"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [
+                            "cover.png"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "itch.io",
+                            "gameurl": "https://leafxel.itch.io/hojiya",
+                            "developerurl": "https://leafxel.itch.io/"
+                        }
+                    ],
+                    "availability": "free",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "40886ae46d67d677eb8dcc47242e7ead",
+                    "release_id": "2025-06-09_2012",
+                    "size": 14215860,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/hojiya.zip"
+                }
+            },
             "holonomy.zip": {
                 "version": 4,
                 "name": "holonomy.zip",
@@ -31371,8 +31693,8 @@
                     ],
                     "desc": "Leap Year is a clumsy platformer about knowledge and discovery. Explore a compact, hand drawn world filled with hidden paths. Understand the game\u2019s secrets to reach new areas and collect all the pages of your calendar.",
                     "desc_md": null,
-                    "inst": "Purchase and download the game from: Steam https://store.steampowered.com/app/2951770/Leap_Year/ or Itch https://managore.itch.io/leap-year Locate your gamefolder and copy all the files from the folder to leapyear/assets/",
-                    "inst_md": "Purchase and download the game from: [Steam](https://store.steampowered.com/app/2951770/Leap_Year/) or [Itch](https://managore.itch.io/leap-year) Locate your gamefolder and copy all the files from the folder to leapyear/assets/",
+                    "inst": "Purchase and download the game from Itch https://managore.itch.io/leap-year Locate your gamefolder and copy all the files from the folder to leapyear/assets/",
+                    "inst_md": "Purchase and download the game from [Itch](https://managore.itch.io/leap-year) Locate your gamefolder and copy all the files from the folder to leapyear/assets/",
                     "genres": [
                         "action",
                         "adventure",
@@ -31397,11 +31719,11 @@
                 },
                 "source": {
                     "date_added": "2025-02-09",
-                    "date_updated": "2025-02-09",
-                    "md5": "df5d243fcfbe55eec9f34823c85f8ede",
-                    "release_id": "2025-02-09_0212",
-                    "size": 8674924,
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-02-09_0212/leapyear.zip"
+                    "date_updated": "2025-06-06",
+                    "md5": "3e5647fcbbc6f0a3229ce8fbd262d531",
+                    "release_id": "2025-06-06_1351",
+                    "size": 8670555,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/leapyear.zip"
                 }
             },
             "leftdeadspace.zip": {
@@ -32992,6 +33314,63 @@
                     "release_id": "2024-12-09_2009",
                     "size": 31402689,
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-12-09_2009/mableandthewood.zip"
+                }
+            },
+            "maddeningeu.zip": {
+                "version": 4,
+                "name": "maddeningeu.zip",
+                "items": [
+                    "Maddening Euphoria.sh",
+                    "maddeningeu"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Maddening Euphoria",
+                    "porter": [
+                        "Ganimoth"
+                    ],
+                    "desc": "A unique, challenging, unnecessarily colourful arcade game with randomly generated circular level design and a wall of death.",
+                    "desc_md": null,
+                    "inst": "Purchase the game from Steam or Itch.io. For Steam version copy all game files into the assets folder. For Itch.io version you unzip the Maddening Euphoria.zip into the assets folder. ",
+                    "inst_md": "Purchase the game from [Steam](https://store.steampowered.com/app/725380/Maddening_Euphoria/) or [Itch.io](https://ci.itch.io/maddening-euphoria). For Steam version copy all game files into the `assets` folder. For Itch.io version you unzip the `Maddening Euphoria.zip` into the `assets` folder. ",
+                    "genres": [
+                        "platformer"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "Steam",
+                            "gameurl": "https://store.steampowered.com/app/725380/Maddening_Euphoria/",
+                            "developerurl": "https://store.steampowered.com/developer/chequeredink"
+                        },
+                        {
+                            "name": "Itch.io",
+                            "gameurl": "https://ci.itch.io/maddening-euphoria",
+                            "developerurl": "https://ci.itch.io"
+                        }
+                    ],
+                    "availability": "paid",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "eb62be30484a01359b8dad09864dc76f",
+                    "release_id": "2025-06-09_2012",
+                    "size": 9124032,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/maddeningeu.zip"
                 }
             },
             "madhouse.zip": {
@@ -41846,6 +42225,52 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-10-14_0748/pyk.zip"
                 }
             },
+            "pyxeljack.zip": {
+                "version": 4,
+                "name": "pyxeljack.zip",
+                "items": [
+                    "PyxelJack.sh",
+                    "pyxeljack"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "PyxelJACK",
+                    "porter": [
+                        "Damian2809"
+                    ],
+                    "desc": "PyxelJack is a card game where the goal is to get a hand value as close to 21 as possible without going over, beating the dealer\u2019s hand to win. It\u2019s all about smart decisions, like when to hit or stand, to outplay the dealer! So its Blackjack but made in Pyxel",
+                    "desc_md": null,
+                    "inst": "Ready to Run",
+                    "inst_md": null,
+                    "genres": [
+                        "casino/card"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": true,
+                    "exp": false,
+                    "runtime": [
+                        "pyxel_2.2.8_python_3.11.squashfs"
+                    ],
+                    "store": [],
+                    "availability": "full",
+                    "reqs": [],
+                    "arch": [],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "43ba1871447cb66b3ce1f9ab5e83bc9e",
+                    "release_id": "2025-06-09_2012",
+                    "size": 7984,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/pyxeljack.zip"
+                }
+            },
             "qyoblaster.zip": {
                 "version": 4,
                 "name": "qyoblaster.zip",
@@ -45304,6 +45729,58 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-03-19_1507/sevenkingdoms.zip"
                 }
             },
+            "shackolantern.zip": {
+                "version": 4,
+                "name": "shackolantern.zip",
+                "items": [
+                    "Shack-o-Lantern.sh",
+                    "shackolantern"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Shack-o'-Lantern",
+                    "porter": [
+                        "tabreturn"
+                    ],
+                    "desc": "The sun has set and darkness dwells in every corner. A light source, connected by chain, acts as shelter from the night. Keep it close and stay out of the dark.",
+                    "desc_md": null,
+                    "inst": "Ready to run.",
+                    "inst_md": null,
+                    "genres": [
+                        "puzzle"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": true,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "itch.io",
+                            "gameurl": "https://steven-miller.itch.io/shack-o-lantern",
+                            "developerurl": "https://steven-miller.itch.io"
+                        }
+                    ],
+                    "availability": "full",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "32db6a1eb81b13b6f9e3cebb8a4ab99c",
+                    "release_id": "2025-06-09_2012",
+                    "size": 25326986,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/shackolantern.zip"
+                }
+            },
             "shackle.zip": {
                 "version": 4,
                 "name": "shackle.zip",
@@ -47270,11 +47747,11 @@
                 },
                 "source": {
                     "date_added": "2022-10-24",
-                    "date_updated": "2025-05-01",
-                    "md5": "d3633f62131cef2fa696960f1e4d8c0b",
-                    "release_id": "2025-05-01_1304",
-                    "size": 2550996,
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-01_1304/sonic.mania.zip"
+                    "date_updated": "2025-06-06",
+                    "md5": "3a3f863a7dbea8adcf269b97968d00bd",
+                    "release_id": "2025-06-06_1351",
+                    "size": 2551042,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/sonic.mania.zip"
                 }
             },
             "srb2kart.zip": {
@@ -48993,8 +49470,8 @@
                     "date_added": "2025-06-03",
                     "date_updated": "2025-06-03",
                     "md5": "b26ff47c7d468bb477b9581ce1b458ee",
-                    "size": 934738,
                     "release_id": "2025-06-03_1321",
+                    "size": 934738,
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-03_1321/stepbystep.zip"
                 }
             },
@@ -51095,6 +51572,57 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2024-10-15_2128/tempuslocus.zip"
                 }
             },
+            "tenjutsu48h.zip": {
+                "version": 4,
+                "name": "tenjutsu48h.zip",
+                "items": [
+                    "Tenjutsu.sh",
+                    "tenjutsu48h"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Tenjutsu",
+                    "porter": [
+                        "Jeod"
+                    ],
+                    "desc": "Your dojo has been attacked by mysterious armed men in black. You have to take it back! Fight enemies, collect DEATH MARKS (ie. skulls) and tag enemies with these marks. Every 10 seconds, marked enemies will die. Some stronger enemies will require more marks to get rid of.",
+                    "desc_md": null,
+                    "inst": "Ready to run!",
+                    "inst_md": null,
+                    "genres": [
+                        "action"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [
+                            "cover.png"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": true,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [],
+                    "availability": "full",
+                    "reqs": [
+                        "opengl",
+                        "ultra"
+                    ],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "60139b04ffae97d2b9e363a0d2f830b2",
+                    "release_id": "2025-06-09_2012",
+                    "size": 26215969,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/tenjutsu48h.zip"
+                }
+            },
             "terminus.zip": {
                 "version": 4,
                 "name": "terminus.zip",
@@ -52373,11 +52901,11 @@
                 },
                 "source": {
                     "date_added": "2025-05-29",
-                    "date_updated": "2025-05-29",
-                    "md5": "20137e3d2d584ee0640339b1edfb3b7d",
-                    "release_id": "2025-05-29_1057",
-                    "size": 88687825,
-                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-29_1057/tinamp.zip"
+                    "date_updated": "2025-06-09",
+                    "md5": "b951388e0c45cbe4739e0d6d966d01e2",
+                    "release_id": "2025-06-09_2012",
+                    "size": 89897052,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/tinamp.zip"
                 }
             },
             "tiny-crate.zip": {
@@ -54305,6 +54833,58 @@
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-08_0303/utyellow.zip"
                 }
             },
+            "unfathomable.zip": {
+                "version": 4,
+                "name": "unfathomable.zip",
+                "items": [
+                    "Unfathomable!.sh",
+                    "unfathomable"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Unfathomable!",
+                    "porter": [
+                        "Ganimoth"
+                    ],
+                    "desc": "Unfathomable! is a first person dungeon crawler featuring 13 randomly generated levels. Delve into ancient and forgotten labyrinths. Explore and collect gear while facing unearthly monsters inspired by Lovecraftian fiction.",
+                    "desc_md": null,
+                    "inst": "Ready to run!",
+                    "inst_md": null,
+                    "genres": [
+                        "rpg"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": true,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [
+                        {
+                            "name": "Itch.io",
+                            "gameurl": "https://dbisdorf.itch.io/unfathomable",
+                            "developerurl": "https://dbisdorf.itch.io"
+                        }
+                    ],
+                    "availability": "full",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "31cf13cca44a821f5fc7eff0eb1ab205",
+                    "release_id": "2025-06-09_2012",
+                    "size": 303279,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-09_2012/unfathomable.zip"
+                }
+            },
             "ungratefulbirdsngd.zip": {
                 "version": 4,
                 "name": "ungratefulbirdsngd.zip",
@@ -55274,6 +55854,63 @@
                     "release_id": "2025-05-12_1413",
                     "size": 64575873,
                     "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-05-12_1413/vvvvvv.zip"
+                }
+            },
+            "vylan.zip": {
+                "version": 4,
+                "name": "vylan.zip",
+                "items": [
+                    "Vylan.sh",
+                    "vylan"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Vylan",
+                    "porter": [
+                        "Ganimoth"
+                    ],
+                    "desc": "Help Vylan on his journey to regain lost memories, in this Tile-Based platformer. Take on the 100 levels in this game that takes the platformer genre and flips it on its head.",
+                    "desc_md": null,
+                    "inst": "Purchase the game on Steam or Itch.io, you can also use the free demo. Copy the Vylan.pck (or VylanDemo.pck) into the gamedata folder.",
+                    "inst_md": "Purchase the game on [Steam](https://store.steampowered.com/app/1445650/Vylan/) or [Itch.io](https://mostlymadproductions.itch.io/vylan), you can also use the free demo. Copy the `Vylan.pck` (or `VylanDemo.pck`) into the `gamedata` folder.",
+                    "genres": [
+                        "puzzle"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [
+                        "frt_3.6.squashfs"
+                    ],
+                    "store": [
+                        {
+                            "name": "Steam",
+                            "gameurl": "https://store.steampowered.com/app/1445650/Vylan/",
+                            "developerurl": "https://store.steampowered.com/curator/44776737"
+                        },
+                        {
+                            "name": "Itch.io",
+                            "gameurl": "https://mostlymadproductions.itch.io/vylan",
+                            "developerurl": "https://mostlymadproductions.itch.io"
+                        }
+                    ],
+                    "availability": "paid",
+                    "reqs": [],
+                    "arch": [],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-06",
+                    "date_updated": "2025-06-06",
+                    "md5": "f53f86c5ae3cf63f31bd74dc8120ee3d",
+                    "release_id": "2025-06-06_1351",
+                    "size": 63957,
+                    "url": "https://github.com/PortsMaster/PortMaster-New/releases/download/2025-06-06_1351/vylan.zip"
                 }
             },
             "wakingmars.zip": {

@@ -1063,14 +1063,19 @@
     },
     "images.010.zip": {
         "images": [
+            "ambidextro.screenshot.png",
+            "bombastic.screenshot.png",
             "circlebreaker.screenshot.png",
+            "falseskies.screenshot.png",
             "flipofdark.screenshot.png",
             "flipoflight.screenshot.png",
             "formlessstar.screenshot.png",
+            "hojiya.screenshot.png",
             "izelsobservatory.screenshot.png",
             "juurru.screenshot.png",
             "koreader.screenshot.png",
             "lonelyspace.screenshot.png",
+            "maddeningeu.screenshot.png",
             "madhouse.screenshot.png",
             "matchstickelegy.screenshot.png",
             "megamansunrise.screenshot.png",
@@ -1078,12 +1083,17 @@
             "mpd.screenshot.png",
             "overwrite.screenshot.png",
             "predetermined.screenshot.png",
+            "pyxeljack.screenshot.png",
+            "shackolantern.screenshot.png",
             "stepbystep.screenshot.png",
             "stingyseating.screenshot.png",
             "supermutantalienassault.screenshot.png",
-            "tinamp.screenshot.png"
+            "tenjutsu48h.screenshot.png",
+            "tinamp.screenshot.png",
+            "unfathomable.screenshot.png",
+            "vylan.screenshot.png"
         ],
-        "md5": "64ca46d4d99d7212c68318d13499d743"
+        "md5": "185d78ba7e013ea7fc6aed1dc6007b79"
     },
-    "images.zip": "cdb48ecfed428b261af7175c5bf916cb"
+    "images.zip": "584f8a4f651c491f48fb18f07082bbe8"
 }

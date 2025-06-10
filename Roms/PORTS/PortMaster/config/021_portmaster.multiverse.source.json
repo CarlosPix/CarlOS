@@ -3,7 +3,7 @@
     "api": "PortMasterV3",
     "name": "PortMaster Multiverse",
     "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/latest/download/ports.json",
-    "last_checked": "2025-06-03T21:01:40.713671",
+    "last_checked": "2025-06-10T08:52:27.337974",
     "version": 2,
     "data": {
         "ports": [
@@ -13,6 +13,9 @@
             "gta3.zip",
             "gtavc.zip",
             "loderunneronline.zip",
+            "minimario.zip",
+            "minimetroid.zip",
+            "minizelda.zip",
             "nuclearthronemobile.zip",
             "pocketcrystalleague.zip",
             "pokemmo.zip",
@@ -23,6 +26,7 @@
             "soh.zip",
             "soh2.zip",
             "starbound.zip",
+            "starship.zip",
             "super.mario.war.zip",
             "smworld.zip",
             "sm.zip",
@@ -83,9 +87,27 @@
             },
             "loderunneronline.zip": {
                 "name": "loderunneronline.zip",
-                "size": 30491428,
-                "md5": "641922a587d52ee1c169e8bf9525fae2",
-                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2024-04-09_1309/loderunneronline.zip"
+                "size": 30491889,
+                "md5": "d2c528a55a91f77f39aa846326c9b670",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/loderunneronline.zip"
+            },
+            "minimario.zip": {
+                "name": "minimario.zip",
+                "size": 233794,
+                "md5": "fa819f073c1f12410baae2cfaa581961",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minimario.zip"
+            },
+            "minimetroid.zip": {
+                "name": "minimetroid.zip",
+                "size": 445142,
+                "md5": "8699fcd59168ba3e07608ad003a6675e",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minimetroid.zip"
+            },
+            "minizelda.zip": {
+                "name": "minizelda.zip",
+                "size": 253424,
+                "md5": "ed4665fd3e4e94462fbeca0e1b9e7c58",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minizelda.zip"
             },
             "nuclearthronemobile.zip": {
                 "name": "nuclearthronemobile.zip",
@@ -146,6 +168,12 @@
                 "size": 20958110,
                 "md5": "28583c7fa3d6c3b0c293ab0ac91c53bc",
                 "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-04-21_0926/starbound.zip"
+            },
+            "starship.zip": {
+                "name": "starship.zip",
+                "size": 6607449,
+                "md5": "469ebc59d4d29928db8ccc9ae9338622",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/starship.zip"
             },
             "super.mario.war.zip": {
                 "name": "super.mario.war.zip",
@@ -287,15 +315,15 @@
             },
             "gameinfo.zip": {
                 "name": "gameinfo.zip",
-                "size": 7474817,
-                "md5": "88c6aa19c7cde30fb3775a2e134b052d",
-                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-05-22_1232/gameinfo.zip"
+                "size": 8636476,
+                "md5": "7f605594652d8d124b4e8d012f71afab",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/gameinfo.zip"
             },
             "images.zip": {
                 "name": "images.zip",
-                "size": 3504758,
-                "md5": "5f32f113225aab36f91757f5f228aa4e",
-                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-05-27_1806/images.zip"
+                "size": 4107074,
+                "md5": "0074f6231adc6f4050169ee057eacf72",
+                "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/images.zip"
             }
         },
         "info": {
@@ -558,8 +586,10 @@
                         "tabreturn",
                         "Slayer366"
                     ],
-                    "desc": "This project is a fan-made cross-platform clone of Lode Runner Online: The Mad Monks' Revenge.",
-                    "inst": "You can download Lode Runner Online free at: https://mmr.quarkrobot.com/ . Download the Linux version and extract it, and place the game files in the gamedata directory. This has been tested with the LODERUNN-LINUX-2402.tar.gz release.\n\nYou can change controls in the options (cog) menu, but you must **plug in a mouse to assign the gamepad inputs.**\n\nFor the CD soundtrack, download the DLC here: https://mmr.quarkrobot.com/manual/get-started#soundtrack, and place the LR_AUDIO.PRS file in the port's *savadata* folder.",
+                    "desc": "A fan-made cross-platform clone of Lode Runner Online: The Mad Monks' Revenge.",
+                    "desc_md": null,
+                    "inst": "You can change controls in the options (cog) menu, but you must **plug in a mouse to assign the gamepad inputs.**\n\nFor the CD soundtrack, download the DLC here: https://mmr.quarkrobot.com/manual/get-started#soundtrack -- place the LR_AUDIO.PRS file in the port's savadata folder.",
+                    "inst_md": "You can change controls in the options (cog) menu, but you must **plug in a mouse to assign the gamepad inputs.**\n\nFor the CD soundtrack, download the DLC here: [https://mmr.quarkrobot.com/manual/get-started#soundtrack](https://mmr.quarkrobot.com/manual/get-started#soundtrack) -- place the `LR_AUDIO.PRS` file in the port's `savadata` folder.",
                     "genres": [
                         "platformer",
                         "puzzle"
@@ -575,19 +605,171 @@
                     "runtime": [
                         "mono-6.12.0.122-aarch64.squashfs"
                     ],
+                    "store": [
+                        {
+                            "name": "Quark Robot (creator)",
+                            "gameurl": "https://mmr.quarkrobot.com",
+                            "developerurl": "https://mmr.quarkrobot.com"
+                        }
+                    ],
+                    "availability": "full",
                     "reqs": [],
-                    "desc_md": null,
-                    "inst_md": null,
+                    "arch": [],
                     "min_glibc": "",
-                    "arch": []
+                    "igdb_id": 72299
                 },
                 "source": {
                     "date_added": "2024-03-12",
-                    "date_updated": "2024-04-09",
-                    "md5": "641922a587d52ee1c169e8bf9525fae2",
-                    "release_id": "2024-04-09_1309",
-                    "size": 30491428,
-                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2024-04-09_1309/loderunneronline.zip"
+                    "date_updated": "2025-06-09",
+                    "md5": "d2c528a55a91f77f39aa846326c9b670",
+                    "release_id": "2025-06-09_1813",
+                    "size": 30491889,
+                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/loderunneronline.zip"
+                }
+            },
+            "minimario.zip": {
+                "version": 4,
+                "name": "minimario.zip",
+                "items": [
+                    "MiniMario.sh",
+                    "minimario"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "MiniMario",
+                    "porter": [
+                        "MadShmupper"
+                    ],
+                    "desc": "A Mario fan game that was made using the Pyxel engine.",
+                    "desc_md": null,
+                    "inst": "Download at itch.io https://aged99oow.itch.io/mario and place MiniMario.pyxapp into minimario directory",
+                    "inst_md": "Download at [itch.io](https://aged99oow.itch.io/mario) and place MiniMario.pyxapp into minimario directory",
+                    "genres": [
+                        "platformer"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [
+                            "cover.png"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [
+                        "pyxel_2.2.8_python_3.11.squashfs"
+                    ],
+                    "store": [],
+                    "availability": "free",
+                    "reqs": [],
+                    "arch": [],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "fa819f073c1f12410baae2cfaa581961",
+                    "size": 233794,
+                    "release_id": "2025-06-09_1813",
+                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minimario.zip"
+                }
+            },
+            "minimetroid.zip": {
+                "version": 4,
+                "name": "minimetroid.zip",
+                "items": [
+                    "MiniMetroid.sh",
+                    "minimetroid"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "MiniMetroid",
+                    "porter": [
+                        "MadShmupper"
+                    ],
+                    "desc": "A Metroid fan game that was made using the Pyxel engine.",
+                    "desc_md": null,
+                    "inst": "Download at itch.io https://aged99oow.itch.io/metroid and place MiniMetroid.pyxapp into minimetroid directory",
+                    "inst_md": "Download at [itch.io](https://aged99oow.itch.io/metroid) and place MiniMetroid.pyxapp into minimetroid directory",
+                    "genres": [
+                        "adventure",
+                        "platformer"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [
+                            "cover.png"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [
+                        "pyxel_2.2.8_python_3.11.squashfs"
+                    ],
+                    "store": [],
+                    "availability": "free",
+                    "reqs": [],
+                    "arch": [],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "8699fcd59168ba3e07608ad003a6675e",
+                    "size": 445142,
+                    "release_id": "2025-06-09_1813",
+                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minimetroid.zip"
+                }
+            },
+            "minizelda.zip": {
+                "version": 4,
+                "name": "minizelda.zip",
+                "items": [
+                    "MiniZelda.sh",
+                    "minizelda"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "MiniZelda",
+                    "porter": [
+                        "MadShmupper"
+                    ],
+                    "desc": "A ZELDA fan game that was made using the Pyxel engine.",
+                    "desc_md": null,
+                    "inst": "Download at itch.io https://aged99oow.itch.io/zelda and place MiniZelda.pyxapp into minizelda directory",
+                    "inst_md": "Download at [itch.io](https://aged99oow.itch.io/zelda) and place MiniZelda.pyxapp into minizelda directory",
+                    "genres": [
+                        "adventure"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.jpg",
+                        "covers": [
+                            "cover.jpg"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [
+                        "pyxel_2.2.8_python_3.11.squashfs"
+                    ],
+                    "store": [],
+                    "availability": "full",
+                    "reqs": [],
+                    "arch": [],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "ed4665fd3e4e94462fbeca0e1b9e7c58",
+                    "size": 253424,
+                    "release_id": "2025-06-09_1813",
+                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/minizelda.zip"
                 }
             },
             "nuclearthronemobile.zip": {
@@ -1084,6 +1266,55 @@
                     "release_id": "2025-04-21_0926",
                     "size": 20958110,
                     "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-04-21_0926/starbound.zip"
+                }
+            },
+            "starship.zip": {
+                "version": 4,
+                "name": "starship.zip",
+                "items": [
+                    "Starship.sh",
+                    "starship"
+                ],
+                "items_opt": null,
+                "attr": {
+                    "title": "Starship",
+                    "porter": [
+                        "Jeod"
+                    ],
+                    "desc": "A source port of Star Fox 64. Starship features extensive and significant enhancements over the original game, such as improved performance, increased frame-rate, native ultra-widescreen support, and extensive mod support (especially compared to emulated versions of the original), among other features.",
+                    "desc_md": null,
+                    "inst": "Follow the guide in the readme to generate your sf64.o2r file.",
+                    "inst_md": null,
+                    "genres": [
+                        "action",
+                        "simulation"
+                    ],
+                    "image": {
+                        "screenshot": "screenshot.png",
+                        "covers": [
+                            "cover.png"
+                        ],
+                        "thumbnail": null,
+                        "video": null
+                    },
+                    "rtr": false,
+                    "exp": false,
+                    "runtime": [],
+                    "store": [],
+                    "availability": "free",
+                    "reqs": [],
+                    "arch": [
+                        "aarch64"
+                    ],
+                    "min_glibc": ""
+                },
+                "source": {
+                    "date_added": "2025-06-09",
+                    "date_updated": "2025-06-09",
+                    "md5": "469ebc59d4d29928db8ccc9ae9338622",
+                    "size": 6607449,
+                    "release_id": "2025-06-09_1813",
+                    "url": "https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-06-09_1813/starship.zip"
                 }
             },
             "super.mario.war.zip": {

@@ -1,15 +1,15 @@
 {
     "change_channel": false,
     "disclaimer": true,
-    "featured_ports_checked": "2025-06-03T21:03:49.325955",
+    "featured_ports_checked": "2025-06-10T08:48:51.722390",
     "first-run": false,
     "language": "en_US",
-    "porters_checked": "2025-06-03T21:03:50.362841",
+    "porters_checked": "2025-06-10T08:48:53.740943",
     "ports_info_checked": "2025-05-10T10:18:22.573357",
     "release_channel": "beta",
     "show_experimental": true,
     "theme": "Zelda",
     "theme-scheme": null,
-    "update_checked": null,
+    "update_checked": "2025-06-10T08:52:47.868884",
     "version": 2
 }
