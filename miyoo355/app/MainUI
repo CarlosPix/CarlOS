@@ -85,6 +85,7 @@ fi
 
 # Enable swap
 if [ ! -f "${SWAPFILE}" ]; then
+    fbdisplay /mnt/SDCARD/miyoo355/app/config.png &
 	dd if=/dev/zero of="${SWAPFILE}" bs=1M count=512
 	mkswap "${SWAPFILE}"
 	sync
