@@ -6,6 +6,7 @@ ROMNAME="$1"
 BASEEMU=$(dirname "$0")
 
     cd $MAINSDROOT/Emu/PORT32
+	mkdir -p /mnt/SDCARD/Emu/PORTS32/mnt
     mount -t squashfs miyoo355_rootfs_32.img mnt
     mount --bind /sys mnt/sys
     mount --bind /dev mnt/dev
