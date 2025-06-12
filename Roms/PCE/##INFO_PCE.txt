@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: pce, cue, zip, chd, 7z
+This system is compatible with roms in these filetypes: pce, sgx, cue, ccd, chd, toc, m3u, zip, 7z

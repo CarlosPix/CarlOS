@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: smc, sfc, gd3, gd7, dx2, bsx, swc, zip, 7z
+This system is compatible with roms in these filetypes: smc, fig, sfc, gd3, gd7, dx2, bsx, swc, zip, 7z

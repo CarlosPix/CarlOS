@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: adf, uae, ipf, dms, dmz, adz, lha, hdf, exe, m3u, zip, 7z
+This system is compatible with roms in these filetypes: adf, adz, dms, fdi, ipf, hdf, hdz, lha, slave, info, cue, ccd, nrg, exe, mds, iso, chd, uae, m3u, zip, 7z, rp9

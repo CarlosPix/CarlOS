@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: gb, gbc, zip, 7z
+This system is compatible with roms in these filetypes: gb, gbc, dmg, zip, 7z

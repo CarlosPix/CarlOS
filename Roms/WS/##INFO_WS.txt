@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: wsc, zip, 7z, ws
+This system is compatible with roms in these filetypes: ws, wsc, pc2, pcv2, zip, 7z

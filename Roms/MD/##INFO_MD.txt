@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: bin, gen, md, smd, 32x, zip, 7z
+This system is compatible with roms in these filetypes: bin, gen, smd, md, 32x, cue, iso, chd, sms, gg, sg, sc, m3u, 68k, sgd, pco, zip, 7z

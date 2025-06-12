@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: .pc, .dos, .squashfs, .dosz, .m3u, .iso, .cue
+This system is compatible with roms in these filetypes: pc, dos, squashfs, zip, dosz, exe, com, bat, iso, chd, cue, ins, img, ima, vhd, jrc, tc, m3u, m3u8, conf, 7z

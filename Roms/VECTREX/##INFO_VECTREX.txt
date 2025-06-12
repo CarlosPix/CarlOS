@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: vb, zip, 7z, json
+This system is compatible with roms in these filetypes: bin, vec, zip, 7z

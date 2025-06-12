@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: dsk, mx2, rom, zip, 7z, cas, m3u
+This system is compatible with roms in these filetypes: rom, ri, mx1, mx2, dsk, col, sg, sc, sf, cas, m3u, zip, 7z

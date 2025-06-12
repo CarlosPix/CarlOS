@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: zip, 7z
+This system is compatible with roms in these filetypes: dim, img, d88, 88d, hdm, dup, 2hd, xdf, hdf, cmd, m3u, zip, 7z

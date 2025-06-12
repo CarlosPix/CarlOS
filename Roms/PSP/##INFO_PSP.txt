@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: pbp, cso, iso
+This system is compatible with roms in these filetypes: chd, pbp, cso, iso

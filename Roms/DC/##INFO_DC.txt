@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: chd, cue, cdi, gdi, m3u
+This system is compatible with roms in these filetypes: chd, cdi, elf, bin, cue, gdi, lst, zip, dat, 7z, m3u

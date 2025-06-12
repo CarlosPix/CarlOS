@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: .bin, .gg, .zip, .7z
+This system is compatible with roms in these filetypes: bin, sms, gg, zip, 7z

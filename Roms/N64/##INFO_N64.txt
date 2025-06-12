@@ -1,1 +1,1 @@
-This system is compatible with roms in these filetypes: n64, v64, zip, 7z, z64
+This system is compatible with roms in these filetypes: n64, v64, z64, bin, u1, ndd, zip, 7z
