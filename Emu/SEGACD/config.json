@@ -13,7 +13,7 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist": "cue|iso|chd|m3u",
+    "extlist": "bin|cue|iso|chd|m3u",
     "launchlist": [
         {
             "name": "GENESIS PLUS GX",

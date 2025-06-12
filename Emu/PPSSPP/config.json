@@ -12,7 +12,7 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"pbp|cso|iso",
+    "extlist":"chd|pbp|cso|iso",
     "launchlist": [
         {
             "name": "PPSSPP Performance Mode",

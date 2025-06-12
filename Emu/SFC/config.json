@@ -13,7 +13,7 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"smc|sfc|gd3|gd7|dx2|bsx|swc|zip|7z",
+    "extlist":"smc|fig|sfc|gd3|gd7|dx2|bsx|swc|zip|7z",
     "launchlist": [
         {
             "name": "Snes9x2005",

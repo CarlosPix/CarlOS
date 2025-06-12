@@ -12,7 +12,7 @@
 "useswap":1,
 "shortname":0,
 "hidebios":1,
-"extlist":"chd|cue|cdi|gdi|m3u",
+"extlist":"chd|cdi|elf|bin|cue|gdi|lst|zip|dat|7z|m3u",
 "launchlist": [
         {
             "name": "FLYCAST STANDALONE",

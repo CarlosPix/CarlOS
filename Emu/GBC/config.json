@@ -13,7 +13,7 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"gb|gbc|zip|7z",
+    "extlist":"gb|gbc|dmg|zip|7z",
     "launchlist": [
         {
             "name": "GamBatte",

@@ -13,7 +13,7 @@
 "useswap":0,
 "shortname":0,
 "hidebios":0,
-"extlist":"adf|uae|ipf|dms|dmz|adz|lha|hdf|exe|m3u|zip|7z",
+"extlist":"adf|adz|dms|fdi|ipf|hdf|hdz|lha|slave|info|cue|ccd|nrg|exe|mds|iso|chd|uae|m3u|zip|7z|rp9",
 "launchlist": [
         {
             "name": "PUAE 2021 (Default)",

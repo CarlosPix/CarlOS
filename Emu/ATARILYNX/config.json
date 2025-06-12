@@ -8,6 +8,7 @@
 "rompath":"../../Roms/LYNX",
 "imgpath":"../../Roms/LYNX/media/images",
 "gamelist":"../../Roms/LYNX/gamelist.xml",
+"extlist":"lnx|lyx|o|zip|7z",
 "useswap":1,
 "shortname":0,
 "hidebios":1,

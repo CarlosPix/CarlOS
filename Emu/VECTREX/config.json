@@ -12,5 +12,6 @@
 "gamelist":"../../Roms/VECTREX/gamelist.xml",
 "useswap":0,
 "shortname":0,
-"hidebios":0
+"hidebios":0,
+"extlist": "bin|vec|zip|7z"
 }

@@ -13,5 +13,5 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-	"extlist": "vb|zip|7z|json"
+	"extlist": "vb|vboy|bin|zip|7z"
 }

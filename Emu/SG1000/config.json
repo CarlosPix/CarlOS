@@ -13,5 +13,5 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"bin|sg|zip|7z"
+    "extlist":"mdx|md|smd|gen|bin|cue|iso|sms|bms|gg|sg|68k|sgd|chd|m3u|zip|7z"
 }

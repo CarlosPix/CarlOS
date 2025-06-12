@@ -11,7 +11,7 @@
   "useswap":1,
   "shortname":0,
   "hidebios": 1,
-  "extlist":"cue|chd|iso|7z",
+  "extlist":"bin|ccd|chd|cue|iso|mds|zip|7z",
   "launchlist": [
     {
       "name": "-----------  RETROARCH  -----------",

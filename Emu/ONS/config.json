@@ -10,5 +10,6 @@
 "imgpath":"../../Roms/ONS/media/images",
 "useswap":1,
 "shortname":1,
-"hidebios":1
+"hidebios":1,
+"extlist":"txt|dat|___|nt2|nt3|ons|zip|7z"
 }

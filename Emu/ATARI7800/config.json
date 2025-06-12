@@ -10,6 +10,6 @@
 "gamelist":"../../Roms/ATARI7800/gamelist.xml",
 "useswap":0,
 "shortname":0,
-"extlist":"a78|bin|zip|7z",
+"extlist":"a78|cdf|bin|zip|7z",
 "hidebios":0
 }

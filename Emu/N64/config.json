@@ -13,7 +13,7 @@
 "useswap":1,
     "shortname":0,
     "hidebios":1,
-    "extlist":"n64|v64|zip|7z|z64",
+    "extlist":"n64|v64|z64|bin|u1|ndd|zip|7z",
     "launchlist": [
         {
             "name": "Mupen64Plus",

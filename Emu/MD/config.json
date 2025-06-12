@@ -13,7 +13,7 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"bin|gen|md|smd|32x|zip|7z",
+    "extlist":"bin|gen|smd|md|32x|cue|iso|chd|sms|gg|sg|sc|m3u|68k|sgd|pco|zip|7z",
     "launchlist": [
         {
             "name": "PICODRIVE",

@@ -13,7 +13,7 @@
 "useswap":0,
 "shortname":0,
 "hidebios":0,
-"extlist":"d64|d81|crt|prg|tap|t64|m3u|zip|7z",
+"extlist":"d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|zip|7z",
 "launchlist": [
         {
             "name": "VICE_X64 (Default)",

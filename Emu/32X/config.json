@@ -12,5 +12,5 @@
     "useswap": 0,
     "shortname": 1,
     "hidebios": 0,
-    "extlist": "cue|iso|chd|zip|7z"
+    "extlist": "bin|gen|32x|cue|iso|chd|zip|7z"
 }

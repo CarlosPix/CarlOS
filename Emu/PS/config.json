@@ -13,7 +13,7 @@
 "useswap":1,
 "shortname":0,
 "hidebios":1,
-"extlist":"bin|cue|img|mdf|pbp|toc|cbn|m3u|chd|7z",
+"extlist":"bin|cue|img|mdf|pbp|toc|cbn|m3u|ccd|chd|iso|exe|zip|7z",
 "launchlist": [
 		{
             "name": "PCSX_REARMED",

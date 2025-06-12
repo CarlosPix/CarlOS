@@ -13,5 +13,5 @@
     "useswap":0,
     "shortname":0,
     "hidebios":0,
-    "extlist":"sv|zip|7z"
+    "extlist":"bin|sv|zip|7z"
 }

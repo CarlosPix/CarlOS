@@ -8,6 +8,7 @@
 "rompath":"../../Roms/GG",
 "imgpath":"../../Roms/GG/media/images",
 "gamelist":"../../Roms/GG/gamelist.xml",
+"extlist":"bin|sms|gg|zip|7z",
 "useswap":1,
 "shortname":0,
 "hidebios":1

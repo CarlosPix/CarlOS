@@ -12,5 +12,6 @@
 "gamelist":"../../Roms/X68000/gamelist.xml",
 "useswap":0,
 "shortname":0,
-"hidebios":0
+"hidebios":0,
+"extlist":"dim|img|d88|88d|hdm|dup|2hd|xdf|hdf|cmd|m3u|zip|7z"
 }

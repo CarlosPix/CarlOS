@@ -11,5 +11,5 @@
 "useswap":0,
 "shortname":0,
 "hidebios":0,
-"extlist":"pc|dos|squashfs|dosz|m3u|iso|cue|exe|bat|zip|7z"
+"extlist":"pc|dos|squashfs|zip|dosz|exe|com|bat|iso|chd|cue|ins|img|ima|vhd|jrc|tc|m3u|m3u8|conf|7z"
 }
