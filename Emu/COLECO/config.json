@@ -1,0 +1,15 @@
+{
+"label":"COLECO",
+"icon":"ic-coleco.png",
+"iconsel":"ic-coleco-80-n.png",
+"background":"BG.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/COLECO",
+"imgpath":"../../Roms/COLECO/media/images",
+"gamelist":"../../Roms/COLECO/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"bin|col|rom|zip|7z"
+}

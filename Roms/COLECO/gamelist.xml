@@ -1,0 +1,2363 @@
+﻿<?xml version="1.0"?>
+<gameList>
+  <provider>
+    <System>Colecovision</System>
+    <software>Skraper</software>
+    <database>ScreenScraper.fr</database>
+    <web>http://www.screenscraper.fr</web>
+  </provider>
+  <game id="38060" source="ScreenScraper.fr">
+    <path>2010 - The Graphic Action Game.zip</path>
+    <name>2010 - The Graphic Action Game</name>
+    <desc>This is a game based on the movie, 2010: The Year We Made Contact.
+
+You are an astronaut aboard the Discovery and need to repair its systems before it crashes into Jupiter's moon, Io. Time is limited so do not dawdle or the Discovery will be destroyed.
+
+You move the reticule over a trouble spot and press the A button to begin repairs. You must then select a path for the power to run so it powers all the components on that circuit board then move on. 
+
+If the floating ring touches a component while you are at it or you create a feedback loop, you will damage the component and will need to repair it  before you can continue, costing you time.
+
+Sometimes, you will need to return to a circuit to repair a component then restart it.</desc>
+    <rating>0.55</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Estrategia</genre>
+    <players>1</players>
+    <image>./media/images/2010 - The Graphic Action Game.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="154923" source="ScreenScraper.fr">
+    <path>Adam Links Golf.zip</path>
+    <name>Adam Links Golf</name>
+    <releasedate />
+    <publisher>Superior Software</publisher>
+    <genre>Deportes / Golf-Deportes</genre>
+    <players>1</players>
+    <image>./media/images/Adam Links Golf.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="38062" source="ScreenScraper.fr">
+    <path>Alcazar - The Forgotten Fortress.zip</path>
+    <name>Alcazar - The Forgotten Fortress</name>
+    <desc>En este juego de aventuras, controlas a un explorador que se dirige a la fortaleza Alcázar. Para llegar al Alcazar, estás viajando a través de un campo de fortalezas y necesitas recolectar varios artículos que puedes encontrar en el camino. 
+Una vez que ingrese a la fortaleza del Alcázar, debe buscar la corona. 
+</desc>
+    <releasedate>19850101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Aventura</genre>
+    <players>1</players>
+    <image>./media/images/Alcazar - The Forgotten Fortress.png</image>
+    <genreid>512</genreid>
+  </game>
+  <game id="38063" source="ScreenScraper.fr">
+    <path>Alphabet Zoo.zip</path>
+    <name>Alphabet Zoo</name>
+    <desc>Alphabet Zoo es un juego de vista superior donde el jugador corre alrededor de un laberinto, evitando criaturas enemigas. Sin embargo, el giro es que cada laberinto tiene una representación gráfica de un objeto en el medio ... y depende del jugador recoger las letras esparcidas por el laberinto, en el orden correcto, deletrear el nombre del objeto. La dificultad se puede ajustar para enfocarse en consonantes, vocales o el alfabeto completo.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Spinnaker Software</developer>
+    <publisher>Spinnaker Software</publisher>
+    <genre>Varios-Educacional</genre>
+    <players>1-2</players>
+    <image>./media/images/Alphabet Zoo.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44398" source="ScreenScraper.fr">
+    <path>Amazing Bumpman.zip</path>
+    <name>Amazing Bumpman</name>
+    <desc>You help Amazing Bumpman to move on the grid by moving the white numbers to the right places in the center of the grid. The game has never been delivered with the official box or any box by the way. It was only delivered with the cartridge and the paper manual.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>VSS</developer>
+    <publisher>Telegames</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Amazing Bumpman.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38064" source="ScreenScraper.fr">
+    <path>Antarctic Adventure.zip</path>
+    <name>Antarctic Adventure</name>
+    <desc>Como un pingüino, tienes que viajar alrededor de la Antártida, avanzando entre las bases antes de que acabe el tiempo. Esto parece fácil, ¿verdad? Error. Obstaculizado tu progreso encontrarás grietas de hielo y focas leopardo. Puedes saltar por encima de las grietas, pero saltar por encima de las focas puede ser difícil. Puedes acelerar o ralentizar al pingüino para evitar ambos peligros. Las bases incluyen Australia, Francia, Nueva Zelanda, EE.UU., Argentina, Reino Unido y Japón. Puedes recoger banderas y comer peces para conseguir puntos. Si consigues una bandera intermitente te permitirá llevar una hélice que te permiten volar sobre esos peligros.</desc>
+    <rating>0.65</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Antarctic Adventure.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38065" source="ScreenScraper.fr">
+    <path>Aquattack.zip</path>
+    <name>Aquattack</name>
+    <desc>You, as agent Captain Blitztek, have to find a way through enemy territory to prevent the Axtoatles from taking control of the world. The mission will be aborted if the defenders inflict more than nine damage points on you.
+A game point system has been devised to further measure your skills as a navigator and survivor.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Interphase Technologies</developer>
+    <publisher>Interphase Technologies</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Aquattack.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38066" source="ScreenScraper.fr">
+    <path>Artillery Duel.zip</path>
+    <name>Artillery Duel</name>
+    <desc>In this two player game each player controls an artillery gun set in a mountain landscape with the goal of destroying the other player. Players take turns firing at each other; on each turn you have a limited amount of time in which the barrel angle and powder level can be set in order to control the direction and distance of the shot. When deciding on your shot, you will need to take the current conditions into account, which includes wind speed/direction and any mountains that may get in your way. Successfully destroying your opponents gun will earn you a point, and the first player to reach the set number of points wins the game. There are multiple skill levels available which set the amount of time you have to make a shot.</desc>
+    <rating>0.65</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Artillery Duel.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38068" source="ScreenScraper.fr">
+    <path>BC II - Grog's Revenge.zip</path>
+    <name>B.C. II: Grog's Revenge</name>
+    <desc>Thor has completed his Quest for Tires. Now he must discover the Meaning of Life.
+But it won't be easy. The Meaning of Life is hidden away; somewhere in a long maze of mountains.
+Each mountain is covered with clams and Thor needs to gather 100 clams in order to pay the tolls and advance through each mountain.
+The only way to Peter and the toll bridge is through the "real scary caves". There are lots of clams in the caves but watch out for stalagmites. Keep Thor's headlight sweeping back and forth for maximum clams.
+Out of the cave, watch out for Grog, who saves clams from Thor.
+Thor also has contend with rocks, potholes and pterodactyls (they'll eat his wheel) in his Quest for Clams and the Meaning of Life.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Sydney Development</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Carreras, Conducción-Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/BC II - Grog's Revenge.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38069" source="ScreenScraper.fr">
+    <path>BC I - BC's Quest for Tires.zip</path>
+    <name>BC's Quest for Tires</name>
+    <desc>Cute Chick is in trouble! She is being held captive by the dinosaur, and it is up to Thor to ride his trusty wheel to the rescue. There are many obstacles in the way which Thor will need to jump and duck, including rocks, trees, rivers, lava pits, cliffs, and of course Fat Broad. When you duck, the character bounces up and down, so don't duck too soon. BC's Quest For Tires is a side scrolling action game resembling Moon Patrol in some ways, featuring characters from the comic strip BC.</desc>
+    <rating>0.95</rating>
+    <releasedate>19831101T000000</releasedate>
+    <developer>Sydney Development</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/BC I - BC's Quest for Tires.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38070" source="ScreenScraper.fr">
+    <path>Beamrider.zip</path>
+    <name>Beamrider</name>
+    <desc>Beamrider es un juego de acción arcade en 3-D. Controlas una nave espacial que monta un rayo en una misión para despejar 99 sectores del espacio de alienígenas hostiles. La nave espacial está ubicada en la parte inferior de la pantalla y solo puede detenerse en uno de los cinco haces. Estás armado con láser y torpedos; los torpedos son más poderosos y pueden destruir más enemigos en comparación con los láseres, sin embargo, solo obtienes tres por nivel. Para completar un sector, debes destruir quince platillos voladores blancos. Después de que se destruyen todos los platillos, pasa el centinela del sector, que puede ser destruido para obtener puntos extra. Cada sector de número par hasta el sector 16 agregará un nuevo tipo de enemigo con el que lidiar. Estos enemigos adicionales solo intentarán ralentizar tu misión, sin embargo, solo es necesario destruir los platillos para avanzar. De vez en cuando aparecerá un rechazador; si lo recolecta, puede ganar una vida extra. Pero ten cuidado, porque si disparas accidentalmente al rechazador, ¡se convertirá en un enemigo!</desc>
+    <rating>0.75</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Acción</genre>
+    <players>1-4</players>
+    <image>./media/images/Beamrider.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38071" source="ScreenScraper.fr">
+    <path>Blockade Runner.zip</path>
+    <name>Blockade Runner</name>
+    <desc>A 3D shoot 'em up. You have to guide a fleet of four merchant space freighters to Earth with vital supplies. Hostile aliens have sighted you and forced you enter a dangerous asteroid belt. And now, you must try to avoid these asteroids, to destroy the Robot mines and alien space ships and also contend with fuel shortages and prevent the deflector shields from over-heating.</desc>
+    <rating>0.4</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Interphase Technologies</developer>
+    <publisher>Interphase Technologies</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Blockade Runner.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38072" source="ScreenScraper.fr">
+    <path>Boulder Dash.zip</path>
+    <name>Boulder Dash</name>
+    <desc>Eres Rockford y tienes que cavar a través de cuevas infestadas de monstruos en busca de diamantes. En cada nivel debes recolectar una cierta cantidad de estos diamantes, para poder abrir un portal a la siguiente etapa. Los enemigos pueden ser aplastados por la caída de rocas, que se sueltan cuando se quita el suelo debajo de ellos o se empujan a un terreno vacío, pero ten cuidado porque también pueden aplastarte. En los niveles posteriores, la dificultad aumenta con muchos elementos de rompecabezas y límites de tiempo más cortos.</desc>
+    <rating>0.6</rating>
+    <releasedate>19841201T000000</releasedate>
+    <developer>First Star Software</developer>
+    <publisher>Micro Fun</publisher>
+    <genre>Acción / Laberinto-Puzzle-Acción</genre>
+    <players>1</players>
+    <image>./media/images/Boulder Dash.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="38073" source="ScreenScraper.fr">
+    <path>Brain Strainers.zip</path>
+    <name>Brain Strainers</name>
+    <desc>Una colección de dos juegos/herramientas educativas separados. 
+ 
+El primer juego es "Sigue al Líder", donde se repite un patrón utilizando un círculo de 4 colores. Al hacer un seguimiento de los tonos generados o de los colores que destellan, el jugador puede copiar la secuencia para continuar. Las dificultades más altas aumentan la velocidad y permiten solo la identificación de tonos de las secuencias. Además, lleva un registro de la mejor cantidad de identificaciones correctas seguidas. 
+ 
+El segundo juego es "Ascenso de la Clave", donde se le da al jugador un tono que corresponde a una cierta nota musical y debe igualar la nota que se está reproduciendo. Las dificultades más bajas proporcionan un tono constante al que referirse y ayuda visual sobre la nota que se está utilizando. Las dificultades más altas proporcionan una sola reproducción del tono y no hay ayuda visual.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Carousel Software</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Música y Baile</genre>
+    <players>1-2</players>
+    <image>./media/images/Brain Strainers.png</image>
+    <genreid>266</genreid>
+  </game>
+  <game id="38074" source="ScreenScraper.fr">
+    <path>Super Buck Rogers.zip</path>
+    <name>Buck Rogers - Planet Of Zoom</name>
+    <desc>Fast and furious racing game taking place on a futuristic racetrack.  Guide your spaceship between the pylons and shoot down other enemy racers.
+
+Based on the arcade game (which is even more loosely based on the Buck Rogers comic strips).</desc>
+    <rating>0.45</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/Super Buck Rogers.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38074" source="ScreenScraper.fr">
+    <path>Buck Rogers - Planet Of Zoom.zip</path>
+    <name>Buck Rogers : Planet Of Zoom</name>
+    <desc>Fast and furious racing game taking place on a futuristic racetrack.  Guide your spaceship between the pylons and shoot down other enemy racers.
+
+Based on the arcade game (which is even more loosely based on the Buck Rogers comic strips).</desc>
+    <rating>0.45</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/Buck Rogers - Planet Of Zoom.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38075" source="ScreenScraper.fr">
+    <path>Bump 'n' Jump.zip</path>
+    <name>Bump 'n' Jump</name>
+    <desc>Bump 'N' Jump is an action racing game played from a top down point of view. As you race through the treacherous and ever changing roadways, the numerous enemy cars will be trying to bump you off the road. You need to make sure you bump the cars out of the way before you get bumped and crash into the sides yourself! Your car also has the ability to jump quite high if you have enough speed. This is useful to jump over enemy cars if there are too many in the way, and must also be used to jump gaps in the roadway and other highway obstacles. As the levels progress, the road becomes narrower with more obstacles in the way, and the other cars increase in number and in aggressiveness.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Data East</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1-2</players>
+    <image>./media/images/Bump 'n' Jump.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38076" source="ScreenScraper.fr">
+    <path>Burgertime (Alternate).zip</path>
+    <name>Burgertime</name>
+    <desc>Nuestro protagonista es Chef Pepper y su objetivo es hacer hamburguesas mientras huevos, salchichas y pepinillos malvados le persiguen por el área de juego. 
+ 
+Para hacer una hamburguesa debes reunir todos los ingredientes y dejarlos caer desde arriba hasta el área de la hamburguesa que se encuentra abajo. Chef Pepper debe pasar por todos los ingredientes de la hamburguesa. Tan pronto como pise un ingrediente (un trozo de lechuga, por ejemplo), caerá al siguiente nivel. La comida que caiga aplastará a cualquier enemigo que te siga y también golpeará cualquier otro ingrediente que se encuentre debajo. Como defensa puedes recolectar pimenteros que te permitirán expulsar una pequeña nube de pimienta que aturdirá momentáneamente a los enemigos, permitiéndote pasar junto a ellos sin recibir daño. 
+ 
+Conforme avances de nivel los enemigos serán más rápidos y habrá más ingredientes para montar tu hamburguesa.</desc>
+    <rating>0.85</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Nice Ideas</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Burgertime (Alternate).png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38076" source="ScreenScraper.fr">
+    <path>Burgertime.zip</path>
+    <name>Burgertime</name>
+    <desc>Nuestro protagonista es Chef Pepper y su objetivo es hacer hamburguesas mientras huevos, salchichas y pepinillos malvados le persiguen por el área de juego. 
+ 
+Para hacer una hamburguesa debes reunir todos los ingredientes y dejarlos caer desde arriba hasta el área de la hamburguesa que se encuentra abajo. Chef Pepper debe pasar por todos los ingredientes de la hamburguesa. Tan pronto como pise un ingrediente (un trozo de lechuga, por ejemplo), caerá al siguiente nivel. La comida que caiga aplastará a cualquier enemigo que te siga y también golpeará cualquier otro ingrediente que se encuentre debajo. Como defensa puedes recolectar pimenteros que te permitirán expulsar una pequeña nube de pimienta que aturdirá momentáneamente a los enemigos, permitiéndote pasar junto a ellos sin recibir daño. 
+ 
+Conforme avances de nivel los enemigos serán más rápidos y habrá más ingredientes para montar tu hamburguesa.</desc>
+    <rating>0.85</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Nice Ideas</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Burgertime.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38077" source="ScreenScraper.fr">
+    <path>Cabbage Patch Kids-Advntrs in the Park.zip</path>
+    <name>Cabbage Patch Kids - Adventures in the Park</name>
+    <desc>Tu jugador es un niño Cabbage Patch con coletas que está teniendo un día en el parque. Un día que incluye saltar sobre enredaderas, saltar sobre agujeros y rebotar sobre plataformas correctas. Un salto mal ubicado hará que pierdas una vida y además hay algunas criaturas como abejas que terminan el turno del jugador al tocarlas. 
+ 
+Hay varias pantallas de desafío con diferentes combinaciones de obstáculos.</desc>
+    <rating>0.8</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Cabbage Patch Kids-Advntrs in the Park.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="108723" source="ScreenScraper.fr">
+    <path>Cabbage Patch Kids - Picture Show.zip</path>
+    <name>Cabbage Patch Kids Picture Show</name>
+    <desc>Gameplay is identical to that of Smurf Paint &amp; Play Workshop, in that players can draw and create their own scenes, or choose from any one of four background scenes and start to add clip-art objects, furniture and free form design.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Varios / Print Club-Varios</genre>
+    <players>1-2</players>
+    <image>./media/images/Cabbage Patch Kids - Picture Show.png</image>
+  </game>
+  <game id="44399" source="ScreenScraper.fr">
+    <path>Campaign '84.zip</path>
+    <name>Campaign '84</name>
+    <desc>La trama involucra al jugador que hace campaña en los Estados Unidos continentales para convertirse en presidente de los Estados Unidos. El jugador tiene una cantidad limitada de tiempo para jugar, así como eventos aleatorios que pueden surgir. El jugador debe concentrarse en muchos temas cómicos como reducir el desempleo de Pet Rock o controlar las pistolas de agua.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sunrise Software</developer>
+    <publisher>Sunrise Software</publisher>
+    <genre>Simulación</genre>
+    <players>1-2</players>
+    <image>./media/images/Campaign '84.png</image>
+    <genreid>1024</genreid>
+  </game>
+  <game id="38078" source="ScreenScraper.fr">
+    <path>Carnival.zip</path>
+    <name>Carnival</name>
+    <desc>You are at the carnival, and are going to take a chance at the shooting gallery! Your goal is to earn as many points as possible by shooting the various targets before you run out of bullets. In addition to the assorted targets that float by, there are boxes which can be shot to earn additional bullets. You also need to be careful of the ducks! From time to time, a duck will fly down and eat some of your bullets if you don't shoot it first. You move on to the next round of gameplay when the rack has been cleared of all the targets, and the game ends when you use up all of your bullets.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Disparos / Tipo Space Invaders-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Carnival.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38079" source="ScreenScraper.fr">
+    <path>Centipede.zip</path>
+    <name>Centipede</name>
+    <desc>En el juego, el jugador controla un pequeño personaje con forma de insecto en la parte inferior de la pantalla, mientras que los insectos caen rápidamente desde la parte superior. El objetivo es disparar a los insectos para evitar que lleguen al suelo, utilizando una trackball para mover al personaje y disparar láseres. Cada vez que se dispara a la cabeza de un gusano, aparece un hongo, pero si se le dispara al cuerpo, se crea otro gusano. Si un gusano llega al suelo, se moverá hacia arriba añadiéndose segmentos cada vez que alcance el límite del área de movimiento del jugador. Si un enemigo toca al jugador, como una araña, una pulga o un escorpión, se pierde una vida. El juego cuenta con múltiples enemigos y obstáculos, y el objetivo es sobrevivir el mayor tiempo posible mientras se destruyen los gusanos y se protegen los hongos. Si se pierden todas las vidas, el juego termina.</desc>
+    <rating>0.75</rating>
+    <releasedate>19831201T000000</releasedate>
+    <developer>Atari</developer>
+    <publisher>Atarisoft</publisher>
+    <genre>Disparos / Tipo Space Invaders-Disparos</genre>
+    <players>1</players>
+    <image>./media/images/Centipede.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38080" source="ScreenScraper.fr">
+    <path>Choplifter!.zip</path>
+    <name>Choplifter!</name>
+    <desc>Choplifter es un juego de acción / arcade de desplazamiento lateral que te pone al mando de un helicóptero de ataque. Tu misión: ir tras las líneas enemigas y rescatar hasta 16 rehenes por nivel. Sin embargo, ten cuidado, porque los tanques y los aviones enemigos intentarán detenerte, ¡y no dejarán de disparar mientras rescates a esos rehenes! </desc>
+    <rating>0.5</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Brøderbund Software</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Choplifter!.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38081" source="ScreenScraper.fr">
+    <path>Chuck Norris - Super Kicks.zip</path>
+    <name>Chuck Norris Superkicks</name>
+    <desc>En este juego de acción, interpretas a Chuck Norris en una misión para llegar a un monasterio donde un importante líder está siendo retenido como rehén. El juego consiste en varias pantallas diferentes: al comienzo y entre peleas, verás una vista del camino que conduce al monasterio. Caminando por el camino, encontrarás numerosos enemigos. Durante las peleas, la vista cambia a un acercamiento de tu ubicación actual. Al presionar el botón del joystick y mover el joystick en una de las cuatro direcciones, puedes realizar varios tipos de patadas, puñetazos y bloqueos. Los enemigos que encuentras son variados y algunos solo pueden ser derrotados con ciertos movimientos. El camino que recorres a veces se divide en dos o más opciones; cuando esto sucede, solo una opción es correcta y las demás son callejones sin salida. Si eliges incorrectamente, tendrás que retroceder un poco e intentarlo de nuevo. Comenzando como cinturón blanco, aumentarás lentamente de rango a medida que ganes peleas. ¡Para derrotar a los mortales ninjas del interior del monasterio, necesitas alcanzar el estado de cinturón negro! Tu misión debe completarse dentro de un límite de tiempo, o el juego se acaba. Salir del camino o perder peleas también te hará perder aún más tiempo.</desc>
+    <rating>0.6</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Chuck Norris - Super Kicks.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38082" source="ScreenScraper.fr">
+    <path>Congo Bongo.zip</path>
+    <name>Congo Bongo</name>
+    <desc>An extremely faithful port of the famous jump-n-run platform arcade game.  Run, jump, and climb your way through a dangerous jungle while avoiding various animals and projectiles.
+
+Includes the introductory animations and features the arcade version's sliding screen transitions.</desc>
+    <rating>0.45</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Congo Bongo.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38083" source="ScreenScraper.fr">
+    <path>Cosmic Avenger.zip</path>
+    <name>Cosmic Avenger</name>
+    <desc>Cosmic Avenger es un juego de disparos de desplazamiento lateral basado en el juego de arcade. Eres el piloto de un caza espacial en una peligrosa misión sobre un planeta alienígena hostil. Tu objetivo es ganar tantos puntos como puedas usando tus misiles y bombas para destruir a los diversos enemigos que encontrarás. Los alienígenas están armados con mortíferos misiles, ovnis, cúpulas de combustible, pistolas de bombardeo, torpedos, minas, tanques y más. ¡Tienes que destruir tantos como puedas antes de que te destruyan a ti!</desc>
+    <rating>0.7</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Gordon Martin &amp; Associates</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/Cosmic Avenger.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="44401" source="ScreenScraper.fr">
+    <path>Cosmic Crisis.zip</path>
+    <name>Cosmic Crisis</name>
+    <desc>Feel that secret joy of the demons? As it Is so badly haunted by those energetic demons, it seems that, this time, the world is terribly drawing to the crisis of surviving. In front of you will be the toughest enemies over met and you get to rely on yourself alone. No fighting though, it wouldn't do you any good; the only chance Is the hammer In your hand and the intelligence in your head. Got it? Fine, now start and win a beautiful victory!</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Bit</developer>
+    <publisher>Bit</publisher>
+    <genre>Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Cosmic Crisis.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38084" source="ScreenScraper.fr">
+    <path>Cye.zip</path>
+    <name>Cye</name>
+    <desc>Cye is a puzzle game, mostly a clone of Kye, similar to Boulder Dash, with elements of Sokoban, Crystal Mines and Pac-Man. The goal is to collect all the on-screen diamonds to clear each level. To do so, the player must traverse the maze-like screen, moving rocks and avoiding enemies in order to accomplish this goal. The game contains 28 levels of play, including a two-player, co-op mode.
+
+Only 52 cartridges were produced. The developer kept two for himself and sold the remaining ones to attendees of the Classic Gaming Expo 2007.</desc>
+    <releasedate>20080101T000000</releasedate>
+    <developer>Good Deal Games</developer>
+    <publisher>Good Deal Games</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Cye.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38085" source="ScreenScraper.fr">
+    <path>Dac-Man.zip</path>
+    <name>Dacman</name>
+    <desc>DacMan is an attempt to bring a version of Pac-Man to the ColecoVision. The game looks similar to Pac-Man but only has three ghosts. The game play is the same. Move about the maze, eating all the dots and avoiding the ghosts. If you eat a power pellet, the ghosts turn blue then you can eat them for points. Also on the cartridge, starting with version 1.3, is a hidden game called DacPong!. This is just like Pong except the ball is the Pac-Man character.</desc>
+    <releasedate>20000101T000000</releasedate>
+    <developer>Daniel Bienvenu</developer>
+    <publisher>Homebrew</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Dac-Man.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44402" source="ScreenScraper.fr">
+    <path>Dance Fantasy.zip</path>
+    <name>Dance Fantasy</name>
+    <desc>There are eight dance steps to choose from and endless ways to put them together. You decide how long your dance is, where the dancers move, and how they dance together. And that creates the freedom children need to stretch their imaginations and create their own special works of art.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Fisher-Price</developer>
+    <publisher>Fisher-Price</publisher>
+    <genre>Música y Baile</genre>
+    <players>1</players>
+    <image>./media/images/Dance Fantasy.png</image>
+    <genreid>266</genreid>
+  </game>
+  <game id="38087" source="ScreenScraper.fr">
+    <path>Defender.zip</path>
+    <name>Defender</name>
+    <desc>Defender puso a los jugadores a cargo de una nave enviada para proteger a la humanidad de una ola tras otra de fuerzas alienígenas atacantes. 
+ 
+Armado con "bombas inteligentes" y la capacidad de usar el hiperespacio para moverse rápidamente por el planeta, la nave del jugador debe luchar contra Bombers, Pods, Swarmers, Baiters y Landers, que pueden capturar a los humanoides y transformarlos en mutantes letales e implacables. . Si no logras salvar a los humanoides de la caída libre o la transformación mutante, el planeta será destruido. 
+ 
+Defender de Eugene Jarvis ha sido ampliamente considerado como uno de los tiradores espaciales más populares y adictivos de principios de la década de 1980.</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Williams Electronics</developer>
+    <publisher>Atarisoft</publisher>
+    <genre>Shoot'em Up-Shoot'em Up / Horizontal</genre>
+    <players>1-2</players>
+    <image>./media/images/Defender.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38088" source="ScreenScraper.fr">
+    <path>Destructor.zip</path>
+    <name>Destructor</name>
+    <desc>Tu crucero estelar aterriza en la ciudad hostil de Araknid para recolectar cristales preciosos que se necesitan desesperadamente en la tierra. Tu equipo: el poderoso Ram-car. ¡Usa tu coche Ram para golpear a los Krystaloids, transformándolos en preciosos Cristales! ¡Pero ten cuidado con el malvado Destructor y los mortales Insektoids, protectores de los Krystaloids! ¿Puedes recolectar los invaluables Cristales con forma de joya y volar a casa? 
+ 
+Este es uno de los pocos juegos de Colecovision que utiliza el Módulo de expansión n. ° 2, el controlador del volante. 
+ 
+Conduces tu Ram-car blindado a través del laberinto de Araknid en busca de insectos Krystaloid. Colócalos para formar Cristales, luego empuja los Cristales hacia el crucero estelar.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1</players>
+    <image>./media/images/Destructor.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="154944" source="ScreenScraper.fr">
+    <path>Diablo.zip</path>
+    <name>Diablo</name>
+    <releasedate />
+    <image>./media/images/Diablo.png</image>
+  </game>
+  <game id="44403" source="ScreenScraper.fr">
+    <path>Dig Dug.zip</path>
+    <name>Dig Dug</name>
+    <desc>En Dig Dug, libra una guerra subterránea con tu fiel arpón. Tendrás que derrotar al duro Pooka y al feroz Fygar para avanzar al siguiente nivel. 
+Haz explotar a tus enemigos para que revienten o lánzales rocas. Conseguirás puntos por deshacerte de ellos o por recoger objetos de bonificación. 
+Este juego clásico es a la vez un juego de acción arcade de la vieja escuela y un juego de estrategia. ¡Atrae a tus enemigos hacia donde quieras que estén y aplástalos con las rocas!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Atari</publisher>
+    <genre>Acción / Laberinto-Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Dig Dug.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="38090" source="ScreenScraper.fr">
+    <path>Donkey Kong Jr (ADAM).zip</path>
+    <name>Donkey Kong Junior</name>
+    <desc>Donkey Kong Junior se lanzó originalmente en recreativas en 1982 como secuela del celebre Donkey Kong. En este juego Donkey Kong, es capturado por el fontanero de Nintendo Mario, que en esta aventura ejerce por única vez de villano. Los jugadores tendrán que recorrer cuatro niveles diferentes (Vines, Springboard, Chains y Mario's Hideout) intentando encontrar las llaves para liberar a Donkey Kong. Mario enviará enemigos para intentar detener a Junior. Junior puede defenderse dejando caer frutas que se encuentran en el nivel sobre las cabezas de sus enemigos. Cuantos más enemigos golpee una pieza de fruta en la caída, mayores puntos de bonificación se consiguen. También hay que tener cuidado con los cocodrilos que se mueven sobre ellos. 
+Superados los cuatro niveles, juego comenzará de nuevo con una dificultad mayor.</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Donkey Kong Jr (ADAM).png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38090" source="ScreenScraper.fr">
+    <path>Donkey Kong Jr.zip</path>
+    <name>Donkey Kong Junior</name>
+    <desc>Donkey Kong Junior se lanzó originalmente en recreativas en 1982 como secuela del celebre Donkey Kong. En este juego Donkey Kong, es capturado por el fontanero de Nintendo Mario, que en esta aventura ejerce por única vez de villano. Los jugadores tendrán que recorrer cuatro niveles diferentes (Vines, Springboard, Chains y Mario's Hideout) intentando encontrar las llaves para liberar a Donkey Kong. Mario enviará enemigos para intentar detener a Junior. Junior puede defenderse dejando caer frutas que se encuentran en el nivel sobre las cabezas de sus enemigos. Cuantos más enemigos golpee una pieza de fruta en la caída, mayores puntos de bonificación se consiguen. También hay que tener cuidado con los cocodrilos que se mueven sobre ellos. 
+Superados los cuatro niveles, juego comenzará de nuevo con una dificultad mayor.</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Donkey Kong Jr.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38089" source="ScreenScraper.fr">
+    <path>Donkey Kong.zip</path>
+    <name>Donkey Kong</name>
+    <desc>Donkey Kong es un juego de plataformas en el que Mario escala cuatro niveles de temática industrial (zona de construcción, fábrica de cemento, un nivel con temática de ascensor y eliminación de remaches de vigas) en un intento por salvar a Pauline, del malvado gorila, que te lanzará rodando barriles para evitar que alcances tu objetivo antes de que se acabe el tiempo. 
+Lanzado en las salas de juegos en 1981, Donkey Kong no sólo fue el primer gran éxito de Nintendo para la compañía, sino que también marcó la introducción de dos de sus mascotas más populares: Mario (originalmente "Jumpman") y Donkey Kong.</desc>
+    <rating>0.7</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>CBS Electronics</publisher>
+    <genre>Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Donkey Kong.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38092" source="ScreenScraper.fr">
+    <path>Dr Seuss's Fix-Up The Mix-Up Puzzler.zip</path>
+    <name>Dr. Seuss's Fix-up The Mix-up Puzzler</name>
+    <desc>En la pantalla hay tres imágenes de los personajes del Dr. Seuss (como el Gato en el Sombrero, el Grinch y más ...) de pie uno al lado del otro. Con solo tocar un botón, todas sus partes (cabeza, cuerpo, pies) se mezclan y el jugador debe volver a unirlas. El tablero de juego se muestra como una cuadrícula de 3x3. Solo se puede "sujetar" una pieza a la vez, dejando un espacio en blanco en el tablero al que se pueden mover otras piezas del rompecabezas. Los niveles más difíciles introducen conceptos como la rotación en la mezcla. Unir dos o tres partes de cualquier criatura produce un reconocimiento animado en forma de movimiento. Emparejar todas las partes de todas las criaturas juntas gana.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Puzzle</genre>
+    <players>1</players>
+    <image>./media/images/Dr Seuss's Fix-Up The Mix-Up Puzzler.png</image>
+    <genreid>2816</genreid>
+  </game>
+  <game id="38091" source="ScreenScraper.fr">
+    <path>DragonFire.zip</path>
+    <name>DragonFire</name>
+    <desc>¡Los tesoros del rey han sido robados! Como joven y audaz príncipe, tu objetivo es recuperarlos a todos. Los tesoros se guardan en diferentes castillos, cada uno custodiado por un dragón de fuego. Cada nivel del juego tiene dos partes, primero tienes que cruzar el puente levadizo del castillo. ¡Tendrás que saltar y esquivar las bolas de fuego de los dragones y evitar las flechas voladoras para llegar al otro lado! En la segunda parte, tienes que recoger todos los tesoros de la pantalla y ponerlos en un lugar seguro mientras evitas al dragón que corre por la parte inferior de la pantalla. Los dragones de cada nivel tienen diferentes patrones de movimiento y disparo, y a medida que avanzan los niveles se vuelven más rápidos y complicados.</desc>
+    <rating>0.85</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/DragonFire.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="154945" source="ScreenScraper.fr">
+    <path>Dragon's Lair.zip</path>
+    <name>Dragon's Lair</name>
+    <desc>Known as the granddaddy of the ?Quick Time Event?, Dragon's Lair is an interactive cartoon that lets players help guide the actions of brave knight Dirk the Daring, as he ventures through the dangerous castle of Singe the Dragon in order to rescue his beloved princess Daphne.</desc>
+    <releasedate />
+    <image>./media/images/Dragon's Lair.png</image>
+  </game>
+  <game id="38094" source="ScreenScraper.fr">
+    <path>Escape From The Mind Master.zip</path>
+    <name>Escape from the Mind Master</name>
+    <desc>¡Te secuestraron! Estás en un laberinto desafiado por el Maestro de la Mente. Encuentra piezas, evita al Acechador Alienígena y completa pruebas de habilidad. Administra tus oportunidades y puntajes mientras avanzas por seis laberintos. Obtén la mejor puntuación y descubre la impresión del Maestro de la Mente sobre la humanidad. ¡Supera este desafío en Mindmaster's Maze!</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Starpath</developer>
+    <genre>Aventura</genre>
+    <players>1</players>
+    <image>./media/images/Escape From The Mind Master.png</image>
+    <genreid>512</genreid>
+  </game>
+  <game id="38095" source="ScreenScraper.fr">
+    <path>Evolution.zip</path>
+    <name>Evolution</name>
+    <desc>Evolution is an arcade style action game with six levels where you need to evolve from an amoeba to a human. Each level is a different stage in evolution with it's own unique goals. The first level is the amoeba stage where you need to eat all the DNA on the screen while avoiding the spores, microbes, and antibodies that are trying to stop you. The second level is the tadpole stage. The tadpole needs to eat three flies to move on to the next stage while avoiding the very hungry fish. Next is the rodent stage, where you need to eat five blocks of cheese while avoiding the snakes. In level four you need to guide a beaver across alligator infested waters to retrieve sticks and build a dam. The fifth level is the gorilla stage, where your gorilla has to use coconuts to fight off monkeys that are trying to steel its orange stash. And finally is the human stage, where you have to use a laser gun to fight off mutants that are trying to take over the earth.</desc>
+    <rating>0.4</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sydney Development</developer>
+    <publisher>Sydney Development</publisher>
+    <genre>Acción / Laberinto-Acción</genre>
+    <players>1</players>
+    <image>./media/images/Evolution.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="38096" source="ScreenScraper.fr">
+    <path>Facemaker.zip</path>
+    <name>Facemaker</name>
+    <desc>Las madres de todos siempre dicen: "¡No pongas esas caras! ¡Se quedarán así!" ¡Pero ahora tienes la oportunidad de hacer las caras más tontas que nadie haya visto! 
+ 
+Elija entre una amplia variedad de ojos, oídos, narices y bocas. Luego, haz que tus caras recién creadas parpadeen, muevan sus orejas, guiñen un ojo o te burlen. ¡Incluso puedes jugar un juego del tipo "Simón dice ..." en el que tu cara hará algún tipo de acción y tendrás que seguirlo!</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spinnaker Software</developer>
+    <publisher>Spinnaker Software</publisher>
+    <genre>Educacional</genre>
+    <players>1</players>
+    <image>./media/images/Facemaker.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44404" source="ScreenScraper.fr">
+    <path>Fall Guy.zip</path>
+    <name>Fall Guy</name>
+    <desc>Based on the hit television series staring Lee Majors and Heather Thomas. 
+In the warehouse screen, when you land on the second floor, go all the way to the LEFT. Then run RIGHT and JUMP. 
+Now you should be on top of the first crate, so run RIGHT. You should fall through the hole on the right, when you fall 
+adjust it so that you land on your feet. The last floor you should be able to handle.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>20th Century Fox</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1</players>
+    <image>./media/images/Fall Guy.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38097" source="ScreenScraper.fr">
+    <path>Fathom.zip</path>
+    <name>Fathom</name>
+    <desc>Neptina, Neptune's daughter, has been imprisoned at the bottom of the sea by Titans. Your goal is to rescue her by locating the scattered pieces of a magical trident! You will need to take the form of a dolphin and a bird in order to locate the pieces that are hidden in the ocean and clouds. When flying in the air, there are several screens that have clouds flying by. Touch all of the clouds, and the trident piece appears! Other birds which are flying around will cause you to lose energy if you touch them accidentally. Underwater, trident pieces can be found by touching the sea horses. Octopuses, sharks, and a deadly maze of seaweed will get in your way and cause you to lose energy if caught! When you have located all of the trident pieces, the cage holding Neptina can be unlocked, but if you run out of energy first the game will be over.</desc>
+    <rating>0.45</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Fathom.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44406" source="ScreenScraper.fr">
+    <path>Flipper Slipper.zip</path>
+    <name>Flipper Slipper</name>
+    <desc>It is a water-themed Breakout-like game, with the unique mechanic of having curved paddles, which can cause the ball to roll off them and bounce off at unconventional angles.</desc>
+    <rating>0.4</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravision</developer>
+    <publisher>Spectravision</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Flipper Slipper.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44407" source="ScreenScraper.fr">
+    <path>Fortune Builder.zip</path>
+    <name>Fortune Builder</name>
+    <desc>Fortune Builder es simulador de ciudad. Los jugadores adquieren terrenos para construir edificios de varios usos (alojamiento, restaurantes y complejos turísticos), representados en un mapa bidimensional. El valor de las propiedades construidas se modifica según el terreno donde se construyeron: la playa, el lago, el campo y los terrenos cubiertos de nieve. El jugador también construye edificios públicos para dar servicio a sus propiedades, como centrales eléctricas para generar electricidad, o carreteras y gasolineras para mantener el tráfico. Los jugadores deben considerar varios factores que modifican el éxito empresarial, como la proximidad a edificios no deseados, las preferencias de los consumidores y los patrones estacionales. El juego presenta un calendario anual, con información sobre el desempeño financiero que se muestra al final del año. El modo para un jugador dura cinco años naturales. El juego cuenta con un modo para dos jugadores en pantalla dividida, que dura hasta que un jugador gana.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Simulación</genre>
+    <players>1-2</players>
+    <image>./media/images/Fortune Builder.png</image>
+    <genreid>1024</genreid>
+  </game>
+  <game id="44408" source="ScreenScraper.fr">
+    <path>Fraction Fever.zip</path>
+    <name>Fraction Fever</name>
+    <desc>El objetivo del jugador es subir pisos hasta el vigésimo con la ayuda de su palo saltarin de pogo y los "Fraction Elevators" ubicados en cada piso. Para encontrarlos, el jugador debe buscar las imágenes de fracciones correctas, que coincidan con la franccion que se muestra en la parte superior de la pantalla, mientras que un radar muestra el diseño de los pisos en la parte inferior. Fracciones incorrectas pueden ser derribadas para subir la puntuación, pero esto deja agujeros en los pisos. Cuando el jugador no logra saltar por encima de estos y se cae lo suficiente o varias veces, el juego acabará. También hay que estar atento al límite de tiempo, si el reloj llega a cero el "Fraction Elevator" de la planta actual no se podra utilizar, y el jugador tendra que saltar del piso para poder intentarlo en otro.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spinnaker Software</developer>
+    <publisher>Spinnaker Software</publisher>
+    <genre>Educacional</genre>
+    <players>1</players>
+    <image>./media/images/Fraction Fever.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44409" source="ScreenScraper.fr">
+    <path>Frantic Freddy.zip</path>
+    <name>Frantic Freddy</name>
+    <desc>Freddy must run back and forth on the ground, dodging falling rubbish while shooting water at flames in the windows of a building. When all fires are extinguished, the game progresses to the next floor, where Freddy can climb between the floors, shooting to the left and right instead of upwards. On these levels, there are two kinds of flames ? the red and the purple ones. The purple ones are more aggressive, following Freddy around the screen, and can only be put out once all the red ones are extinguished. The game progresses in this way, alternating between the upwards-shooting levels and the sideways-shooting levels.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravideo</developer>
+    <publisher>Spectravideo</publisher>
+    <genre>Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Frantic Freddy.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44409" source="ScreenScraper.fr">
+    <path>Frantic.zip</path>
+    <name>Frantic Freddy</name>
+    <desc>Freddy must run back and forth on the ground, dodging falling rubbish while shooting water at flames in the windows of a building. When all fires are extinguished, the game progresses to the next floor, where Freddy can climb between the floors, shooting to the left and right instead of upwards. On these levels, there are two kinds of flames ? the red and the purple ones. The purple ones are more aggressive, following Freddy around the screen, and can only be put out once all the red ones are extinguished. The game progresses in this way, alternating between the upwards-shooting levels and the sideways-shooting levels.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravideo</developer>
+    <publisher>Spectravideo</publisher>
+    <genre>Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Frantic.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38098" source="ScreenScraper.fr">
+    <path>Frenzy!.zip</path>
+    <name>Frenzy</name>
+    <desc>Frenzy es la secuela de Berzerk y la jugabilidad es similar. Varios robots te persiguen por un laberinto de habitaciones y tu jugador debe evitar sus láseres y dispararles para destruirlos. Solo hay un tiempo limitado para que el jugador pueda permanecer en una habitación antes de que ocurra un "Ataque de robot" y una cara sonriente de la muerte se acerque al jugador. En Frenzy también hay espejos reflectantes en lugar de ciertas paredes que reflejan los disparos y te permiten rebotar tu fuego. También son exclusivas de Frenzy cuatro "salas de dispositivos" con un icono especial en el centro de la sala que pueden ser destruidas para obtener puntos de bonificación y un efecto especial dentro de esa sala.</desc>
+    <rating>0.85</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Stern</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Frenzy!.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38100" source="ScreenScraper.fr">
+    <path>Frogger II - ThreeDeep!.zip</path>
+    <name>Frogger II : Threeedeep!</name>
+    <desc>In Frogger II, you need to guide your frog to safety in three different locations. Starting out underwater, reach the top of the pond while avoiding dangerous alligators and fish (you can ride a turtle for safety!). Once on top of the pond, hop across logs, birds, and even a whale to the life preserver trailing behind a tugboat. In the third location you have to hop across a flock of birds to reach a cloud at the top of the screen. Each frog has a time limit to safely reach one of the homes on each of the three screens. You move on to the next level when a frog has safely reached each of the homes on all screens.</desc>
+    <rating>0.75</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Frogger II - ThreeDeep!.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38099" source="ScreenScraper.fr">
+    <path>Frogger I.zip</path>
+    <name>Frogger</name>
+    <desc>Su tarea en esta conversión de arcade es guiar a una rana a través de una carretera y un río traicioneros, y ponerla a salvo en la parte superior de la pantalla. Ambas secciones están plagadas de una variedad de peligros, cada uno de los cuales matará a la rana y le costará una vida si se hace contacto. 
+ 
+La carretera está llena de automóviles y camiones, a velocidades variables. El agua del río en sí es fatal, al igual que las serpientes que se ciernen sobre niveles posteriores. Frogger debe usar la disposición de troncos, tortugas (que solo están allí por un corto tiempo) y caimanes (pero mantenerse alejados de sus caras), y luego saltar a una de las celdas abiertas, idealmente una que contenga una mosca para obtener puntos adicionales. . Una vez que se han llenado todos los agujeros, pasa al siguiente nivel, más duro.</desc>
+    <rating>0.6</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Frogger I.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="44410" source="ScreenScraper.fr">
+    <path>From Out Of The Jungle - Tarzan.zip</path>
+    <name>From Out of the Jungle - Tarzan</name>
+    <desc>Los cazadores crueles y los Hombres Bestia de Opar han secuestrado a la tribu de grandes simios de Tarzán y los han encarcelado en jaulas por toda la jungla. Depende de ti salvar a los simios de ser transportados fuera de su hogar en la jungla a zoológicos. Primero, rescata al fiel compañero mono de Tarzán, Nkima, del campamento de los cazadores. Una vez liberado, Nkima te acompaña en tu misión y te alerta sobre las serpientes ocultas y las trampas traicioneras con su grito agudo.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción / Aventura-Acción</genre>
+    <players>1</players>
+    <image>./media/images/From Out Of The Jungle - Tarzan.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38101" source="ScreenScraper.fr">
+    <path>Frontline.zip</path>
+    <name>Frontline</name>
+    <desc>Front Line es un juego de acción de desplazamiento vertical. Tu misión es infiltrarte en el territorio enemigo y destruir su fortaleza. Para llegar a la fortaleza, tendrás que abrirte camino a través de terrenos variados y peligrosos. Las selvas, desiertos, arbustos y rocas dificultan tu progreso, además de que cada área tiene numerosos combatientes y tanques enemigos tratando de detenerte. Para ayudarte a superar estos obstáculos, estás armado con una ametralladora y granadas; en algunos puntos del juego, incluso puedes encontrarte con un tanque abandonado que puedes controlar para aumentar tus posibilidades de supervivencia. Cuando llegues al final del nivel y destruyas con éxito la fortaleza, el juego se repetirá en un nivel de dificultad superior. El juego es para uno o dos jugadores, y hay cuatro niveles de habilidad diferentes disponibles.</desc>
+    <rating>0.3</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Taito</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Disparos / Run and Gun-Acción-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Frontline.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38102" source="ScreenScraper.fr">
+    <path>Galaxian.zip</path>
+    <name>Galaxian</name>
+    <desc>Galaxian es un shoot 'em up donde el jugador se encuentra en la parte inferior de la pantalla y controla una nave espacial llamada "Galaxip" con el objetivo de eliminar alienígenas. Los enemigos aparecen en formación en la parte superior de la pantalla con dos naves de escolta. El jugador se mueve horizontalmente para apuntar a un extraterrestre, luego dispara una bala y el extraterrestre al que golpea es destruido. Los alienígenas se clasifican como drones, emisarios, avispones y comandantes, y los que están más arriba en la pantalla dan más puntos cuando son destruidos. A intervalos establecidos, un enemigo se moverá hacia ti, escoltando a un bombardero. El "Galaxip" solo puede realizar un disparo a la vez y debe esperar hasta que desaparezca antes de poder disparar otro. 
+El movimiento de los enemigos aumenta a medida que avanza el juego junto con la cantidad de disparos que realizan los enemigos, aumentando de este modo el nivel de dificultad y el reto que ofrece Galaxian.</desc>
+    <rating>0.9</rating>
+    <releasedate>19840501T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Atarisoft</publisher>
+    <genre>Disparos / Tipo Space Invaders-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Galaxian.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38103" source="ScreenScraper.fr">
+    <path>Gateway to Apshai.zip</path>
+    <name>Gateway to Apshai</name>
+    <desc>Turmoil rocks the land and the only salvation lies in the magic of the Temple of Apshai. Unfortunately the location of this temple has gotten lost in time. Furthermore, many heros dispatched to seek it have been slain. A legend speaks that only the blood of the greatest hero of Apshai's greatest hero will be able to reclaim the lost Temple of Apshai. Unfortunately this "greatest hero" has also perished. But all hope is not lost, for the wise man, Merlis has  found the hero's son, whose blood is still able to fulfill the prophesy. With great haste, Merlis brings the youngster to the dungeon pits and leaves him to fend for himself. It is this youngster's destiny to find safe passage through the 8 levels, each of which contains passage to 99 different areas,
+
+Gateway to Apshai is a top-down action-RPG. As the desendant of a hero, the player starts with basic stats in 4 areas, Strength, Agility, Luck and Health. and basic equipment, a dagger and leather armor. Then it's time to choose a number between 1 and 99 to generate the dungeon. Once begun, the player must explore the dungeon, hidden until explored and revealed. The player can move in four directions and has standard abilities, each mapped to a different control. There are several different actions available to the player. These include: fighting with the equipped weapon, a LOCATE spell to discover traps in the room, a SEARCH spell to discover hidden doors inside of room which would otherwise look like ordinary walls.  Players may also use many of the items and scrolls that can be picked up in the dungeon. The treasure can be picked up which include weaponry (swords, bows and arrows), healing slaves, precious items and magical scrolls. Most items are only good for a single use.
+
+The Gateway to Apshai is guarded by an assortment of creatures including snakes, swamp rats, bats and many more. These enemies are only visible when they are in the same room as the player and are otherwise hidden. After 6 minutes and 30 seconds has passed, the player is teleported to the next dungeon, many versions of the game also offer the option to manually leave the dungeon at any time. Dungeons get progressively more difficult with faster and more vicious enemies.</desc>
+    <rating>0.6</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>The Connelley Group</developer>
+    <publisher>Epyx</publisher>
+    <genre>Juego de Rol</genre>
+    <players>1</players>
+    <image>./media/images/Gateway to Apshai.png</image>
+    <genreid>768</genreid>
+  </game>
+  <game id="38104" source="ScreenScraper.fr">
+    <path>Gorf.zip</path>
+    <name>Gorf</name>
+    <desc>Gorf es un juego similar a Space Invaders, en el que naves alienígenas se acercan cada vez más en su amenazadora formación en línea. 
+El juego en sí consta de cuatro niveles. Cuando completes el juego, aumentarás tu rango y comenzarás el juego en el nivel 1 con una velocidad de juego más rápida para enfrentar más desafíos. 
+Con su toque de originalidad, Gorf es un shoot'em up muy bien construido cuyo único defecto es que sólo permite un disparo a la vez (si se hace un segundo disparo al mismo tiempo, el primer láser se borrará).</desc>
+    <rating>0.85</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Bally Midway</developer>
+    <publisher>CBS Software</publisher>
+    <genre>Acción-Disparos / Tipo Space Invaders-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Gorf.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="44411" source="ScreenScraper.fr">
+    <path>Gust Buster.zip</path>
+    <name>Gust Buster</name>
+    <desc>Navega por el parque de atracciones más colorido de los videojuegos sin usar el joystick. Esté atento a las mangas de viento ya que indican la fuerza y dirección de las ráfagas de viento que lo llevarán por el parque.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sunrise Software</developer>
+    <publisher>Sunrise Software</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Gust Buster.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38105" source="ScreenScraper.fr">
+    <path>Gyruss.zip</path>
+    <name>Gyruss</name>
+    <desc>Todo el sistema solar está siendo atacado por los malvados gyrusianos, ¡y tú debes salvar el día! Tendrás que volar tu nave espacial a cada uno de los nueve planetas y luego despejar tres etapas de enemigos para librar ese planeta de los gyrusianos. Comienzas el juego con un solo canon y puedes obtener un canon doble después de disparar un satélite de encendido. Después de limpiar cada planeta, hay otra etapa de bonificación donde se pueden recolectar armas adicionales y puntos de bonificación. Gyruss es un juego de disparos de acción arcade, sin embargo, en lugar de pilotar su nave espacial horizontal o verticalmente, se mueve en un círculo alrededor del perímetro de la pantalla. La versión NES de Gyruss agrega a la versión arcade original música adicional, armas adicionales, nuevos enemigos y un gran jefe al final de cada nivel.</desc>
+    <rating>0.45</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Disparos / Run and Gun-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Gyruss.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38107" source="ScreenScraper.fr">
+    <path>HERO.zip</path>
+    <name>H.E.R.O. - Helicopter Emergency Rescue Operation</name>
+    <desc>¡Hay problemas en las minas! La actividad volcánica ha atrapado a numerosos mineros, y es su trabajo salvarlos. Como Roderick Hero, debes abrirte camino a través del peligroso pozo de la mina evitando las peligrosas criaturas y la lava, y descubrir dónde se encuentran los mineros antes de que te quedes sin energía. Para ayudar en su misión, Roderick Hero tiene varios tipos de equipos útiles. Un paquete de accesorios le permitirá flotar y volar alrededor del pozo de la mina y (con suerte) evitar los muchos peligros que hay dentro. Su casco cuenta con un rayo microláser de corto alcance que puede usarse para destruir los murciélagos, arañas, serpientes y otras criaturas que encontrará en las minas. De vez en cuando, su camino a través de la mina puede estar bloqueado por paredes de piedra o lava. Comienzas cada misión con seis cartuchos de dinamita que se pueden usar para destruir estos obstáculos (¡pero ten cuidado de no explotarte!) Si te quedas sin dinamita, tu rayo láser también se puede usar para destruir las paredes, aunque esto llevará más tiempo y consumirá más energía. A medida que avanzan los niveles, el pozo de la mina se volverá más largo y más parecido a un laberinto, las criaturas bloquearán el camino con más frecuencia y aparecerán paredes de lava y charcos que son peligrosos al tacto.</desc>
+    <rating>0.75</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Aventura</genre>
+    <players>1-2</players>
+    <image>./media/images/HERO.png</image>
+    <genreid>512</genreid>
+  </game>
+  <game id="154946" source="ScreenScraper.fr">
+    <path>Hard Hat and Pinball Construction Set.zip</path>
+    <name>Hard Hat And Pinball Construction Set</name>
+    <releasedate />
+    <image>./media/images/Hard Hat and Pinball Construction Set.png</image>
+  </game>
+  <game id="44412" source="ScreenScraper.fr">
+    <path>Illusions.zip</path>
+    <name>Illusions</name>
+    <desc>Illusions es un juego de video surrealista para ColecoVision en el que el jugador maniobra masas alrededor de la pantalla, tratando de hacer que se fusionen o, alternativamente, que se dividan. En ocasiones, lagartijas persiguen las masas por la pantalla. Al derramar el balde de agua, se puede convertir a la lagartija en pez. Sin embargo, si el pez permanece demasiado tiempo en la pantalla, se convierte en pájaro. El juego fue creado por Nice Ideas, una división de Mattel ubicada a medio camino entre Cannes y Niza.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Nice  Ideas</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Puzzle</genre>
+    <players>1-2</players>
+    <image>./media/images/Illusions.png</image>
+    <genreid>2816</genreid>
+  </game>
+  <game id="59407" source="ScreenScraper.fr">
+    <path>It's Only Rock 'N Roll.zip</path>
+    <name>Its Only Rock 'N' Roll</name>
+    <desc>Comienza una banda en este juego de texto y gráficos e intenta convertirte en el Rey de Rock n roll.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Simulación</genre>
+    <players>1</players>
+    <image>./media/images/It's Only Rock 'N Roll.png</image>
+    <genreid>1024</genreid>
+  </game>
+  <game id="38108" source="ScreenScraper.fr">
+    <path>James Bond 007.zip</path>
+    <name>James Bond 007</name>
+    <desc>En James Bond 007 controlas a James Bond en su nave multifuncional. Esta nave puede viajar tanto en tierra como en mar, puede saltar sobre peligros o disparar a enemigos en los diferentes niveles. Cada nivel de desplazamiento horizontal en el juego está vagamente basado en una película diferente de James Bond. Los niveles incluyen Diamantes para la Eternidad, El Espía que me Amó, Moonraker y Solo para sus Ojos. Cada nivel tiene una variedad de enemigos tratando de destruirte, y una meta única que debe ser cumplida para continuar (por ejemplo, puede que tengas que aterrizar en una plataforma petrolera oculta para detener a Seraffino, o encontrar el laboratorio submarino de Stromberg y destruirlo). ¡Si puedes completar todas las misiones, ganas el juego! Buena suerte, Sr. Bond.</desc>
+    <rating>0.25</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/James Bond 007.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="154947" source="ScreenScraper.fr">
+    <path>Jeopardy!.zip</path>
+    <name>Jeopardy!</name>
+    <releasedate />
+    <genre>Quiz</genre>
+    <image>./media/images/Jeopardy!.png</image>
+    <genreid>3328</genreid>
+  </game>
+  <game id="44413" source="ScreenScraper.fr">
+    <path>Joust.zip</path>
+    <name>Joust</name>
+    <desc>¡La supervivencia es la clave en esta arena alienígena! Nunca en tus sueños más salvajes imaginaste que algún día estarías montando un avestruz en una arena alienígena, luchando por tu vida contra otros gladiadores que montan buitres. Y sin embargo, ahí estás, ¡y tu única preocupación ahora es sobrevivir! Dirige tu avestruz alrededor de la arena y golpea a tus oponentes desde arriba para convertirlos en huevos que puedes recolectar para obtener puntos extra. Si eclosionan antes de que los recojas, volverán a la pelea más fuertes que antes. También ten cuidado con el Pterodáctilo que aparecerá aleatoriamente cuando menos lo esperes, y evita los pozos de lava ardiente debajo. ¿Cuánto tiempo puedes durar en la Justa?</desc>
+    <releasedate>20140101T000000</releasedate>
+    <developer>Team Pixelboy</developer>
+    <publisher>Team Pixelboy</publisher>
+    <genre>Plataformas / Corre y Salta-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Joust.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="44414" source="ScreenScraper.fr">
+    <path>Juke Box.zip</path>
+    <name>Juke Box</name>
+    <desc>JUKEBOX is a musical strategy game that's kind of a cross between a chess match and a dance contest. During the game the jukebox plays lots of terrific songs?songs so good you never want them to stop. But to keep the music playing. you've got to create gold records. Use your dancing shoes to jump from square to square. creating hit records as you go. The more gold records you get, the more coins you earn. Use the coins to keep the music bopping and the game from stowing.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Spinnaker Software</developer>
+    <publisher>Spinnaker Software</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Juke Box.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38109" source="ScreenScraper.fr">
+    <path>Jumpman Junior.zip</path>
+    <name>Jumpman Junior</name>
+    <desc>Bombas colocadas a lo largo de un nivel próximas a estallar necesitan ser desactivas y el único que tiene la habilidad para hacerlo es Jumpman haciendo uso de sus característicos saltos.</desc>
+    <rating>0.85</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Epyx</developer>
+    <publisher>Epyx</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1-4</players>
+    <image>./media/images/Jumpman Junior.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38110" source="ScreenScraper.fr">
+    <path>Jungle Hunt.zip</path>
+    <name>Jungle Hunt</name>
+    <desc>Jungle Hunt cuenta con cuatro aventuras únicas, cada una de las cuales se repite con dificultad creciente. Si no sobrevives a estas aventuras, no sólo perderás tu vida, sino también la de la encantadora Penélope, ¡que ha sido capturada por caníbales! 
+La primera parte pone a prueba tus habilidades de Tarzán: ¿puedes balancearte sobre las lianas sin precipitarte al vacío? La segunda parte te enfrenta a una banda de repugnantes cocodrilos en un caudaloso río. Afortunadamente, tienes un cuchillo para defenderte. En la tercera parte, tendrás que enfrentarte a rocas de diferentes tamaños. Una vez superados todos estos peligros, te queda enfrentarte al temible caníbal, armado con una temible lanza. ¿Serás capaz de derrotarlo y salvar a la bella Penélope?</desc>
+    <rating>0.6</rating>
+    <releasedate>19840801T000000</releasedate>
+    <developer>Taito</developer>
+    <publisher>Atarisoft</publisher>
+    <genre>Plataformas / Corre y Salta con desplazamiento-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Jungle Hunt.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38111" source="ScreenScraper.fr">
+    <path>Ken Uston's Blackjack-Poker.zip</path>
+    <name>Ken Uston Blackjack-Poker</name>
+    <desc>Feeling Lucky?  Pull up a chair and play a few hands of Blackjack or Poker.  Minimum bet is $1 and maximum is $499 at the BlackJack table, whereas over on the 5-Card Stud Poker table the sky is the limit.  Up to 4 people can play simultaneously, or if you're a little shy you can always go one-on-one with the dealer.  Speaking of which, don't forget to give Max, your dealer, a nice tip, or you never know what kind of cards he'll deal out in your next hand.</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Casino / Cartas-Estrategia-Casino</genre>
+    <players>1-4</players>
+    <image>./media/images/Ken Uston's Blackjack-Poker.png</image>
+    <genreid>3584</genreid>
+  </game>
+  <game id="38112" source="ScreenScraper.fr">
+    <path>Kevtris.zip</path>
+    <name>Kevtris</name>
+    <desc>Kevtris fue el primer juego de Colecovision que se desarrolló durante casi diez años, y fue una elección natural comenzar con un juego que era simple de implementar, pero que había sido lanzado demasiado tarde para ser portado oficialmente a la consola Coleco; a saber, Tetris. 
+ 
+A pesar de ser una de las primeras cervezas caseras, Kevtris presenta gráficos coloridos y música de fondo, así como tres modos de juego diferentes para uno y dos jugadores, así como handicaps. Además del modo de juego normal de Tetris, está el modo de salida cero, donde tienes que borrar un número determinado de líneas para ganar un juego, y el modo de construcción, donde los bloques no caen automáticamente, lo que te da todo el tiempo. en el mundo para planificar sus movimientos.</desc>
+    <releasedate>19960101T000000</releasedate>
+    <developer>Kevin Horton</developer>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Kevtris.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38113" source="ScreenScraper.fr">
+    <path>Keystone Kapers.zip</path>
+    <name>Keystone Kapers</name>
+    <desc>The notorious thief Harry Hooligan is on the loose! You play the part of Officer Keystone Kelly, sent in to capture Harry. Harry is trapped in a four story mall, and is running as fast as he can to reach the exit at the top. Your job is to catch up to him and send him to prison. You will need to use either the escalators at the end of each floor, or the elevator in the middle to go from floor to floor. The escalators may be further away, but the elevator moves pretty slowly so you will need to decide which route will be faster in getting you closer to your goal. If Harry can make it to the top before you catch him, you will have to retry that level. Harry has no intention of letting you catch him easily, and is hurling everything he can find in an attempt to slow you down. Shopping carts, bouncing balls, biplanes, and more will all be flying past on the screen and will either slow you down or send you back to the beginning if you get hit. As the levels progress, Harry will run faster and faster, and more objects will be tossed your way to duck and jump over.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Keystone Kapers.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38114" source="ScreenScraper.fr">
+    <path>Lady Bug.zip</path>
+    <name>Lady Bug</name>
+    <desc>Lady Bug es un juego de acción al estilo Pac-Man. El objetivo es comerse todas las flores, corazones y letras del laberinto, evitando a los insectos, para lo cual puedes utilizar una serie de puertas giratorias que te ayudarán a atraparlos y escapar. El jugador está representado por una mariquita roja, amarilla y verde, mientras que la apariencia de los insectos enemigos varía según el nivel. El borde del laberinto actúa como un cronómetro. En el centro del laberinto se genera una nueva criatura enemiga cada vez que el borde exterior da una vuelta completa, hasta un máximo de 4. La velocidad de los enemigos aumenta en los niveles 2 y 5.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Universal </developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Acción / Laberinto</genre>
+    <players>1-2</players>
+    <image>./media/images/Lady Bug.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="44416" source="ScreenScraper.fr">
+    <path>Learning With Leeper.zip</path>
+    <name>Learning With Leeper</name>
+    <desc>En Lunar Leeper, uno de los primeros juegos arcade de Sierra, los jugadores debían rescatar prisioneros en la superficie de un planeta mientras evitaban a los "Leepers", quienes saltarían al aire para intentar atraparlos, y uno de los Leepers aparece en este juego. Similar a Learning with FuzzyWOMP, el jugador puede seleccionar uno de los cuatro juegos moviendo el Leeper hacia el icono y presionando el botón de fuego para seleccionarlo.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Sierra</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Educacional-Acción</genre>
+    <players>1</players>
+    <image>./media/images/Learning With Leeper.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44417" source="ScreenScraper.fr">
+    <path>Linking Logic.zip</path>
+    <name>Linking Logic</name>
+    <desc>LINKING LOGIC challenges children to improve their logical reasoning and pluming skills. These skills play a key role in developing a child's ability to approach and solve problems. A child learns to identify different ways to approach a problem. plan actions to be taken. and evaluate the outcome of a solution. In LINKING LOGIC, your child places -tools- along a path to guide Ruddy or Betty down through five floors of a building. Along the way, your child helps the character collect the patterned tiles that are missing from the bottom floor.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Fisher-Price</developer>
+    <publisher>Fisher-Price</publisher>
+    <genre>Puzzle</genre>
+    <players>1</players>
+    <image>./media/images/Linking Logic.png</image>
+    <genreid>2816</genreid>
+  </game>
+  <game id="44418" source="ScreenScraper.fr">
+    <path>Logic Levels.zip</path>
+    <name>Logic Levels</name>
+    <desc>LOGIC LEVELS brinda a los jugadores la oportunidad de ejercitar la lógica y las habilidades de planificación de formas emocionantes y desafiantes. Estas habilidades son esenciales para comprender cómo una acción hace que suceda otra cosa y aprender a usar estas relaciones para alcanzar un resultado planificado. En NIVELES LÓGICOS. los jugadores aprenden a colocar -herramientas- en todo el edificio para crear un camino que dirija una bola rodante más allá de numerosos premios. Pero solo una planificación cuidadosa y creativa te llevará a la puntuación más alta.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Fisher-Price</developer>
+    <publisher>Fisher-Price</publisher>
+    <genre>Educacional</genre>
+    <players>1</players>
+    <image>./media/images/Logic Levels.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="38115" source="ScreenScraper.fr">
+    <path>Looping.zip</path>
+    <name>Looping</name>
+    <desc>Looping es un juego de acción arcade para uno o dos jugadores. Su objetivo es guiar un avión desde la pista a una estación de acoplamiento. Para hacer esto, hay varias pantallas que necesita pasar. En la primera área, debes destruir un cohete que abrirá la puerta a la siguiente área. ¡Los globos enemigos y el terreno de la ciudad se interponen en tu camino! Una vez que haya abierto la puerta y haya volado, entrará en un laberinto hecho de tuberías. No hay enemigos tratando de destruirte aquí, ¡pero ten cuidado de no estrellarte contra las paredes! Los puntos de bonificación se pueden obtener al permanecer en el laberinto por períodos más largos o al volar más rápido. Una vez que se acerque al final del laberinto de tuberías, la estación de acoplamiento estará a la vista. Ahora habrá varios monstruos centelleantes, gotas verdes y pelotas que rebotan en el camino, todo lo cual destruye tu avión en contacto. Si alcanzas con éxito la meta, el juego se repetirá a un nivel de habilidad más difícil.</desc>
+    <rating>0.65</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Venture Line</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Disparos / Avión-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Looping.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44419" source="ScreenScraper.fr">
+    <path>MASH.zip</path>
+    <name>M.A.S.H.</name>
+    <desc>You've been piloting your chopper low through the trees, picking up wounded and rushing them back to the 4077th MASH unit. There was enemy fire all around you, and you're still shaking like a leaf. You'd like to rest now, but time is running out for the soldiers you've rescued. There's no way around it. The pressure is on. You'll have to operate. And it's going to take a steady hand and a hawk eye.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>20th Century Fox</developer>
+    <publisher>20th Century Fox</publisher>
+    <genre>Acción / Aventura-Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/MASH.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44420" source="ScreenScraper.fr">
+    <path>Memory Manor.zip</path>
+    <name>Memory Manor</name>
+    <desc>Wee Willie is a window washer at an apartment who wants to keep his customers happy. Some of the customers welcome him and want their windows washed while others are worrisome about his wet work and would not want him washing their windows. There's only so much water for Willie to wield in his bucket, so he must only waste it on the welcoming window wash customers. It's also raining so Willie will have to remember who lives where.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Frieda Lekkerkerker</developer>
+    <publisher>Fisher-Price</publisher>
+    <genre>Educacional</genre>
+    <players>1</players>
+    <image>./media/images/Memory Manor.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44421" source="ScreenScraper.fr">
+    <path>Meteoric Shower.zip</path>
+    <name>Meteoric Shower</name>
+    <desc>Meteoric Shower is essentially a clone of Space Invaders, Galaxian and Galaga, but it introduces several new concepts: Your ship can move in all four directions, it flips upside down when moving down, and enemies can attack from both above and beneath your ship.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Bit</developer>
+    <publisher>Bit</publisher>
+    <genre>Shoot'em Up-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Meteoric Shower.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38116" source="ScreenScraper.fr">
+    <path>Miner 2049er.zip</path>
+    <name>Miner 2049er</name>
+    <desc>En Miner 2049er eres Bounty Bob y tu misión consiste en explorar una mina abandonada. A medida que avanzas, el suelo irá cambiando de color. Cuando todas las secciones del suelo hayan cambiado de color, podrás pasar al siguiente nivel, más difícil que el anterior. Para llegar a todas las secciones del piso, puedes saltar, subir y bajar escaleras y utilizar diferentes dispositivos de transporte que se pueden encontrar en los niveles (como ascensores, toboganes, trampolines o incluso un cañón) Deambulando por la mina hay criaturas radiactivas que se interponen en el camino de Bounty Bob. También se encuentran dispersos por las minas varios artefactos abandonados que vuelven a los enemigos vulnerables temporalmente. Hay diez niveles diferentes y para completarlos, necesitarás reflejos rápidos y una estrategia única para cada nivel.</desc>
+    <rating>0.75</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Livesay Computer Games</developer>
+    <publisher>Micro Fun</publisher>
+    <genre>Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Miner 2049er.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38117" source="ScreenScraper.fr">
+    <path>Monkey Academy.zip</path>
+    <name>Monkey Academy</name>
+    <desc>This platform game is about solving arithmetic problems. In the equation one number is missing, you 'll have to find the right number. This game is aimed at young children to help them learn arithmetic problem solving or playing with numbers.
+
+Some monkeys are minding their own business when they see a number missing from their arithmetic problem. Who took it? Another monkey, a crab? And where could it be? The only way to find that out is to go looking for it.
+
+Guide your monkey across the screen and up and down platform levels. Watch out for the crab! If its claws bite you, you lose a monkey. Jump up and pull down shades to find the missing number. When you find it, catch the number bar. Then send it up to your helper monkey. Find three missing numbers and earn bonus points!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Varios-Educacional</genre>
+    <players>1-2</players>
+    <image>./media/images/Monkey Academy.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="38118" source="ScreenScraper.fr">
+    <path>Montezuma's Revenge.zip</path>
+    <name>Montezuma's Revenge</name>
+    <desc>En Montezuma's Revenge eres un cazador de tesoros llamado Panama Joe, cuyo objetivo es encontrar un antiguo tesoro escondido por un guerrero azteca en lo profundo de las catacumbas. Pero ojo, las catacumbas son un laberinto habitado por horribles monstruos. Te esperan calaveras que rebotan y ruedan, arañas, cadenas que desaparecen y fuegos. Tendrás que encontrar las llaves y desbloquear las puertas para lograr tu objetivo. Panama Joe puede saltar y subir escaleras, pero no tiene mucho que ofrecer en cuanto a combate. Es por eso que debes evitar los monstruos en el juego: una colisión con un enemigo provoca la muerte inmediata.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Montezuma's Revenge.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="44422" source="ScreenScraper.fr">
+    <path>Matt Patrol.zip</path>
+    <name>Moon Patrol</name>
+    <desc>Hop into your Moon Buggy and test yourself on a lunar obstacle course.You'll fight off hostile aliens, jump over huge craters and landmines and blast moonrocks from your path.And as if that weren't enough, you'll encounter alien tanks and missiles that'll blow you into moondust if you aren't careful!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Irata</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Matt Patrol.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38119" source="ScreenScraper.fr">
+    <path>Moonsweeper.zip</path>
+    <name>Moonsweeper</name>
+    <desc>En Moonsweeper tu objetivo es rescatar a los mineros de las lunas en Star Quadrant Jupiter. Comienzas tu misión en el espacio donde debes evitar mortales llamaradas de auroras, antorchas de fotones y balas espaciales del sol en este cuadrante. De vez en cuando verás pasar una luna, y volando cerca de ella podrás descender a la superficie. Mientras barre la superficie, verá mineros varados que deben ser rescatados volando sobre ellos. También en la superficie de las lunas hay varios obstáculos que deben evitarse o destruirse, como torres y satélites lunares, así como destructores extraterrestres de la superficie. Si sobrevive y rescata a seis mineros (el máximo que puede llevar su barco), entonces puede despegar de la superficie utilizando los anillos del acelerador. Hay varios tipos diferentes de lunas que se encuentran en este cuadrante, cada una con un nivel de dificultad diferente. Para ayudar, su nave está equipada con torpedos de fotones y escudos (aunque perderá puntos mientras usa el escudo).</desc>
+    <rating>0.55</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Acción-Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Moonsweeper.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38120" source="ScreenScraper.fr">
+    <path>Motocross Racer.zip</path>
+    <name>Motocross Racer</name>
+    <desc>Motocross Racer is a bike racing game where you need to race through three different scenes in the shortest amount of time possible. Each scene takes place in a different location with a different perspective. First you will race through the desert with a 3-D behind the bike point of view. Rocks, cacti, scorpions, and other obstacles should be avoided or you'll crash and lose valuable time. Next you'll race a winding path uphill through the woods. This section has a top down view, and you'll lose time if you wander off the track or crash into obstacles. The final segment of the race takes place on the beach with a side scrolling point of view. Various obstacles and other racers will all get in your way here! If you crash too many times, or take too long the game will be over.</desc>
+    <rating>0.6</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1</players>
+    <image>./media/images/Motocross Racer.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38121" source="ScreenScraper.fr">
+    <path>Mountain King.zip</path>
+    <name>Mountain King</name>
+    <desc>En lo profundo de una mina de diamantes con varias plataformas se encuentra una valiosa corona. Tu objetivo es encontrar y recuperar la corona, ¡y luego llegar vivo hasta la cima de la mina! Hay varios pasos que debes completar antes de poder recuperar la corona. Primero necesitas recolectar suficientes diamantes para obtener 1000 puntos. Después de tener suficientes puntos, necesitas encontrar al espíritu de la llama que está oculto en algún lugar de la mina. Como la mina es bastante oscura, llevas una linterna contigo que puedes usar para encontrar objetos (como cofres del tesoro llenos de diamantes y el espíritu de la llama). Una vez que tengas el espíritu de la llama, necesitas encontrar la entrada al templo donde está la corona.</desc>
+    <rating>0.6</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>E.F. Dreyer</developer>
+    <publisher>Sunrise Software</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Mountain King.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38122" source="ScreenScraper.fr">
+    <path>Mousetrap.zip</path>
+    <name>Mouse Trap</name>
+    <desc>Mouse Trap is an arcade action game similar to Pac-Man. You control a mouse in a maze; your goal is to eat all of the bits of cheese in order to score points and move on to the next maze. Wandering throughout the maze are several cats who are trying to catch you! Your mouse has the ability to temporarily turn into a dog and be able to chase the cats. To do so, however, he will need to eat the dog bones which are located throughout the maze. The maze also contains numerous doors. The mouse can move these doors to reconfigure the maze in an attempt to outsmart the cats.</desc>
+    <rating>0.9</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Exidy</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Mousetrap.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38123" source="ScreenScraper.fr">
+    <path>Mr Do!.zip</path>
+    <name>Mr. Do!</name>
+    <desc>Tú controlas que el Sr. Do haga que intente cosechar todas las cerezas de la pantalla. Sin embargo, ¡hay numerosos tipos malos que lo persiguen! El Sr. Do puede defenderse de los malos de dos maneras: primero, puede empujar las manzanas ubicadas por todo el campo de juego sobre los enemigos y aplastarlos. En segundo lugar, el Sr. Do está armado con una bola de poder. Esto se puede lanzar para destruir a un enemigo. Sin embargo, el Sr. Do solo tiene una bola de poder, por lo que deberá esperar a que regrese antes de poder usarla nuevamente. De vez en cuando, un monstruo alfa aparecerá en la pantalla con una de las letras EXTRA. Si usas la bola de poder para destruir un monstruo alfa, te ganas esa letra; cuando haya obtenido la palabra EXTRA completa, recibirá una vida extra. Cuando recolectes con éxito todas las cerezas, pasarás al siguiente nivel más difícil. 
+ 
+La versión móvil del juego incluye la versión arcade original, así como un modo mejorado con nuevos niveles, power-ups y gráficos.</desc>
+    <rating>0.7</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Universal </developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Mr Do!.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38124" source="ScreenScraper.fr">
+    <path>Mr Do's Castle.zip</path>
+    <name>Mr. Do!'s Castle</name>
+    <desc>Mr. Do!'s Castle is an action platform game which has you in a castle consisting of several floors, each of which contain a variety of blocks. You control Mr. Do! the clown who has a hammer which can be used to knock out the blocks in the floor. Wandering throughout the castle are deadly unicorns which are constantly trying to catch you. Your goal is to earn as many points as possible and to progress through the increasingly difficult castles. 
+
+There are two ways to complete a castle; you can either destroy all of the deadly unicorns by crushing them with blocks, or you can knock out all of the blocks which have a cherry symbol on them. In addition to the cherry blocks, there are three blocks with a key. If all three key blocks are knocked out, the door on the roof of the castle unlocks. If you make it to the door, all of the unicorns will temporarily become harmless and will contain a letter. If you hit a letter unicorn, you will earn a letter in the word EXTRA. Spell the complete word, and you will earn an extra life. 
+
+The last type of block you'll encounter has a skull on it. If you knock out two skull blocks, all of the blocks between them will also be knocked out and replaced with a bridge. As the castles progress, the castle layout will become trickier and the unicorns become faster and more numerous.</desc>
+    <rating>0.95</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Universal </developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Mr Do's Castle.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="108726" source="ScreenScraper.fr">
+    <path>Ms Space Fury.zip</path>
+    <name>Ms. Space Fury</name>
+    <desc>Homebrew game with more than 20 levels to explore.</desc>
+    <releasedate>20010101T000000</releasedate>
+    <developer>Daniel Bienvenu</developer>
+    <publisher>Digital Press</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Ms Space Fury.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="154948" source="ScreenScraper.fr">
+    <path>NIAD Public Domain - Volume 36.zip</path>
+    <name>Niad Public Domain - Volume 36</name>
+    <releasedate />
+    <image>./media/images/NIAD Public Domain - Volume 36.png</image>
+  </game>
+  <game id="38125" source="ScreenScraper.fr">
+    <path>Nova Blast.zip</path>
+    <name>Nova Blast</name>
+    <desc>Nova Blast es un juego de disparos de ciencia ficción de desplazamiento lateral en el que debes defender cuatro ciudades blindadas de los invasores que atacan tanto desde el aire como desde el suelo. Cada ciudad tiene un escudo de burbuja que puede soportar un golpe; otro golpe a una ciudad sin blindaje lo destruirá. 
+Los jugadores controlan una nave que puede disparar láseres horizontalmente y lanzar bombas verticalmente. La nave también está equipada con un haz de energía que puede absorber energía de los tanques de energía, y también puede usar esa energía para crear escudos temporales alrededor de ciudades desprotegidas. La nave también puede soportar hasta diez golpes en cada ronda. Si las cuatro ciudades son destruidas o la nave recibe diez golpes en una ronda, el juego termina. Nova Blast es un juego para un jugador con tres niveles de dificultad.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Acción-Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Nova Blast.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38126" source="ScreenScraper.fr">
+    <path>Oil's Well.zip</path>
+    <name>Oil's Well</name>
+    <desc>Extend your oil-mining robotic arm deep below the earth's crust to mine oil and line your pockets.  But watch out for the monstrous bugs that lie in wait for you -- one touch of them to the robotic arm and you lose a life!</desc>
+    <rating>0.6</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Sierra</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Acción / Laberinto-Acción</genre>
+    <players>1</players>
+    <image>./media/images/Oil's Well.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="38127" source="ScreenScraper.fr">
+    <path>Omega Race.zip</path>
+    <name>Omega Race</name>
+    <desc>This is a remake of a Bally-Midway arcade game.  You control a spaceship and shoot down the enemy "Droid" ships that attack you.  Your ship must survive Droid-dropped mines too--but you can shoot them too.  The last ship of the Droid flights goes into a spiraling pattern.
+
+There is no end to this game.  Rather, it is a game in which you try to get the highest score, or complete the highest number of levels.
+
+You control a small triangle that is your ship.  The ship can turn, move forward (with thrusters) and fire.  Movement is one of the games challenges; once the ship is moving, it can only be slowed by turning the nose in the opposite direction and use the thrusters.  While doing that, the ship is unable to fire toward anything it is in motion toward.
+
+Bouncing also comes into play during movement.  When the ship hits the side of the screen, a wall of force appears, and the ship bounces.  You don't have control over where the ship bounces, and must take time to regain control, before you run into an enemy ship and die.</desc>
+    <rating>0.65</rating>
+    <releasedate>19831001T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>CBS Electronics</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/Omega Race.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38128" source="ScreenScraper.fr">
+    <path>One on One Basketball.zip</path>
+    <name>One-on-One</name>
+    <desc>Control either Julius Erving or Larry Bird in front of a single basket, in a game of one on one.  The user can select to play either to a certain score or for a certain amount of time.  When on offense, the player can rotate to keep away from his rival, take a shot from a distance or move in to the basket for special up-close slam-dunks.  When on defense, you can try to take your rival's ball or jump up to block a shot.  Particularly good set-ups get a slow-motion replay.  You can even smash the glass on the backboard, which will send an irate janitor onto the court to clean up the mess.</desc>
+    <rating>0.4</rating>
+    <releasedate>19850101T000000</releasedate>
+    <developer>Micro Fun</developer>
+    <publisher>Micro Fun</publisher>
+    <genre>Deportes-Deportes / Baloncesto</genre>
+    <players>1-2</players>
+    <image>./media/images/One on One Basketball.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="44423" source="ScreenScraper.fr">
+    <path>Pac-Man.zip</path>
+    <name>Pac-man</name>
+    <desc>Pac-Man es uno de los juegos más populares e influyentes de la década de 80s. Protagonizado por Pac-Man se abre camino a través de un laberinto donde debe comerse todos puntos del tablero. El objetivo de Pac-Man se ve constantemente desafiado por cuatro fantasmas: el tímido fantasma azul Bashful ("Inky"), el fantasma rojo Shadow ("Blinky"), el rápido fantasma rosa Speedy ("Pinky") y el olvidadizo fantasma naranja Pokey ( "Clyde"). Un toque de uno de estos fantasmas significa la pérdida de una vida de las tres vidas de Pac-Man. 
+ 
+Pac-Man puede deshacerse de sus perseguidores comiéndose una de las cuatro píldoras de poder que hay alrededor del laberinto. Durante este tiempo, los fantasmas se vuelven azules y Pac-Man puede comérselo para obtener puntos extra. Sólo dura un tiempo limitado, los ojos de los fantasmas comidos regresan al centro del laberinto y se regeneran para perseguir a Pac-Man nuevamente.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Acción / Laberinto-Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Pac-Man.png</image>
+    <genreid>258</genreid>
+  </game>
+  <game id="38129" source="ScreenScraper.fr">
+    <path>Pepper II.zip</path>
+    <name>Pepper II</name>
+    <desc>Este es un título que pondrá a prueba tus habilidades ya que se trata de que vayas cerrando las diversas secciones de un laberinto para que estas se pinten de colores y pases al siguiente nivel.  
+</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Exidy</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Pepper II.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38131" source="ScreenScraper.fr">
+    <path>Pitfall! II - Lost Caverns.zip</path>
+    <name>Pitfall II : Lost Caverns</name>
+    <desc>Juegas como Pitfall Harry en busca del diamante Raj, su sobrina Rhonda y una variedad de tesoros en algún lugar de los Andes. Sapos venenosos, anguilas, escorpiones, murciélagos y otros peligros se interponen en el camino. Pitfall II es la secuela de Pitfall, el juego original de plataformas. El juego sigue siendo prácticamente el mismo, con cada pantalla presentando una vista lateral de obstáculos a superar, y potencialmente tesoros para recolectar. El paisaje es más laberíntico, con una variedad de caminos y callejones sin salida para explorar. A lo largo del camino, hay puntos de control que el jugador encontrará. Cuando el jugador muere, Pitfall Harry será enviado de regreso al punto de control más reciente cruzado.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Pitfall! II - Lost Caverns.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38130" source="ScreenScraper.fr">
+    <path>Pitfall! I.zip</path>
+    <name>Pitfall!</name>
+    <desc>¡Trampa! es un juego de acción de plataformas. Juegas a Pitfall Harry, que está en una búsqueda para localizar un tesoro en las profundidades de la jungla. Con un poco de suerte podrás encontrar bolsas de dinero, lingotes de plata, lingotes de oro y anillos de diamantes. Pero muchos obstáculos se interpondrán en el camino, algunos de los cuales simplemente restan puntos de su puntuación, mientras que otros son fatales. Rodar troncos y caer por un agujero restará puntos, y escorpiones, caimanes, serpientes, pozos sin fondo, pantanos e incendios harán que Pitfall Harry pierda una vida. ¡Tienes 20 minutos para intentar recolectar todos los tesoros en las numerosas pantallas, si puedes vivir tanto tiempo!</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Acción-Plataformas</genre>
+    <players>1</players>
+    <image>./media/images/Pitfall! I.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38132" source="ScreenScraper.fr">
+    <path>Pitstop.zip</path>
+    <name>Pitstop</name>
+    <desc>Pitstop es un juego de carreras de acción con seis pistas de carreras diferentes. Tu objetivo es ganar la mayor cantidad de dinero posible ganando carreras en el Gran Circuito, que consiste en una carrera en cada una de las seis pistas; cada vez que se completa una carrera, ganarás dinero según tu posición y la cantidad de vueltas completadas antes de continuar. Mientras corres, vigila tus neumáticos y combustible; Si sus neumáticos se desgastan demasiado (provocando una explosión) o se queda sin combustible, el juego terminará. Para evitar que esto suceda, deberá hacer una parada en boxes. Aquí usted controla al equipo de boxes y puede reemplazar los neumáticos y repostar. Mientras que en boxes, la carrera todavía continúa, por supuesto, por lo que las reparaciones deben hacerse lo más rápido posible para volver a la carrera sin perder demasiado terreno. Hay varias opciones de juego disponibles para controlar el nivel de dificultad y el número de vueltas. Además del Gran Circuito que es la carrera completa, también puedes practicar una pista en una sola carrera o ingresar al mini circuito que consta de tres carreras.</desc>
+    <rating>0.6</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Epyx</developer>
+    <publisher>Epyx</publisher>
+    <genre>Simulación</genre>
+    <players>1-4</players>
+    <image>./media/images/Pitstop.png</image>
+    <genreid>1024</genreid>
+  </game>
+  <game id="38133" source="ScreenScraper.fr">
+    <path>Popeye.zip</path>
+    <name>Popeye</name>
+    <desc>Popeye es una conversión del juego arcade de acción / plataformas. ¡Como Popeye, estás tratando de ganarte el amor de Olive Oyl! Ella está en la parte superior de la pantalla dejando caer fichas de su amor, y debes recogerlas antes de que caigan al suelo. Una vez que haya reunido la cantidad requerida de elementos, puede pasar al siguiente nivel más difícil. ¡Sin embargo, hay muchos obstáculos que intentan evitar que completes tu tarea! Brutus deambula por la pantalla y está constantemente tratando de atraparte. Si recolectas una lata de espinacas, puedes noquearlo temporalmente, de lo contrario Brutus te dejará inconsciente. Otros objetos como botellas o pájaros también vuelan por la pantalla y harán que pierdas una de tus vidas si te golpean. Cada nivel presenta un diseño diferente de plataformas y escaleras, ¡y tendrás que recolectar diferentes elementos mientras flotan hacia la parte inferior de la pantalla!</desc>
+    <rating>0.8</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Popeye.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44424" source="ScreenScraper.fr">
+    <path>Porky's.zip</path>
+    <name>Porky's</name>
+    <desc>Porky's was a prototype game designed for the ColecoVision in 1983. 
+ 
+Revenge is sweet... and you're out to get it. You've been "had" at Porky's, and you're out to blow it away. The action's hot and heavy and it's up to you to keep Pee Wee on his toes. If he succumbs to distraction, it's the pits! It's more fun than a greased pig... it's a blast!</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>20th Century Fox</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Porky's.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44425" source="ScreenScraper.fr">
+    <path>Power Lords - Quest for Volcan.zip</path>
+    <name>Power Lords - Quest for Volcan</name>
+    <desc>As superhero Adam Power, you're the pilot of a space sled on patrol around the explosive Volcan Rock, and what better cover for the bad guys? An enormous laser-eyed space serpent is coiled around the mountain, and you have to take it down single-handedly. Once See the videoyou?ve baked the snake, you land your sled on the surface and have a shootout with Gryptogg, Raygoth and Arkus. Once you?ve beaten them back, you can explore the underground caverns, collecting their instruments of evil and exchanging fire with them again. When you escape from their maze, you advance to the next level and begin the fight anew. </desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>NAP Consumer Electronics</developer>
+    <publisher>NAP Consumer Electronics</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Power Lords - Quest for Volcan.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38134" source="ScreenScraper.fr">
+    <path>Q-bert I.zip</path>
+    <name>Q*bert</name>
+    <desc>Q * bert es una conversión del popular juego de arcade. El objetivo es cambiar todas las fichas de una pirámide al color de destino. Para hacer esto, guía a Q * bert alrededor de la pirámide, y cada ficha sobre la que salta cambiará de color. En los primeros niveles, un solo salto cambiará el mosaico al color deseado, pero en los niveles posteriores, es posible que deba saltar sobre un mosaico varias veces o incluso evitar saltar sobre un mosaico varias veces. Tratando de detener a Q * bert hay muchas criaturas diferentes que deambulan por el tablero, incluyendo Coily la serpiente, Slick y Sam, y bolas que caen. En el borde del tablero hay discos flotantes; si Q * bert salta sobre uno de estos discos cuando la serpiente está persiguiéndolo, la serpiente se caerá del tablero mientras Q * bert se transporta con seguridad a la cima.</desc>
+    <rating>0.8</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>D. Gottlieb &amp; Co.</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Puzzle</genre>
+    <players>1-2</players>
+    <image>./media/images/Q-bert I.png</image>
+    <genreid>2816</genreid>
+  </game>
+  <game id="38135" source="ScreenScraper.fr">
+    <path>Q-Bert II - Q-Bert's Qubes.zip</path>
+    <name>Q*bert's Qubes</name>
+    <desc>QBert's Qubes es la secuela del juego QBert y presenta un gameplay similar, pero ahora en tres dimensiones. Una vez más, tu objetivo es cambiar bloques multicolores al color objetivo, pero ahora debes asegurarte de que los tres lados visibles de los bloques coincidan con el color objetivo. Controlas a QBert en el campo de juego de bloques; QBert cambia los colores saltando a un bloque que lo hará girar en la dirección de su salto. A diferencia del juego original, no necesitas cambiar los colores de todo el campo de juego, sino que debes formar una o varias líneas rectas de los colores objetivo, y cuando lo hagas, puedes pasar al siguiente nivel. Por supuesto, para hacer esta tarea más desafiante, hay una variedad de criaturas (¡incluyendo una rata gigante!) que te persiguen por el campo de juego. Cada criatura es de un color diferente, y si aterriza en un bloque donde la cara superior es del mismo color, entonces la criatura cae del campo de juego, pero si QBert es atrapado por una criatura, ¡se pierde una vida! A medida que el juego avanza, más criaturas persiguen a QBert y se agregan colores adicionales al campo de juego, lo que hace que sea más difícil encontrar el color objetivo. Ya no hay discos en los lados del campo de juego para llevarte a un lugar seguro, así que ¡asegúrate de no saltar al borde! Para ayudarte, una bola verde puede aparecer de vez en cuando; si la atrapas, todos los enemigos se congelan temporalmente.</desc>
+    <rating>0.8</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Mylstar Electronics</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Puzzle</genre>
+    <players>1-2</players>
+    <image>./media/images/Q-Bert II - Q-Bert's Qubes.png</image>
+    <genreid>2816</genreid>
+  </game>
+  <game id="38136" source="ScreenScraper.fr">
+    <path>Quest For Quintana Roo.zip</path>
+    <name>Quest for Quintana Roo</name>
+    <desc>Eres Yucatán Sam en una búsqueda para explorar el templo de Quintana Roo. Tu objetivo es encontrar la bóveda que está escondida en algún lugar dentro y regresar con el tesoro que está adentro. Comienzas tu búsqueda fuera del templo; sube por el costado del templo para entrar. Serpientes venenosas y relámpagos mortales bloquearán tu progreso aquí. Una vez dentro del templo, tiene un suministro de aire limitado, por lo que debe explorar rápidamente.</desc>
+    <rating>0.45</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>VSS</developer>
+    <publisher>Sunrise Software</publisher>
+    <genre>Aventura</genre>
+    <players>1</players>
+    <image>./media/images/Quest For Quintana Roo.png</image>
+    <genreid>512</genreid>
+  </game>
+  <game id="38137" source="ScreenScraper.fr">
+    <path>River Raid.zip</path>
+    <name>River Raid</name>
+    <desc>River Raid es un juego de acción de desplazamiento vertical. Vuelas en un jet por un río en un intento de destruir los puentes que son vitales para el enemigo. Sin embargo, el río está fuertemente custodiado, con globos, barcos, helicópteros y aviones enemigos que intentan detenerte. En el camino tendrás que volar sobre las estaciones de combustible para repostar el avión y seguir volando. 
+El avión está armado con un cañón con munición ilimitada. Se puede utilizar para destruir los vehículos enemigos y puentes, pero un jugador descuidado puede destruir accidentalmente una estación de combustible. Chocar con los margenes del río o con un avión enemigo destruye tu avión y te hace perder una vida.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Shoot'em Up / Vertical-Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/River Raid.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38138" source="ScreenScraper.fr">
+    <path>Robin Hood.zip</path>
+    <name>Robin Hood</name>
+    <desc>Robin Hood es un juego de acción en el que debes rescatar a Maid Marian, quien está siendo retenida por el Sheriff de Nottingham en un castillo (y, de paso, ¡robar algo de oro para darle a los pobres)! El juego se desarrolla en varias pantallas diferentes con objetivos diferentes. Primero, debes atravesar el bosque de Sherwood, donde numerosos secuaces se esconden; usa tus flechas para dispararles. Después de sobrevivir al bosque, la siguiente sección se desarrolla fuera del castillo, donde naturalmente, numerosos secuaces protegen la puerta del castillo. Mientras esquivas flechas entrantes, debes disparar suficientes secuaces para que la puerta se abra. Una vez que se abre, puedes ingresar al castillo para la escena final. Dentro del castillo podrás encontrar a Maid Marian detrás de una de las muchas puertas, y oro detrás de otra. El resto de las puertas tienen secuaces escondidos detrás de ellas, pero si puedes encontrar a Maid Marian o el oro, ganas esta ronda y el juego se repite en un nivel de habilidad más difícil.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Robin Hood.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38141" source="ScreenScraper.fr">
+    <path>Roc 'N Rope.zip</path>
+    <name>Roc 'n Rope</name>
+    <desc>Your player is a mountain climber who must avoid cavemen, dinosaurs and pterodactyls as he climbs up the cliff-sides. Your goal in each level is to climb up and reach a mystical bird with great plumage, while staying one step above the bonus timer which determines how long you may stay on each level. The mountain climber has only one ability; to shoot rope at 45 degree angles which he may then climb up to other platforms. His other action is a stun beam which will allow him to walk past enemies who get too close; but will only work horizontally from him. As for power-ups, on each level is (usually 2) a flashing diamond power-up which will make him invincible and allow him to defeat monsters. Also as a power-up are glowing treasures of some kind which are worth extra points. 
+
+Your player also cannot take a fall, except for extremely small ones unless he is able to climb down vines. This means that when you shoot your rope and are climbing it, you are vulnerable. Even more so because enemies are allowed to "shake" the rope until you fall off if they reach the base of the rope. Pterodactyls fly overhead and drop eggs on the player.
+
+There are 4 distinct levels; the cliff-side, the windmill, the waterfall and the peak. Completing all of these levels will restart the game with faster enemies and power-ups located in different places.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas / Corre y Salta-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Roc 'N Rope.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="38139" source="ScreenScraper.fr">
+    <path>Rock 'N' Bolt.zip</path>
+    <name>Rock 'n Bolt</name>
+    <desc>Louie El constructor apuntala las piezas a su ubicación. Las vigas se mueven constantemente de un lado a otro. Es tu trabajo bloquearlos y luego volver al lugar donde comenzaste el nivel. Hay 100 niveles y dos tipos de niveles. Uno es simplemente cerrar, los otros tienes que ponerlos en una ubicación específica. Hay tres niveles de dificultad para elegir, solo te pagan más cuanto más difícil es el nivel y tienes menos tiempo para completar el nivel.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Telegames</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Rock 'N' Bolt.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38140" source="ScreenScraper.fr">
+    <path>Rocky Super-Action Boxing.zip</path>
+    <name>Rocky - Super Action Boxing</name>
+    <desc>La incursión de Coleco en el ámbito del boxeo se basa en la película de 1982 Rocky III. Los jugadores tienen la opción de jugar como Rocky Balboa o Clubber Lang mientras uno lucha contra el oponente en 10 rondas de acción de boxeo. 
+ 
+El juego utiliza el Super Action Controller de Coleco que permite a los jugadores usar los botones para lanzar varios golpes y bloqueos, mientras usan el joystick para moverse por el ring. El oponente de la computadora puede establecerse en 4 niveles de habilidad diferentes, o jugar cara a cara con un segundo jugador. El ganador de un combate se pavonea con la victoria de Eye Of The Tiger, el tema principal de la película.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Deportes / Boxeo-Deportes</genre>
+    <players>1-2</players>
+    <image>./media/images/Rocky Super-Action Boxing.png</image>
+    <genreid>1540</genreid>
+  </game>
+  <game id="44426" source="ScreenScraper.fr">
+    <path>Rolloverture.zip</path>
+    <name>Rolloverture</name>
+    <desc>The hall is at a hush The maestro takes the baton and readies the orchestra. But wait! All the notes have been scrambled and you must help the maestro scurry madly around the orchestra pit directing the notes back to their proper order Climb ladders, throw levers, reverse the conveyor belt, and step on rollovers to guide the music ball to the correct notemaker slot. Proper placement rewards you with the overture, but incorrect placement results in a speed increase and greater difficulty. A variety of melodies and random scrambling of the notes guarantees to keep your interest, while you painlessly learn about music.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sunrise Software</developer>
+    <publisher>Sunrise Software</publisher>
+    <genre>Estrategia</genre>
+    <players>1</players>
+    <image>./media/images/Rolloverture.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38142" source="ScreenScraper.fr">
+    <path>Sammy Lightfoot.zip</path>
+    <name>Sammy Lightfoot</name>
+    <desc>Atraviesa tres niveles saltando los obstáculos que se interponen en tu camino. Use camas elásticas y columpios para llegar a lugares difíciles de alcanzar y evitar peligros o caídas. Ve a la parte superior de la pantalla para pasar al siguiente nivel. Una vez que se completan los tres niveles, el juego se reinicia con mayor dificultad. Antes de comenzar el juego, puede acceder a la pantalla de opciones que le permite personalizar la pantalla para incluir a otro jugador, apagar el sonido o la música de la escena, o dejar que cualquiera de los jugadores comience en cualquier nivel en particular.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sierra</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Sammy Lightfoot.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44427" source="ScreenScraper.fr">
+    <path>Sector Alpha.zip</path>
+    <name>Sector Alpha</name>
+    <desc>SECTOR ALPHA is a three-dimensional arcade-type search and destroy game. Robot penetrator space craft are invading from three directions and you must face and destroy them in each direction of the playing field.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravision</developer>
+    <publisher>Spectravision</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Sector Alpha.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38143" source="ScreenScraper.fr">
+    <path>Sewer Sam.zip</path>
+    <name>Sewer Sam</name>
+    <desc>Es un día hermoso y Sam está esperando en Central Park para encontrarse con su novia Sally. La ve y va a su encuentro, pero sin darse cuenta se encuentra en el sistema de alcantarillado de Nueva York. 
+ 
+Se han localizado tres submarinos rusos en el sistema de alcantarillado de Nueva York y han bloqueado el sistema. La única forma de salir del sistema de alcantarillado para Sam es destruir los submarinos rusos. Afortunadamente, Sam lleva su revólver. 
+ 
+Sam no puede regresar porque el Departamento de Alcantarillado de la ciudad sella el túnel. Por suerte, Sam lleva su revólver. 
+ 
+El sistema de alcantarillado tiene tres tipos de túneles de alcantarillado. Túneles con suelos secos sólidos, túneles con un pasaje de agua en el medio y túneles con pozos. 
+Sam puede caminar, correr y arrastrarse por los túneles, pero no puede moverse tan rápido en el agua. Sam puede moverse de un túnel a otro entrando en uno de los pasajes que aparecen ocasionalmente en su camino. Cada vez que entra en una alcantarilla nueva, Sam recibe un suministro fresco de oxígeno.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Interphase Technologies</developer>
+    <publisher>Interphase Technologies</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Sewer Sam.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38144" source="ScreenScraper.fr">
+    <path>Sir Lancelot.zip</path>
+    <name>Sir Lancelot</name>
+    <desc>A damsel in distress is being held in a castle by a fire breathing dragon! As Sir Lancelot, you need to ride your winged horse Pegasus to the rescue. Each level in this action game consists of two screens. First you are outside the castle which is guarded by numerous flying creatures. You need to fly around the screen and destroy all of the creatures by hitting them with your lance (careful, if they hit you instead you'll lose a life). After all of the creatures are gone, you enter the second screen which is inside the castle. Here there is a large pit of lava and a flying dragon. To destroy the dragon you need to hit it's stomach with your lance. If you are hit by one of the dragon's fireballs you'll be temporarily stunned and unable to fly. If you end up falling into the lava, you'll lose a life. If you can defeat the dragon, the game repeats at a higher difficulty level. The game ends when you lose all of your lives.</desc>
+    <rating>0.2</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Sir Lancelot.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44428" source="ScreenScraper.fr">
+    <path>Skiing.zip</path>
+    <name>Skiing</name>
+    <desc>The object of the SKIING'. game is to successfully negotiate the course in the feast amount of time</desc>
+    <releasedate>19860101T000000</releasedate>
+    <developer>Telegames</developer>
+    <publisher>Telegames</publisher>
+    <genre>Deportes / Esquí-Deportes</genre>
+    <players>1-4</players>
+    <image>./media/images/Skiing.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="38146" source="ScreenScraper.fr">
+    <path>Slither.zip</path>
+    <name>Slither</name>
+    <desc>Slither es similar en naturaleza al exitoso juego de arcade Centipede de Atari. Controlas a tu serpiente mientras se desliza por la pantalla. Donde este juego difiere mucho de Centipede es que puedes disparar en cuatro direcciones diferentes al mismo tiempo para eliminar a los malos que intentan cazarte. Las malas serpientes que te persiguen aparecerán desde varios ángulos en la pantalla, a menudo varias al mismo tiempo. El juego se incluyó con el Roller Controller de Coleco y no se puede jugar sin él.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Slither.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44429" source="ScreenScraper.fr">
+    <path>Slurpy.zip</path>
+    <name>Slurpy</name>
+    <desc>En este juego controlas a una extraña criatura verde con una larga trompa en la parte delantera, moviéndola en una cueva abierta sin desplazamiento de pantalla. En cada nivel, tu objetivo es comer diez semillas flotantes. Mientras tanto, el juego hace lo posible por evitar que lo logres, lanzando una multitud de diferentes monstruos contra ti. Afortunadamente, casi todos los monstruos del juego también pueden ser comidos. Si un enemigo toca a Slurpy, perderás una de tus preciadas vidas; ¡pero desgraciado el enemigo que se cruza en el camino de la trompa de Slurpy y es atrapado por su increíble poder de succión!</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Emag</developer>
+    <publisher>Xonox</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Slurpy.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38147" source="ScreenScraper.fr">
+    <path>Smurf Paint 'n Play Workshop.zip</path>
+    <name>Smurf - Paint 'n' Play Workshop</name>
+    <desc>Elija cualquiera de las cuatro escenas de fondo y comience a agregar objetos de clip art, muebles y diseño de forma libre. Las cuatro escenas son: 
+-Fuera de una casa de setas 
+-Dentro de una casa de setas 
+-El cruce del río 
+-Castillo de Gargamel 
+ 
+Crea cualquier número de escenarios decorados y luego usa cualquiera de los controles para convertirte en uno de los cuatro personajes: Pitufo, Papá Pitufo, Pitufina o Gargamel y juega con el gráfico que has creado. Los personajes pueden moverse hacia la izquierda, derecha, arriba, abajo ... saltar y soltarse. 
+ 
+No existe un método para guardar su trabajo, por lo que todo desaparece cuando se corta la energía.</desc>
+    <rating>0.85</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Varios-Educacional</genre>
+    <players>1-2</players>
+    <image>./media/images/Smurf Paint 'n Play Workshop.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="38148" source="ScreenScraper.fr">
+    <path>Smurf Rescue.zip</path>
+    <name>Smurf Rescue in Gargamel's Castle</name>
+    <desc>Pitufina ha sido secuestrada y encarcelada en el castillo de Gargamel. El jugador controla a un pitufo que debe saltar obstáculos y huir de los enemigos para finalmente llegar hasta Pitufina e intentar rescatarla. Una vez completado el juego este se reinicia con obstáculos que se mueven más rápido y el camino hasta el castillo de Gargamel es mas largo incrementando la dificultad.</desc>
+    <rating>0.75</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Smurf Rescue.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38149" source="ScreenScraper.fr">
+    <path>Space Fury.zip</path>
+    <name>Space Fury</name>
+    <desc>¡Entonces! ¡Una criatura para mi diversión! ¡Prepárate para la batalla! "Estas son las palabras pronunciadas por el comandante alienígena al iniciar un juego de Space Fury. El juego es similar a Asteroids en el sentido de que tienes una pantalla de espacio que se envuelve sobre sí misma y tu nave solo puede empujar y disparar. Sin embargo, mientras que en Asteroids te enfrentaste a pedazos de roca que no podían perseguirte, Space Fury proporciona naves alienígenas que te perseguirán.</desc>
+    <rating>0.75</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/images/Space Fury.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="143919" source="ScreenScraper.fr">
+    <path>Space Invasion.zip</path>
+    <name>Space Invasion</name>
+    <desc>Space Invasion se basó en el mejor juego de disparos de todos los tiempos, y es un excelente puerto de Coleco, que incluye tanto la versión original como la de lujo. 
+Dondzila señala que los secretos están incluidos.</desc>
+    <releasedate>19980101T000000</releasedate>
+    <developer>John Dondzila</developer>
+    <genre>Disparos / Tipo Space Invaders-Disparos</genre>
+    <players>1</players>
+    <image>./media/images/Space Invasion.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38150" source="ScreenScraper.fr">
+    <path>Space Panic.zip</path>
+    <name>Space Panic</name>
+    <desc>A game remarkably similar to Lode Runner, you play an astronaut with limited oxygen (time) chased around by various space aliens. Your only method of dealing with these multicolored threats from space is to dig a hole, lure it into a hole and then manually fill up the hole with the alien in it. Dropping aliens on top of other aliens earns you extra points and eliminates both. Levels get progressively harder and enemies grow faster.</desc>
+    <rating>0.75</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Universal </developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Plataformas / Corre y Salta-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Space Panic.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="44430" source="ScreenScraper.fr">
+    <path>Spectron.zip</path>
+    <name>Spectron</name>
+    <desc>The planetary clust Shalix is plagued by an intergalactic dust cloud that blocked out their sun. Now the Shalix have built a fleet to colonize new worlds. Unfortunately they set their eyes on Spectron, the player's home world. It's up to the player to repel the invading forces from Shalix.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravideo</developer>
+    <publisher>Spectravideo</publisher>
+    <genre>Disparos-Disparos / Tipo Space Invaders</genre>
+    <players>1-2</players>
+    <image>./media/images/Spectron.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38152" source="ScreenScraper.fr">
+    <path>Spy Hunter.zip</path>
+    <name>Spy Hunter</name>
+    <desc>En Spy Hunter, la acción se desarrolla desde arriba. Tu coche está equipado con ametralladoras que te ayudarán a eliminar a los numerosos enemigos de la carretera, pero ten cuidado de no disparar a civiles. De vez en cuando, te cruzarás con un furgón de armas y, si te topas con él, tu coche estará equipado con una segunda arma. En varios puntos, la carretera se divide y puedes entrar en un hangar para convertir temporalmente tu coche en un barco. Los coches intentarán sacarte de la carretera, los enemigos te dispararán desde la parte trasera de una limusina y los helicópteros te lanzarán bombas. 
+</desc>
+    <rating>0.35</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1-2</players>
+    <image>./media/images/Spy Hunter.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="108718" source="ScreenScraper.fr">
+    <path>Squish 'Em Sam!.zip</path>
+    <name>Squish'em Featuring Sam</name>
+    <desc>Climb up the side of a series of 48-story buildings to collect suitcases full of money, while avoiding creepy monsters and falling objects that try to knock you off. Fortunately, you can strike back against the monsters by smashing them flat, by smashing them on the head. Don't linger too long, though, since they are soon resurrected, white and unsquishable. </desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Sirius</developer>
+    <publisher>Sirius</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Squish 'Em Sam!.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="143924" source="ScreenScraper.fr">
+    <path>Star Fortress.zip</path>
+    <name>Star Fortress</name>
+    <releasedate />
+    <image>./media/images/Star Fortress.png</image>
+  </game>
+  <game id="38153" source="ScreenScraper.fr">
+    <path>Star Trek.zip</path>
+    <name>Star Trek : Strategic Operations Simulator</name>
+    <desc>Star Trek: Strategic Operations Simulator es un juego de acción arcade en el que tomas el control de Starship Enterprise. ¡Tu misión es salvar a la Federación de NOMAD! Antes de que tengas la oportunidad de destruir NOMAD, tendrás que abrirte camino a través de diez niveles (cada uno con varias rondas). En cada ronda puede encontrar combatientes Klingon, platillos de antimateria mortales, campos de asteroides y meteoritos mortales, todos los cuales son capaces de agotar la energía de las Empresas.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Disparos / Vehículo, 1ª persona-Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Star Trek.png</image>
+    <genreid>1028</genreid>
+  </game>
+  <game id="38154" source="ScreenScraper.fr">
+    <path>Star Wars.zip</path>
+    <name>Star Wars : The Arcade Game</name>
+    <desc>Conversión del shoot 'em up en primera persona de Atari Games basado en la película original de Star Wars. Asumes el papel de Luke Skywalker, con el objetivo de destruir la Estrella de la Muerte, lo que, como cualquier fan sabe, implica atacar el punto débil cerca del escape. Para llegar deberás pasar entre multitud de enjambres de TIE Fighters que te atacarán sin parar. Completa el juego y volverá a repetirse con una dificultad cada vez mayor, aumentando el reto que te ofrece Star Wars. El juego utiliza gráficos vectoriales, que permiten mucha acción a alta velocidad.</desc>
+    <rating>0.65</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Disparos / Avión, 1ª persona-Disparos</genre>
+    <players>1</players>
+    <image>./media/images/Star Wars.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38155" source="ScreenScraper.fr">
+    <path>Steamroller.zip</path>
+    <name>Steamroller</name>
+    <desc>Repair the potholes in the road. If a beach ball gets in the way, pop it! But beware of beach bombs!
+
+You are driving around a continuously deteriorating road, where potholes are forming. You must drive over these potholes to repair them. Along the way, you can drive over beach balls to pop them for points. Don't let a pothole go too long because if it does, it will become a manhole. If a beach ball falls into a manhole, it will emerge as a beach bomb, that can damage you. In a two player game, knock your opponent into the bombs. In a one player game, avoid the other steamroller as it will kill you except for the last few seconds of the round. In that short time, hitting it will kill it.</desc>
+    <releasedate>20000101T000000</releasedate>
+    <developer>Cheshire Engineering</developer>
+    <publisher>Retrotopia</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Steamroller.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="44431" source="ScreenScraper.fr">
+    <path>Strike It!.zip</path>
+    <name>Strike It!</name>
+    <desc>Strike! Strike! Strike! 
+ 
+Our "Strike It" is the most interesting TV game between various varieties and high techniques uses the simplest regulation. 
+It is not so easy to hold your pin pon racket to hit the ball and reflecting to the bricks to get high points. 
+So speedy reflection and judgment are necessary. 
+Then you most pay your full attention to the direction and angle of reflection of the ball. 
+Sharp eyesight, speddy hand control and smart judgment are principals to win the game, Try it now!.</desc>
+    <releasedate>19860101T000000</releasedate>
+    <developer>Telegames</developer>
+    <publisher>Telegames</publisher>
+    <genre>Acción / Romper Ladrillos-Acción</genre>
+    <players>1</players>
+    <image>./media/images/Strike It!.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44432" source="ScreenScraper.fr">
+    <path>Subroc.zip</path>
+    <name>Subroc</name>
+    <desc>SubRoc 3-D is a shooter, where you look through a periscope and shoot at both sea and air-targets.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Subroc.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38156" source="ScreenScraper.fr">
+    <path>Super Action Baseball.zip</path>
+    <name>Super Action Baseball</name>
+    <desc>El único juego de béisbol de Colecovision y el primero de la serie Super Action, Super Action Baseball fue especialmente diseñado para funcionar con los controladores Super Action. 
+ 
+El bateo se realiza con una vista en ángulo en la que se ve al bateador en la parte inferior izquierda de la pantalla y el lanzador en el centro-derecha. La parte superior de la pantalla está reservada para vigilar las bases. Cuando se acerca la pelota, el jugador intenta golpear la pelota con su bate para lanzarla por el aire. Un buen golpe permitirá a tu jugador el correr a las bases. Correr se hace con la "rueda" en la parte superior de los Super Action Controllers. También es posible robar bases sin estar la pelota en juego. 
+ 
+La recepción es sencilla, con los controladores Super Action hay 4 botones distintos que corresponden a cada base. Por lo tanto, la pelota se puede lanzar a cualquiera de las bases en cualquier momento.</desc>
+    <rating>0.7</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Deportes / Béisbol-Deportes</genre>
+    <players>1-2</players>
+    <image>./media/images/Super Action Baseball.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="38157" source="ScreenScraper.fr">
+    <path>Super Action Football.zip</path>
+    <name>Super Action Football</name>
+    <desc>Otro juego de la serie Super Action que utiliza los Super Action Controllers de Coleco. Juega contra la computadora o enfréntate cara a cara con un amigo durante 4 cuartos de acción de fútbol americano. Da un paso atrás y lanza una bomba larga a tu receptor en la zona de anotación, patea la pelota o completa un tackle mientras controlas a uno de los 3 jugadores ofensivos o defensivos. ¿Qué baile harás cuando pases la línea de gol en los últimos segundos del partido?</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Deportes-Deportes / Fútbol americano</genre>
+    <players>1-2</players>
+    <image>./media/images/Super Action Football.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="150952" source="ScreenScraper.fr">
+    <path>Super Action Soccer.zip</path>
+    <name>Super Action Soccer</name>
+    <desc>Super Action Soccer gives you the chance to be the most accomplished star player of any team that ever was. You will be the goal-keeper diving to make incredible saves, the full back with fierce last minute tackles, the mid-field "general" directing shrewd passes and the centre forward scoring great goals. You will be involved all the time in the most exciting moments of the game. You will score the winning goal!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Deportes-Deportes / Fútbol</genre>
+    <players>1-2</players>
+    <image>./media/images/Super Action Soccer.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="38158" source="ScreenScraper.fr">
+    <path>Super Cobra.zip</path>
+    <name>Super Cobra</name>
+    <desc>Super Cobra es un juego de disparos de desplazamiento lateral basado en el juego de arcade. Eres un piloto de helicópteros en una misión de vigilancia en territorio enemigo; tu objetivo es atravesar con vida las diversas pistas de obstáculos y obtener la mayor cantidad de puntos posible. Edificios altos, montañas, túneles estrechos y varios enemigos (como tanques, cohetes, minas y más) pueden interponerse en el camino y destruir tu helicóptero si no tienes cuidado. Para ayudarte a defenderte, el helicóptero está armado con una ametralladora y bombas que pueden usarse para destruir los tanques y cohetes enemigos. Para hacer la tarea más difícil, su helicóptero tiene una cantidad limitada de combustible. A lo largo de los paisajes hay tanques de combustible; si uno de estos es disparado o bombardeado, se le otorgará combustible adicional. A medida que avanzan los niveles, los enemigos se vuelven más agresivos, el combustible se vuelve más escaso y el paisaje se vuelve más difícil de navegar.</desc>
+    <rating>0.45</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Shoot'em Up / Horizontal-Acción-Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Super Cobra.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="44433" source="ScreenScraper.fr">
+    <path>Super Cross Force.zip</path>
+    <name>Super Cross Force</name>
+    <desc>There's a new menace in the galaxy! It's the evil Morplus from the planet Tzoris. Morplus are without question the fiercest warriors east of the Libra Super-Galactic Cluster. They arrive in teams of two to four members, and in waves with the more dangerous squadrons arriving later. In the more advanced skill levels, they're impossible to stop! Both their flight patterns and bombing maneuvers are highly unpredictable. What can you do against odds like these? There's only one hope: you must catch them in a devastating super cross force. The key is your awesome "Spectron" weapon, which creates a dual holographic laser blast. You can get them coming and going, and if you run low on energy, you can deftly swing your joystick to the left or right to catch the energy packs dropped by your mother ship.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Spectravideo</developer>
+    <publisher>Spectravideo</publisher>
+    <genre>Shoot'em Up / Vertical-Shoot'em Up</genre>
+    <players>1</players>
+    <image>./media/images/Super Cross Force.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="108725" source="ScreenScraper.fr">
+    <path>Super DK! Junior.zip</path>
+    <name>Super DK! Junior</name>
+    <desc>Juego prototipo. Super dk! junior es la secuela del juego super arcade dk! El jugador controla al hijo de Donkey Kong, Donkey Kong Junior, quien entregará a su padre, capturado por Mario.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Super DK! Junior.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="108724" source="ScreenScraper.fr">
+    <path>Super DK!.zip</path>
+    <name>Super DK!</name>
+    <desc>Super Donkey Kong for ColecoVision is a hacked version of the enhanced game made for Coleco's Adam computer. The main difference you will notice is the addition of the intermission sequences. While these were present in the arcade version of the game, Coleco elected to omit them in the cartridge version. They make for a more arcade-like experience but add nothing to the game.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Plataformas / Corre y Salta-Plataformas</genre>
+    <players>1-2</players>
+    <image>./media/images/Super DK!.png</image>
+    <genreid>257</genreid>
+  </game>
+  <game id="44434" source="ScreenScraper.fr">
+    <path>Tank Wars.zip</path>
+    <name>Tank Wars</name>
+    <desc>Protect the Radar Base and yourself from being hit by various enemy tanks, and further trace to defeat every enemy you confront. In this game, you fight by five of your own tanks against 20 enemy tanks in each scene.</desc>
+    <releasedate>19860101T000000</releasedate>
+    <developer>Telegames</developer>
+    <publisher>Telegames</publisher>
+    <genre>Disparos</genre>
+    <players>1-2</players>
+    <image>./media/images/Tank Wars.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38159" source="ScreenScraper.fr">
+    <path>Tapper.zip</path>
+    <name>Tapper</name>
+    <desc>Tapper is an action game where you're a beer tapper (barman) and have to serve beer to demanding customers. There are four customers, each has its own lane lengthier than the previous one, whom you have to keep at bay. If they reach the end of the lane without receiving their beer, you're a goner; if you miss one and accidentally spill beer needlessly you lose a life and should one of them throw you back the mug and you fail to catch it, you lose a life as well.
+
+Occasionally a bizarre icon will appear on one of the lines and, should you grab it, will invoke a "cabarette"-style show which will keep some of the customers occupied.
+
+The Xbox 360 version includes bonus rounds, as well as co-op and versus multiplayer modes, also online, along with achievements.</desc>
+    <rating>0.65</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Tapper.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38160" source="ScreenScraper.fr">
+    <path>Telly Turtle.zip</path>
+    <name>Telly Turtle</name>
+    <desc>Telly Turtle is basically a port of the LOGO programming language with the main character being a turtle. The keypad buttons of the Colecovision are used to issue commands from a selection presented on-screen and eventually, programs can be formed to move Telly Turtle around the screen in a series of directions.
+Music and Sound Effects are also added into the mix to broaden the programming experience</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Carousel Software</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Varios-Educacional</genre>
+    <players>1</players>
+    <image>./media/images/Telly Turtle.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="38061" source="ScreenScraper.fr">
+    <path>Decathlon.zip</path>
+    <name>The Activision Decathlon</name>
+    <desc>Activision Decathlon es una serie de juegos olímpicos similar a la serie de juegos Epyx. Hasta cuatro jugadores pueden competir en los diez eventos diferentes de un decatlón de la vida real, ya sea en secuencia o individualmente. Se incluyen los 100 metros lisos, el salto de longitud, el lanzamiento de peso, el salto de altura, la carrera de 400 metros, los 110 metros con vallas, el lanzamiento de disco, el salto con pértiga, el lanzamiento de jabalina y la carrera de 1500 metros. 
+ 
+Los eventos de carrera plana implican un simple movimiento del joystick, que debe equilibrarse con pulsaciones de botones en el momento preciso para superar los obstáculos: golpearlos o romper el paso provoca una pérdida de impulso y, por lo tanto, de tiempo. Para los eventos de saltos y lanzamientos, debe generar impulso moviendo y luego presionar el botón para lanzar o saltar en el momento que considere apropiado.</desc>
+    <rating>0.75</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Deportes / Multideporte-Deportes</genre>
+    <players>1</players>
+    <image>./media/images/Decathlon.png</image>
+    <genreid>1536</genreid>
+  </game>
+  <game id="38086" source="ScreenScraper.fr">
+    <path>Dam Busters.zip</path>
+    <name>The Dam Busters</name>
+    <desc>Dam Busters is an early flight simulation, set in World War II. It focuses on Dam Busters who historically were used to heavily bombard strategic objectives, in this case dams.
+
+This task is not easy, as en route you will face heavy opposition forces. Fortunately, you won't be a sitting bomber in the air. Your aircraft is equipped with machine guns (left and right) with unlimited rounds of fire power, so fire at will as the enemy approaches.
+
+When the time comes, you will have to bomb the target manually. So, get ready to unload the cargo and give them hell!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Disparos / 1ª persona-Disparos</genre>
+    <players>1</players>
+    <image>./media/images/Dam Busters.png</image>
+    <genreid>259</genreid>
+  </game>
+  <game id="38093" source="ScreenScraper.fr">
+    <path>Dukes of Hazzard.zip</path>
+    <name>The Dukes of Hazzard</name>
+    <desc>Driving around in the car known as the "General Lee", you must avoid all sorts of obstacles in an attempt to catch up to Jeremiah Stinge. Beware though as Boss Hog and his police force are trying to chase you. The Duke boys are as usual on the side of right in this scenario and it's Jeremiah who has orchestrated things to put them on the wrong side of the law.
+
+The gameplay is a top-down view of your vehicle heading down a path vertically across the screen. Also on the screen is your speedometer, a bonus timer (faster times mean more points!) and a gear shift. The General Lee itself has gears 1 through 4 and higher gears mean MORE SPEED. As for obstacles, the path ahead of you is full of hills and oil slicks making it difficult to catch up to (and pass) your prey.
+
+Successful completion of levels results in faster chases and more obstacles on the road. Also an increased "Boss Hogg" presence.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1-2</players>
+    <image>./media/images/Dukes of Hazzard.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38106" source="ScreenScraper.fr">
+    <path>Heist.zip</path>
+    <name>The Heist</name>
+    <desc>As a cat burglar, it's up to you to collect all of the valuable paintings from each level while avoiding security systems, pits and robotic sentries which move back and forth. Each level is comprised of three floors and ladders connecting them. Your cat burglar has only the ability to jump, and you must rely entirely on that to keep you alive.</desc>
+    <rating>0.9</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Livesay Computer Games</developer>
+    <publisher>Micro Fun</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Heist.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="108722" source="ScreenScraper.fr">
+    <path>Yolk's on You.zip</path>
+    <name>The Yolks on You</name>
+    <desc>This game was only a prototype.Get the eggs/chicks into the coop while fighting off hawks, foxes, and snakes. Avoid groundhog holes and don't break any eggs</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>20th Century Fox</developer>
+    <publisher>20th Century Fox</publisher>
+    <players>1-2</players>
+    <image>./media/images/Yolk's on You.png</image>
+  </game>
+  <game id="38161" source="ScreenScraper.fr">
+    <path>Threshold.zip</path>
+    <name>Threshold</name>
+    <desc>Threshold is a simple Shoot'em up game. You are in control of a spaceship at the bottom of the screen and have to shoot several formations of enemies on the top of the screen.
+To make things more difficult you have limited time in form of a fuel tank which will get refilled after you cleared a number of waves. Besides that your spacecraft is equipped with a laser that tends to overheat. Every shot make the heat bar of the laser increase a bit. Once it reached its maximum you can't fire anymore and are forced to wait until it cooled down while slowly running out of fuel.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Sierra</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Threshold.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38162" source="ScreenScraper.fr">
+    <path>Time Pilot.zip</path>
+    <name>Time Pilot</name>
+    <desc>Time Pilot es un juego de disparos de estilo arcade. Piloteando tu nave espacial confiable, debes destruir los escuadrones de naves enemigas que te están atacando. En cada nivel, tienes una cuota de enemigos que deben ser destruidos. Después de cumplir tu cuota, aparecerá un jefe final del nivel; al ser destruido, avanzarás al siguiente nivel. El juego comienza en el año 1910, y cada vez que se completa un nivel, avanzas en el tiempo. En 1910, solo tienes que enfrentar a biplanos relativamente desarmados, pero a medida que avanzan los niveles, también lo hace la tecnología. Cada nuevo nivel trae consigo naves más duras y con armas más pesadas, incluyendo jets, helicópteros e incluso platillos voladores. De vez en cuando, encontrarás un paracaídas; si lo alcanzas, ganarás puntos extra.</desc>
+    <rating>0.6</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Disparos / Avión-Disparos</genre>
+    <players>1</players>
+    <image>./media/images/Time Pilot.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38163" source="ScreenScraper.fr">
+    <path>Tomarc the Barbarian.zip</path>
+    <name>TOMARC The Barbarian</name>
+    <desc>In Tomarc the Barbarian Senta is being held captive in a magical cage, and Tomarc needs to rescue her! In this action game you will control both Tomarc and Senta simultaneously. Tomarc is lost in a series of caves somewhere searching for his magic sword, and then must locate Senta to set her free. Deadly rats and other dangers must be avoided as you run and jump around the caves. Meanwhile, Senta must defend herself from giant bats and other creatures while trapped in the cage; although she can't move, she is capable of firing magic at enemies to destroy them. You are able to switch screens between the two characters to select which character to control. Listening to the sound effects can help you determine when the other character is in trouble and you should switch screens.</desc>
+    <rating>0.2</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Tomarc the Barbarian.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38164" source="ScreenScraper.fr">
+    <path>Tournament Tennis.zip</path>
+    <name>Tournament Tennis</name>
+    <desc>Most of the conventions that became standard for tennis simulations appear in this early title - indeed many were pioneered by it. Matches can be played at quarter-final, semi-final or final level - winning at one level automatically moves you onto the next one. They can last for 3 or 5 sets, with a player requiring a 2-game lead to win a set, although a tie-break comes in at 6-6 in all but the final set.
+
+The view is pseudo-3D, from above the court, and features a shadow on the ball to give a more realistic appearance and make it easier to judge its height. Spectators turn their heads to view the action, and ball-boys run on to the court to retrieve a dead ball. Shot speed, direction and spin can all be applied, and forehand and backhand strokes are both available.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>D&amp;L Research</developer>
+    <publisher>Imagic</publisher>
+    <genre>Simulación-Deportes-Deportes / Tenis</genre>
+    <players>1</players>
+    <image>./media/images/Tournament Tennis.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="154949" source="ScreenScraper.fr">
+    <path>Troll's Tale.zip</path>
+    <name>Troll's Tale</name>
+    <releasedate />
+    <image>./media/images/Troll's Tale.png</image>
+  </game>
+  <game id="38165" source="ScreenScraper.fr">
+    <path>Turbo.zip</path>
+    <name>Turbo</name>
+    <desc>It's you and several other cars racing through a variety of landscapes in Turbo. From the starting line onward, you need to maneuver around and pass various cars in your way while racing towards the finish line. Some of the landscapes you'll travel through include city streets, long roads in the country, seaside highways and dark tunnels.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1-2</players>
+    <image>./media/images/Turbo.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38166" source="ScreenScraper.fr">
+    <path>Tutankham.zip</path>
+    <name>Tutankham</name>
+    <desc>Tutankham is an arcade action game played from a top down point of view. You are an explorer in King Tut's tomb on a mission to retrieve as many of the valuable treasures as you can find. In addition to the treasures, you will also find a key in each of the chambers. This is needed in order to unlock the entrance to the next, more difficult chamber. Be careful, for the tomb is guarded by many dangerous creatures! Cobras, bats, scorpions, and more all appear in the maze and will cause you to lose a life if you're caught! To defend yourself you are armed with a laser gun which you can fire left or right, but not up or down. In each of the mazes you are also give one "flash" which can be used to destroy all creatures currently on the screen.</desc>
+    <rating>0.7</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Tutankham.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38167" source="ScreenScraper.fr">
+    <path>Up 'N Down.zip</path>
+    <name>Up'n Down</name>
+    <desc>Este es un port para casa de un juego de arcade de Sega de 1983 que fue distribuido por Bally Midway. 
+ 
+El objetivo es conducir alrededor de un curso sinuoso y recolectar todas las banderas de colores. Puedes saltar sobre huecos y sobre otros autos o incluso caer sobre ellos. Si aterrizas sobre otro auto, lo matas y obtienes puntos. También puedes recolectar cosas como globos y conos de helado para obtener puntos adicionales. Cuanto más rápido recolectes todas las banderas, más grande será el bono de tiempo que obtendrás. 
+ 
+En niveles posteriores, hay callejones sin salida o huecos y un vehículo que lleva una bandera que necesitas, por lo que tendrás que saltar sobre él. Si eres golpeado por otro vehículo o sales del curso, pierdes una vida. En juegos para dos jugadores, se alternan los turnos.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>Carreras, Conducción</genre>
+    <players>1-2</players>
+    <image>./media/images/Up 'N Down.png</image>
+    <genreid>1537</genreid>
+  </game>
+  <game id="38168" source="ScreenScraper.fr">
+    <path>Venture.zip</path>
+    <name>Venture</name>
+    <desc>Venture es una conversión del popular juego de arcade. El objetivo del aventurero Winky es recolectar tantos tesoros como pueda. El problema es que se encuentran dispersos en numerosas mazmorras, y en cada una de ellas hay varias cámaras donde se esconden los tesoros. Armado sólo con una ballesta, debe superar las diversas criaturas que custodian la cámara, atrapar el tesoro y volver a salir. Cuando recoja el tesoro de cada una de las cámaras de una mazmorra, podrá pasar a la siguiente mazmorra, que será mas difícil que la anterior, aumentando el desafío de Venture para el jugador.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Exidy</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1-2</players>
+    <image>./media/images/Venture.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38169" source="ScreenScraper.fr">
+    <path>Victory.zip</path>
+    <name>Victory</name>
+    <desc>Victory is based on the Arcade game of the same name.  Use your Coleco Roller Controller to rotate your ship as the space around you scrolls by, smack your fire button to take out anything that moves and snag a power-up or two along the way to aid in your quest.  Similar in style to Asteroids, but with a moving background.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Exidy</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Victory.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="44436" source="ScreenScraper.fr">
+    <path>Video Hustler.zip</path>
+    <name>Video Hustler</name>
+    <desc>With an overhead view of the table, you play a billiards variant called "Pocket Ball" with just six object balls.
+Imprecise control over the aim and velocity of your shots.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Acción-Deportes / Billar-Deportes</genre>
+    <players>1</players>
+    <image>./media/images/Video Hustler.png</image>
+    <genreid>1538</genreid>
+  </game>
+  <game id="38170" source="ScreenScraper.fr">
+    <path>War Games.zip</path>
+    <name>War Games</name>
+    <desc>Saludos, profesor Falken. ¿Vamos a jugar un juego? 
+ 
+Este juego de estrategia está basado en la popular película de 1983 del mismo nombre, protagonizada por Matthew Broderick. Puede recordarle a la gente el Comando de Misiles, pero la acción es más lenta y se distribuye en seis pantallas que representan diferentes áreas de los EE. UU. Los misiles, aviones y submarinos enemigos atacarán y debes dirigir tus propias fuerzas, que incluyen misiles, aviones, submarinos y satélites, para interceptarlos. Cada tipo de defensa tiene fortalezas y debilidades (los misiles son rápidos pero de alcance limitado, los aviones son más lentos pero tienen alcance ilimitado). Los satélites son una mejor defensa general, pero solo están disponibles de vez en cuando. Algunas armas no están disponibles en ciertas áreas y algunos enemigos son resistentes a ciertas armas, por lo que debes modificar tu estrategia en consecuencia.</desc>
+    <rating>1</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Estrategia</genre>
+    <players>1</players>
+    <image>./media/images/War Games.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="44437" source="ScreenScraper.fr">
+    <path>War Room.zip</path>
+    <name>War Room</name>
+    <desc>War Room es una simulación de los escenarios computarizados de juegos de guerra que se juegan al más alto nivel de las superpotencias mundiales. Es una representación extremadamente gráfica y realista de un enfrentamiento nuclear entre los Estados Unidos y Rusia.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Probe 2000</developer>
+    <publisher>Probe 2000</publisher>
+    <genre>Estrategia</genre>
+    <players>1</players>
+    <image>./media/images/War Room.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <game id="38171" source="ScreenScraper.fr">
+    <path>Wing War.zip</path>
+    <name>Wing War</name>
+    <desc>Wing War is an action game where you control a dragon. Beginning in your underground cave, your goal is to capture a sparkling diamond. To do this, you will first need to unlock the secret passage by bringing a fire, water and air crystal back to your cave. Crystals can be found by exploring the various locations available, usually you will need to destroy one of the many enemies so they turn into a crystal. Fire and water crystals can not be in the cave alone at the same time, an air crystal must be placed between them; so you will need to bring back the crystals in the order fire, air, water or water, air, fire. Once you've done this a super crystal is formed unlocking the secret passage so you can try to get the diamond! Your dragon has a limited amount of energy; being hit by enemies will cause the energy to deplete, and the game ends when all of your dragons have lost all their energy.</desc>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Acción</genre>
+    <players>1</players>
+    <image>./media/images/Wing War.png</image>
+    <genreid>256</genreid>
+  </game>
+  <game id="38172" source="ScreenScraper.fr">
+    <path>Wizard of Id's Wizmath.zip</path>
+    <name>Wizard Of Id's Wizmath</name>
+    <desc>Spook needs to escape from the King of Id's dungeons. He slips out but Turnkey is in pursuit. He needs to solve math problems to open the way to his escape.
+
+Wizard of Id's WizMath is an educational game to teach mathematics. Using your joystick, you must move blocks into place so they complete a correct math problem and answer. If you push against a block, you will send it flying until it hits a wall or another block. You can also face a block and hold down the button. While keeping the button down, you can then slide the block as needed. There is a sixty second time limit and you are being pursued by Turnkey. Early levels require only one math problem to exit but later levels require two or more.
+
+Early in the game, you can select a floor on an elevator. The higher the floor, the more difficult the math problems. The game also asks your age. The older you say you are, the higher a floor it tries to start you on, although you can select a lower floor.</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Sydney Development</developer>
+    <publisher>Sierra On-Line</publisher>
+    <genre>Varios-Educacional</genre>
+    <players>1-2</players>
+    <image>./media/images/Wizard of Id's Wizmath.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="44438" source="ScreenScraper.fr">
+    <path>Word Feud.zip</path>
+    <name>Word Feud</name>
+    <desc>Victory doesn't always belong to the fastest player in WORD FEUD. It's not enough to quickly find a likely word match in the maze and move your window over it. You must also be sure that it is the right word and that means finding the other copy! Remember ? even if you think you've found the right word. it might not he the one you want because in each round there is always decoy word there to confuse you The decoy word can even he the same word as the one hidden, but with different colors!</desc>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Xonox</developer>
+    <publisher>Xonox</publisher>
+    <genre>Educacional</genre>
+    <players>1-2</players>
+    <image>./media/images/Word Feud.png</image>
+    <genreid>4352</genreid>
+  </game>
+  <game id="38174" source="ScreenScraper.fr">
+    <path>Super Zaxxon.zip</path>
+    <name>Zaxxon</name>
+    <desc>ZAXXON te empuja hacia las profundidades del espacio exterior. Pon a prueba tus habilidades como piloto en la posición de comando. Prepárese para un desafío lleno de acción de supervivencia espacial. Sume puntos mientras bucea, asciende y desciende para destruir la fortaleza flotante del enemigo. ¡Esquiva las barreras láser mortales, los misiles enemigos y los disparos rápidos! Destruye los tanques de combustible enemigos y tu propio suministro se repone. Sobrevive al ataque de la flota de combate del enemigo y enfrenta el último desafío ... el poderoso robot blindado ZAXXON.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up-Shoot'em Up / Diagonal</genre>
+    <players>1-2</players>
+    <image>./media/images/Super Zaxxon.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38174" source="ScreenScraper.fr">
+    <path>Zaxxon.zip</path>
+    <name>Zaxxon</name>
+    <desc>ZAXXON te empuja hacia las profundidades del espacio exterior. Pon a prueba tus habilidades como piloto en la posición de comando. Prepárese para un desafío lleno de acción de supervivencia espacial. Sume puntos mientras bucea, asciende y desciende para destruir la fortaleza flotante del enemigo. ¡Esquiva las barreras láser mortales, los misiles enemigos y los disparos rápidos! Destruye los tanques de combustible enemigos y tu propio suministro se repone. Sobrevive al ataque de la flota de combate del enemigo y enfrenta el último desafío ... el poderoso robot blindado ZAXXON.</desc>
+    <rating>0.8</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Shoot'em Up-Shoot'em Up / Diagonal</genre>
+    <players>1-2</players>
+    <image>./media/images/Zaxxon.png</image>
+    <genreid>260</genreid>
+  </game>
+  <game id="38175" source="ScreenScraper.fr">
+    <path>Zenji.zip</path>
+    <name>Zenji</name>
+    <desc>Zenji is an action/strategy game where you control a rolling face throughout a maze. Each section of the maze can be rotated by the face. The goal is to turn the entire maze green by connecting each section of the maze to the source at the center of the screen. After all sections of the maze have been connected, you can move on to the next, more challenging level. In addition to having a time limit to complete your task, you need to avoid the flames and sparks which wander about the maze. From time to time a number will appear in a maze section and count down from 9 to 0. If you touch the number before it disappears, bonus points are earned. As the levels progress, the mazes become larger, trickier and more flames will appear.</desc>
+    <rating>0.7</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Estrategia</genre>
+    <players>1-2</players>
+    <image>./media/images/Zenji.png</image>
+    <genreid>1280</genreid>
+  </game>
+  <!-- <game id="143890" source="ScreenScraper.fr">
+    <path>Amazing Snake.zip</path>
+    <name>ZZZ(notgame):Amazing Snake Beta X By Serge-eric Tremblay</name>
+    <releasedate />
+    <image>./media/images/Amazing Snake.png</image>
+  </game>
+  <game id="143892" source="ScreenScraper.fr">
+    <path>Bejeweled.zip</path>
+    <name>ZZZ(notgame):Bejeweled Demo By Daniel Bienvenu</name>
+    <releasedate />
+    <image>./media/images/Bejeweled.png</image>
+  </game>
+  <game id="143893" source="ScreenScraper.fr">
+    <path>Breakout.zip</path>
+    <name>ZZZ(notgame):Breakout</name>
+    <releasedate />
+    <image>./media/images/Breakout.png</image>
+  </game>
+  <game id="143903" source="ScreenScraper.fr">
+    <path>Cosmo Fighter II.zip</path>
+    <name>ZZZ(notgame):Cosmo Fighter 3 Demo By Marcel De Kogel</name>
+    <releasedate />
+    <image>./media/images/Cosmo Fighter II.png</image>
+  </game>
+  <game id="143903" source="ScreenScraper.fr">
+    <path>Cosmo Fighter III.zip</path>
+    <name>ZZZ(notgame):Cosmo Fighter 3 Demo By Marcel De Kogel</name>
+    <releasedate />
+    <image>./media/images/Cosmo Fighter III.png</image>
+  </game>
+  <game id="190755" source="ScreenScraper.fr">
+    <path>Easter Bunny.zip</path>
+    <name>ZZZ(notgame):Easter Bunny</name>
+    <releasedate />
+    <image>./media/images/Easter Bunny.png</image>
+  </game>
+  <game id="190756" source="ScreenScraper.fr">
+    <path>Jeepers Creepers.zip</path>
+    <name>ZZZ(notgame):Jeepers Creepers</name>
+    <releasedate />
+    <image>./media/images/Jeepers Creepers.png</image>
+  </game>
+  <game id="190757" source="ScreenScraper.fr">
+    <path>Mr Chin.zip</path>
+    <name>ZZZ(notgame):Mr Chin</name>
+    <releasedate />
+    <image>./media/images/Mr Chin.png</image>
+  </game>
+  <game id="143886" source="ScreenScraper.fr">
+    <path>Nim.zip</path>
+    <name>ZZZ(notgame):Nim</name>
+    <releasedate />
+    <image>./media/images/Nim.png</image>
+  </game>
+  <game id="190758" source="ScreenScraper.fr">
+    <path>PACAR.zip</path>
+    <name>ZZZ(notgame):P A C A R</name>
+    <releasedate />
+    <image>./media/images/PACAR.png</image>
+  </game>
+  <game id="143915" source="ScreenScraper.fr">
+    <path>Reversi.zip</path>
+    <name>ZZZ(notgame):Reversi Demo By Daniel Bienvenu</name>
+    <releasedate />
+    <image>./media/images/Reversi.png</image>
+  </game>
+  <game id="190759" source="ScreenScraper.fr">
+    <path>Schlange.zip</path>
+    <name>ZZZ(notgame):Schlange</name>
+    <releasedate />
+    <image>./media/images/Schlange.png</image>
+  </game>
+  <game id="190762" source="ScreenScraper.fr">
+    <path>Search For The Stolen Crown Jewels III.zip</path>
+    <name>ZZZ(notgame):Search For The Stolen Crown Jewels I I I</name>
+    <releasedate />
+    <image>./media/images/Search For The Stolen Crown Jewels III.png</image>
+  </game>
+  <game id="190761" source="ScreenScraper.fr">
+    <path>Search For The Stolen Crown Jewels II.zip</path>
+    <name>ZZZ(notgame):Search For The Stolen Crown Jewels I I</name>
+    <releasedate />
+    <image>./media/images/Search For The Stolen Crown Jewels II.png</image>
+  </game>
+  <game id="190760" source="ScreenScraper.fr">
+    <path>Search For The Stolen Crown Jewels I.zip</path>
+    <name>ZZZ(notgame):Search For The Stolen Crown Jewels I</name>
+    <releasedate />
+    <image>./media/images/Search For The Stolen Crown Jewels I.png</image>
+  </game>
+  <game id="143918" source="ScreenScraper.fr">
+    <path>Space Invaders Collection Pack.zip</path>
+    <name>ZZZ(notgame):Space Invaders Collection Pack Demo</name>
+    <releasedate />
+    <image>./media/images/Space Invaders Collection Pack.png</image>
+  </game>
+  <game id="190763" source="ScreenScraper.fr">
+    <path>Squares.zip</path>
+    <name>ZZZ(notgame):Squares</name>
+    <releasedate />
+    <image>./media/images/Squares.png</image>
+  </game>
+  <game id="190764" source="ScreenScraper.fr">
+    <path>Terra Attack.zip</path>
+    <name>ZZZ(notgame):Terra Attack</name>
+    <releasedate />
+    <image>./media/images/Terra Attack.png</image>
+  </game> -->
+</gameList>
