@@ -1,0 +1,6 @@
+{
+"label":"Arcade name games",
+"icon":"gamelist.png",
+"launch":"launch.sh",
+"description":"Gamelist Repair for Arcades roms"
+}
