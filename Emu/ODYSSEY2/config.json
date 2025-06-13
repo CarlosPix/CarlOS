@@ -1,0 +1,15 @@
+{
+"label":"ODYSSEY2",
+"icon":"ic-odyss.png",
+"iconsel":"ic-odyss-80-n.png",
+"background":"BG.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/ODYSSEYTWO",
+"imgpath":"../../Roms/ODYSSEYTWO/media/images",
+"gamelist":"../../Roms/ODYSSEYTWO/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"bin"
+}
