@@ -24,7 +24,7 @@ BASEEMU=$(dirname "$0")
     mount --bind "$MAINSDROOT/RetroArch/.config/retroarch/assets" mnt/sdcard/RetroArch32/.config/retroarch/assets
     mount --bind "$MAINSDROOT/RetroArch/.config/retroarch/cheats" mnt/sdcard/RetroArch32/.config/retroarch/cheats
     mount --bind "$MAINSDROOT/RetroArch/.config/retroarch/autoconfig" mnt/sdcard/RetroArch32/.config/retroarch/autoconfig
-    chroot mnt /bin/sh -c "/mnt/sdcard/Emu/${BASEEMU##*/}/run '$1' '$2' '$3'"
+    chroot mnt /bin/sh -c "/mnt/sdcard/Emu/${BASEEMU##*/}/run \"\$1\" \"\$2\" \"\$3\"" _ "$1" "$2" "$3"
     umount mnt/sdcard/RetroArch32/.config/retroarch/system
     umount mnt/sdcard/RetroArch32/.config/retroarch/shaders
     umount mnt/sdcard/RetroArch32/.config/retroarch/saves
