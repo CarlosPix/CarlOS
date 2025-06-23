@@ -6,4 +6,9 @@ export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 python3 ./configurator.py >> cpu.log 2>&1
 sync
 
-fbdisplay /mnt/sdcard/miyoo355/app/loading.png &
+hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
+if [ "$hdmipugin" == "connected" ] ; then
+  fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
+else
+  fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+fi
