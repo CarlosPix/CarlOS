@@ -1,10 +1,29 @@
 #!/bin/bash
 
+# check userdata partition
+if [ ! -f /tmp/userdata_ok ]; then
+   touch /tmp/userdata_ok
+
+    TESTFILE="/userdata/.test_write"
+    touch "$TESTFILE"
+
+    if [ ! -f "$TESTFILE" ]; then
+       fbdisplay /mnt/SDCARD/miyoo355/app/userdata.png &
+       mkfs.ext4 -L userdata /dev/mtdblock4
+       sync
+	   sleep 10
+       reboot
+    else
+       rm $TESTFILE
+    fi
+fi
+
+# sdcard mount in the last firmware
 if [ ! -f /tmp/remountsd ]; then
+   touch /tmp/remountsd
    if [ ! -d /media/sdcard0/miyoo355 ]; then
       TARGET_VERSION_FILE=$(cat /usr/miyoo/version)
       if [ $TARGET_VERSION_FILE == "20250527210639" ]; then
-         touch /tmp/remountsd
          cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
          chmod a+x /tmp/remount-sdcard.sh
          /tmp/remount-sdcard.sh &
@@ -134,6 +153,12 @@ if [ ! -f "/tmp/timezone" ]; then
       echo "$tz_value" > /data/timezone
 	  touch /tmp/timezone
    fi
+fi
+
+#scrap
+if [ ! -f "/userdata/keyscraper.txt" ]; then
+   touch /userdata/keyscraper.txt
+   echo uhdsjndoujahfjdnfgjdfunsaofugasufaslonf > /userdata/keyscraper.txt
 fi
 
 runifnecessary(){
