@@ -11,7 +11,7 @@ if [ ! -f /tmp/userdata_ok ]; then
        fbdisplay /mnt/SDCARD/miyoo355/app/userdata.png &
        mkfs.ext4 -L userdata /dev/mtdblock4
        sync
-	   sleep 10
+       sleep 10
        reboot
     else
        rm $TESTFILE
@@ -179,13 +179,19 @@ runifnecessary "controlmon" /mnt/SDCARD/miyoo355/bin/controlmon
 #run launcher
 if [ ! -f /tmp/loadingset ]; then
    pkill -9 fbdisplay
+   theme_value=`grep '"theme":' "/mnt/SDCARD/system.json" | sed -e 's/^[^:]*://' -e 's/^[ \t]*//' -e 's/,$//' -e 's/^"//' -e 's/"$//'`
    hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
-   if [ "$hdmipugin" == "connected" ] ; then
+   if [ "$hdmipugin" == "connected" ]; then
       fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
-	  touch /tmp/loadingset
+      touch /tmp/loadingset
    else
-      fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
-	  touch /tmp/loadingset
+      if [ "$theme_value" == "./" ]; then
+         fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+         touch /tmp/loadingset
+      else
+         fbdisplay "${theme_value}skin/app_loading_bg.png" &
+         touch /tmp/loadingset
+      fi
    fi
 fi
 

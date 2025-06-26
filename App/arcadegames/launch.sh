@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export HOME=/mnt/SDCARD
+export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
+export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
 fbdisplay /mnt/SDCARD/App/arcadegames/working.png &
 
 ALIAS_FILE="/mnt/SDCARD/App/arcadegames/alias.txt"
@@ -25,7 +28,7 @@ find "$ROMS_ROOT" -mindepth 1 -maxdepth 1 -type d | while read -r SUBDIR; do
             AMIGABLE=$(grep -m1 "^$BASENAME_NOEXT=" "$ALIAS_FILE" | cut -d'=' -f2- | sed 's/^ //')
             [ -z "$AMIGABLE" ] && AMIGABLE="$BASENAME_NOEXT"
 
-            IMAGE_PATH="./media/images/${BASENAME_NOEXT}.png"
+            IMAGE_PATH="./Imgs/${BASENAME_NOEXT}.png"
 
             echo "  <game>" >> "$OUTPUT"
             echo "    <path>$BASENAME</path>" >> "$OUTPUT"
@@ -41,10 +44,15 @@ find "$ROMS_ROOT" -mindepth 1 -maxdepth 1 -type d | while read -r SUBDIR; do
     fi
 done
 
-/mnt/SDCARD/miyoo355/bin/pkill -9 fbdisplay
+pkill -9 fbdisplay
+theme_value=`grep '"theme":' "/mnt/SDCARD/system.json" | sed -e 's/^[^:]*://' -e 's/^[ \t]*//' -e 's/,$//' -e 's/^"//' -e 's/"$//'`
 hdmipugin=`cat /sys/class/drm/card0-HDMI-A-1/status`
-if [ "$hdmipugin" == "connected" ] ; then
-  /mnt/SDCARD/miyoo355/bin/fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
+if [ "$hdmipugin" == "connected" ]; then
+   fbdisplay /mnt/SDCARD/miyoo355/app/loading_1080p.png &
 else
-  /mnt/SDCARD/miyoo355/bin/fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+   if [ "$theme_value" == "./" ]; then
+      fbdisplay /mnt/SDCARD/miyoo355/app/loading.png &
+   else
+      fbdisplay "${theme_value}skin/app_loading_bg.png" &
+   fi
 fi
