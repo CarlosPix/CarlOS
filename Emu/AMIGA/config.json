@@ -22,6 +22,10 @@
         {
             "name": "PUAE",
             "launch": "launch1.sh"
+        },
+        {
+            "name": "UAE4ARM",
+            "launch": "launch2.sh"
         }		
 	]
 }
