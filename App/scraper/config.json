@@ -1,0 +1,6 @@
+{
+	"label":        "Scraper",
+	"icon":	        "scraper.png",
+	"launch":       "launch.sh",
+	"description":  "Roms scraper utility"
+}
