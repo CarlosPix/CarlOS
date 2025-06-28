@@ -23,7 +23,7 @@ if [ ! -f /tmp/remountsd ]; then
    touch /tmp/remountsd
    if [ ! -d /media/sdcard0/miyoo355 ]; then
       TARGET_VERSION_FILE=$(cat /usr/miyoo/version)
-      if [ $TARGET_VERSION_FILE == "20250527210639" ]; then
+      if [ $TARGET_VERSION_FILE == "20250527210639" ] || [ "$TARGET_VERSION_FILE" == "20250627233124" ]; then
          cp /media/sdcard1/miyoo355/app/remount-sdcard.sh /tmp/remount-sdcard.sh
          chmod a+x /tmp/remount-sdcard.sh
          /tmp/remount-sdcard.sh &
@@ -96,7 +96,7 @@ if [ ! -f "/tmp/swapck" ]; then
       MINSIZE=$((512 * 1024 * 1024))
 
       if [ "$SWAPSIZE" -ne "$MINSIZE" ]; then
-	     rm "${SWAPFILE}"
+	 rm "${SWAPFILE}"
       fi
       touch /tmp/swapck
    fi
@@ -105,16 +105,16 @@ fi
 # Enable swap
 if [ ! -f "${SWAPFILE}" ]; then
     fbdisplay /mnt/SDCARD/miyoo355/app/config.png &
-	dd if=/dev/zero of="${SWAPFILE}" bs=1M count=512
-	mkswap "${SWAPFILE}"
-	sync
+    dd if=/dev/zero of="${SWAPFILE}" bs=1M count=512
+    mkswap "${SWAPFILE}"
+    sync
 fi
 
 if [ ! -f "/tmp/swapfileon" ]; then
     swapon "${SWAPFILE}"
-	echo 10 > /proc/sys/vm/swappiness
-	touch /tmp/swapfileon
-	sync
+    echo 10 > /proc/sys/vm/swappiness
+    touch /tmp/swapfileon
+    sync
 fi
 
 # Make keys ssh
@@ -144,14 +144,14 @@ fi
 
 if [ ! -f "/tmp/timezone" ]; then
    if [ ! -f "/data/timezone" ]; then
-	  touch /data/timezone
+      touch /data/timezone
    fi
 
    tz_value=$(grep '"timezone"' /mnt/SDCARD/system.json | sed -E 's/.*"timezone"[[:space:]]*:[[:space:]]*"([^"]*)".*/\1/')
 
    if [ -f "/data/timezone" ]; then
       echo "$tz_value" > /data/timezone
-	  touch /tmp/timezone
+      touch /tmp/timezone
    fi
 fi
 
@@ -169,7 +169,7 @@ runifnecessary(){
        echo try to run $2 `cat /proc/uptime`
        $2 $3 &
        sleep 0.5
-	   cnt=`expr $cnt + 1`
+       cnt=`expr $cnt + 1`
        a=`pgrep $1`
     done
 }
@@ -198,5 +198,5 @@ fi
 killall -9 gptokeyb
 killall -9 gptokeyb2
 
-/mnt/SDCARD/miyoo355/app/Main
+/mnt/SDCARD/miyoo355/app/Main 2>&1 | tee /mnt/SDCARD/log.txt
 sync
