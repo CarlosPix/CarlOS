@@ -1,0 +1,52 @@
+{
+    "name": "CarlOS 8Bits 4 NinohFox",
+    "hideIconTitle": false,
+    "batteryPercentage": {
+        "visible": false,
+        "font": "LanaPixel.ttf",
+        "size": 10,
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "fixed": true,
+        "offsetX": 0,
+        "offsetY": 0
+    },
+    "author": "AlexisToretto",
+    "description": "Original Theme by CarlosPixel & AlexisToretto",
+    "hideLabels": {
+        "icons": false,
+        "hints": false
+    },
+    "frame": {
+        "border-left": 0,
+        "border-right": 0
+    },
+    "title": {
+        "font": "LanaPixel.ttf",
+        "size": 29,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "LanaPixel.ttf",
+        "size": 28,
+        "color": "#FFFFFF"
+    },
+    "currentpage": {
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "color": "#f1c92d"
+    },
+    "grid": {
+        "font": "LanaPixel.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#98bfe3",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "LanaPixel.ttf",
+        "size": 24,
+        "color": "#FFFFFF"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "CarlOS Black",
+    "author": "Alexis Toretto",
+    "description": "Tema inspirado en Miyoo Flip Negra",
+    "batteryPercentage": {
+        "visible": true,
+        "font": "nunwen.ttf",
+        "size": 22,
+        "color": "#ffffff",
+        "offsetX": 8,
+        "offsetY": 2,
+        "onleft": true
+    },
+    "title": {
+        "font": "nunwen.ttf",
+        "size": 28,
+        "color": "#ffffff"
+    },
+    "hint": {
+        "font": "nunwen.ttf",
+        "size": 26,
+        "color": "#ffffff"
+    },
+    "currentpage": {
+        "color": "#ffffff"
+    },
+    "total": {
+        "size": 26,
+        "color": "#ff8891"
+    },
+    "grid": {
+        "font": "nunwen.ttf",
+		"fontascii":"nunwen.ttf",
+        "grid1x4": 23,
+        "grid3x4": 19,
+        "color": "#ff8891",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+		"fontascii":"nunwen.ttf",
+        "size": 23,
+        "color": "#ffffff"
+    }
+}
