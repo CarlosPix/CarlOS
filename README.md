@@ -139,7 +139,7 @@ https://www.lexaloffle.com/pico-8.php
 
 
 # 7.- Complete systems list
-Sega 32X, Commodore Amiga, Arcade, Arduboy, Atari 2600, Atari 5200, Atari 7800, Atari 800, Commodore 64, Amstrad CPC, Capcom Play System, Capcom Play System II, Capcom Play System III, Sega Dreamcast, Doom, DOS, EasyRPG, FinalBurn Neo, Nintendo Entertainment System, Famicom Disk System, Game Boy, Game Boy Advance, Game Boy Color, Sega Game Gear, Game & Watch, Intellivision, LowRes, Atari Lynx, MAME, Sega Mega Drive, Sega Master System, MSU-1, MSX, MUGEN, Nintendo 64, Nintendo DS, Neo Geo CD, Neo Geo, Nintendo Entertainment System, Neo Geo Pocket, Neo Geo Pocket Color, ONScripter, OpenBOR, PC Engine, PC Engine CD-ROM², PGM, PICO-8, Pokémon Mini, Port 32, Sony PlayStation, Sony PlayStation Portable, ScummVM, Sega CD, Super Famicom, SG-1000, Super Nintendo Entertainment System, Sega Pico, Sega Saturn, Watara Supervision, TIC-80, Virtual Boy, Wolfenstein 3D, WonderSwan, WonderSwan Color, Sharp X68000, ZX Spectrum
+Sega 32X, Commodore Amiga, Arcade, Arduboy, Atari 2600, Atari 5200, Atari 7800, Atari 800, Commodore 64, Amstrad CPC, Capcom Play System, Capcom Play System II, Capcom Play System III, Sega Dreamcast, Doom, DOS, EasyRPG, FinalBurn Neo, Nintendo Entertainment System, Famicom Disk System, Game Boy, Game Boy Advance, Game Boy Color, Sega Game Gear, Game & Watch, Intellivision, LowRes, Atari Lynx, MAME, Sega Mega Drive, Sega Master System, MSU-1, MSX, MUGEN, Nintendo 64, Nintendo DS, Neo Geo CD, Neo Geo, Nintendo Entertainment System, Neo Geo Pocket, Neo Geo Pocket Color, Odyssey2, ONScripter, OpenBOR, PC Engine, PC Engine CD-ROM², PGM, PICO-8, Pokémon Mini, Portmaster, Sony PlayStation, Sony PlayStation Portable, ScummVM, Sega CD, Super Famicom, SG-1000, Super Nintendo Entertainment System, Sega Pico, Sega Saturn, Watara Supervision, TIC-80, Virtual Boy, Wolfenstein 3D, WonderSwan, WonderSwan Color, Sharp X68000, ZX Spectrum
 
 # 8.- Credits
 
@@ -161,4 +161,11 @@ AlexisToretto for system testing and invaluable help with CarlOS theme design an
 # We thank Miyoo (Shenzhen le miyou technology co., ltd.) for providing the resources that made this project possible
 
 
+# 🛠️ Made with ♥ (and caffeine) ☕  
+
+This **Custom Firmware** is a **passion project**, built in our free time. Enjoy it? Consider [buying us a coffee](https://ko-fi.com/rogueteam)!  
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rogueteam)
+
+Thanks for being awesome! 🙌✨
 
