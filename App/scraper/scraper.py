@@ -50,8 +50,10 @@ MEDIA_TYPES = [
     ("sstitle", "Title Screen"),
     ("ss", "Game Screen"),
     ("box-3D", "3D Box"),
+    ("box-2D", "2D Box"),
     ("support-2D", "2D Support"),
     ("support-texture", "Cover"),
+    ("wheel-steel", "Title")
 ]
 MEDIA_TYPE_TO_LABEL = dict(MEDIA_TYPES)
 MEDIA_TYPE_KEYS = [k for k, v in MEDIA_TYPES]
@@ -62,11 +64,13 @@ ICON_FILES = {
     "sstitle": "sstitle.png",
     "ss": "ss.png",
     "box-3D": "box-3D.png",
+    "box-2D": "box-2D.png",
     "support-2D": "support-2D.png",
     "support-texture": "support-texture.png",
+    "wheel-steel": "wheel-steel.png"
 }
 
-REGIONS = ["auto", "wor", "eu", "us", "jp", "ss", "cn", "asi", "fr", "sp", "de", "it"]
+REGIONS = ["auto", "wor", "eu", "us", "jp", "ss", "cn", "asi", "fr", "sp", "de", "it", "au", "br"]
 REGION_LABELS_EN = {
     "auto": "Auto",
     "wor": "World",
@@ -79,7 +83,9 @@ REGION_LABELS_EN = {
     "fr": "France",
     "sp": "Spain",
     "de": "Germany",
-    "it": "Italy"
+    "it": "Italy",
+    "au": "Australia",
+    "br": "Brazil"
 }
 
 COLORS = {
