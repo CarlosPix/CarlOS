@@ -7,18 +7,49 @@ EMU_BASE = "/mnt/SDCARD/Emu"
 ROMS_BASE = "/mnt/SDCARD/Roms"
 
 def main():
+    if not os.path.exists(SHOW_JSON):
+        show_data = []
+        for system_dir in os.listdir(EMU_BASE):
+            system_path = os.path.join(EMU_BASE, system_dir)
+            if not os.path.isdir(system_path):
+                continue
+            config_path = os.path.join(system_path, "config.json")
+            if not os.path.exists(config_path):
+                continue
+            try:
+                with open(config_path, 'r', encoding='utf-8') as f:
+                    content = f.read().strip()
+                    if not content.startswith('{'):
+                        lines = [line.strip().rstrip(',') for line in content.split('\n') if line.strip()]
+                        config_str = '{' + ','.join(lines) + '}'
+                    else:
+                        config_str = content
+                    try:
+                        config = json.loads(config_str)
+                    except json.JSONDecodeError:
+                        continue
+                label = config.get("label")
+                if not label:
+                    continue
+                show_data.append({"label": label, "show": 1})
+            except Exception:
+                continue
+        with open(SHOW_JSON, 'w', encoding='utf-8') as f:
+            json.dump(show_data, f, indent=2)
+        print("show.json creado desde cero.")
+
     with open(SHOW_JSON, 'r', encoding='utf-8') as f:
         show_data = json.load(f)
 
-    for item in show_data:
-        system_label = item["label"]
-        system_dir = os.path.join(EMU_BASE, system_label.replace(" ", ""))
+    label_to_system = {item["label"]: item for item in show_data}
 
-        config_path = os.path.join(system_dir, "config.json")
-        if not os.path.exists(config_path):
-            item["show"] = 0
+    for system_dir in os.listdir(EMU_BASE):
+        system_path = os.path.join(EMU_BASE, system_dir)
+        if not os.path.isdir(system_path):
             continue
-
+        config_path = os.path.join(system_path, "config.json")
+        if not os.path.exists(config_path):
+            continue
         try:
             with open(config_path, 'r', encoding='utf-8') as f:
                 content = f.read().strip()
@@ -27,48 +58,50 @@ def main():
                     config_str = '{' + ','.join(lines) + '}'
                 else:
                     config_str = content
-
                 try:
                     config = json.loads(config_str)
                 except json.JSONDecodeError:
-                    item["show"] = 0
                     continue
-
-            if system_label == "FFPLAY" and "rompathlist" in config:
+            label = config.get("label")
+            if not label:
+                continue
+            if label not in label_to_system:
+                show_data.append({"label": label, "show": 1})
+                label_to_system[label] = show_data[-1]
+            if label == "FFPLAY" and "rompathlist" in config:
                 extensions = config.get("extlist", "").split('|')
                 files = []
                 for rompath_item in config["rompathlist"]:
                     rompath = rompath_item.get("rompath", "")
-                    abs_rompath = os.path.abspath(os.path.join(system_dir, rompath))
+                    abs_rompath = os.path.abspath(os.path.join(system_path, rompath))
                     if not os.path.isdir(abs_rompath):
                         continue
                     for ext in extensions:
                         files.extend(glob.glob(os.path.join(abs_rompath, '**', f'*.{ext}'), recursive=True))
-                        if files: break
-                    if files: break
-                item["show"] = 1 if files else 0
+                        if files:
+                            break
+                    if files:
+                        break
+                label_to_system[label]["show"] = 1 if files else 0
             else:
                 rompath = config.get("rompath", "")
                 extlist = config.get("extlist", "")
                 if not rompath or not extlist:
-                    item["show"] = 0
+                    label_to_system[label]["show"] = 0
                     continue
-
-                abs_rompath = os.path.abspath(os.path.join(system_dir, rompath))
+                rom_folder = os.path.basename(rompath.rstrip('/'))
+                abs_rompath = os.path.join(ROMS_BASE, rom_folder)
                 if not os.path.isdir(abs_rompath):
-                    item["show"] = 0
+                    label_to_system[label]["show"] = 0
                     continue
-
                 extensions = extlist.split('|')
                 files = []
                 for ext in extensions:
                     files.extend(glob.glob(os.path.join(abs_rompath, '**', f'*.{ext}'), recursive=True))
-                    if files: break
-
-                item["show"] = 1 if files else 0
-
-        except Exception as e:
-            item["show"] = 0
+                    if files:
+                        break
+                label_to_system[label]["show"] = 1 if files else 0
+        except Exception:
             continue
 
     with open(SHOW_JSON, 'w', encoding='utf-8') as f:
