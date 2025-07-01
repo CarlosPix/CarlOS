@@ -161,6 +161,12 @@ if [ ! -f "/userdata/keyscraper.txt" ]; then
    echo uhdsjndoujahfjdnfgjdfunsaofugasufaslonf > /userdata/keyscraper.txt
 fi
 
+#system roms check.
+if [ ! -f "/tmp/showchek" ]; then
+touch /tmp/showchek
+python3 /mnt/SDCARD/miyoo355/app/show_check.py
+fi
+
 runifnecessary(){
     cnt=0
     #a=`ps | grep $1 | grep -v grep`
