@@ -341,7 +341,7 @@ class VirtualKeyboard:
 def process_rom(rom, system, mediatype, region, user, password, resultados, total, progress_callback):
     romspath = os.path.join(ROMS_ROOT, system)
     imgdir = os.path.join(romspath, "media", "images")
-    romname, romext = os.path.splitext(rom)
+    romname, romext = os.path.splitext(os.path.basename(rom))
     imgpath = os.path.join(imgdir, f"{romname}.png")
 
     if os.path.exists(imgpath):
@@ -490,9 +490,14 @@ def real_scraper(system, mediatype, region, user, password, num_motors, progress
     os.makedirs(imgdir, exist_ok=True)
     
     extensions = get_extensions(system)
-    romfiles = [f for f in os.listdir(romspath)
-                if os.path.isfile(os.path.join(romspath, f)) and
-                os.path.splitext(f)[1][1:].lower() in extensions and not f.startswith('.')]
+    romfiles = []
+    for root, dirs, files in os.walk(romspath):
+        if os.path.basename(root) == "media":
+            continue
+        for f in files:
+            if os.path.splitext(f)[1][1:].lower() in extensions and not f.startswith('.'):
+                relpath = os.path.relpath(os.path.join(root, f), romspath)
+                romfiles.append(relpath)
     
     total = len(romfiles)
     resultados = {"success": 0, "fail": 0, "existing": 0}
@@ -749,6 +754,7 @@ with open(INPUT_DEVICE, "rb") as dev:
                     progress = 0
                     show_progress_popup = True
                     cancel_scraping.clear()
+                    draw_progress_popup()
                     t = threading.Thread(target=real_scraper, args=(
                         system, mediatype, region, user, password, num_motors, progress_callback
                     ))
