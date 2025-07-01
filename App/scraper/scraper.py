@@ -360,7 +360,7 @@ def process_rom(rom, system, mediatype, region, user, password, resultados, tota
         progress_callback(current / total, resultados)
         return
 
-    romnom = quote(rom)
+    romnom = quote(os.path.basename(rom))
     url = (
         "https://www.screenscraper.fr/api2/jeuInfos.php?"
         f"devid={DEVID}&devpassword={DEVPASSWORD}"
