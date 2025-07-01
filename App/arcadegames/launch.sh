@@ -28,7 +28,7 @@ find "$ROMS_ROOT" -mindepth 1 -maxdepth 1 -type d | while read -r SUBDIR; do
             AMIGABLE=$(grep -m1 "^$BASENAME_NOEXT=" "$ALIAS_FILE" | cut -d'=' -f2- | sed 's/^ //')
             [ -z "$AMIGABLE" ] && AMIGABLE="$BASENAME_NOEXT"
 
-            IMAGE_PATH="./Imgs/${BASENAME_NOEXT}.png"
+            IMAGE_PATH="./media/images/${BASENAME_NOEXT}.png"
 
             echo "  <game>" >> "$OUTPUT"
             echo "    <path>$BASENAME</path>" >> "$OUTPUT"
