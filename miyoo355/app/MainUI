@@ -162,11 +162,11 @@ if [ ! -f "/userdata/keyscraper.txt" ]; then
 fi
 
 #quit duplicate systems
-if [ ! -d "/mnt/SDCARD/Emu/SG32X" ]; then
+if [ -d "/mnt/SDCARD/Emu/SG32X" ]; then
     rm -rf "/mnt/SDCARD/Emu/SG32X"
 fi
 
-if [ ! -d "/mnt/SDCARD/Emu/ATARILYNX" ]; then
+if [ -d "/mnt/SDCARD/Emu/ATARILYNX" ]; then
     rm -rf "/mnt/SDCARD/Emu/ATARILYNX"
 fi
 
