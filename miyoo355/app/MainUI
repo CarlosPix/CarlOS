@@ -161,6 +161,15 @@ if [ ! -f "/userdata/keyscraper.txt" ]; then
    echo uhdsjndoujahfjdnfgjdfunsaofugasufaslonf > /userdata/keyscraper.txt
 fi
 
+#quit duplicate systems
+if [ ! -d "/mnt/SDCARD/Emu/SG32X" ]; then
+    rm -rf "/mnt/SDCARD/Emu/SG32X"
+fi
+
+if [ ! -d "/mnt/SDCARD/Emu/ATARILYNX" ]; then
+    rm -rf "/mnt/SDCARD/Emu/ATARILYNX"
+fi
+
 #system roms check.
 if [ ! -f "/tmp/showchek" ]; then
 touch /tmp/showchek
