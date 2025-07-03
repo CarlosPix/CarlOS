@@ -68,7 +68,7 @@ def main():
             if label not in label_to_system:
                 show_data.append({"label": label, "show": 1})
                 label_to_system[label] = show_data[-1]
-            if label == "FFPLAY" and "rompathlist" in config:
+            if (label == "FFPLAY" or label == "MPV") and "rompathlist" in config:
                 extensions = config.get("extlist", "").split('|')
                 files = []
                 for rompath_item in config["rompathlist"]:

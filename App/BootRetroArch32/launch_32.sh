@@ -7,6 +7,7 @@ BASEROMNAME=${ROMNAME##*/}
 ROMNAMETMP=${BASEROMNAME%.*}
 $(dirname "$0")/cpufreq.sh
     cd $MAINSDROOT/Emu/PORT32
+	mkdir -p ./mnt
     mount -t squashfs miyoo355_rootfs_32.img mnt
     mount --bind /sys mnt/sys
     mount --bind /dev mnt/dev
