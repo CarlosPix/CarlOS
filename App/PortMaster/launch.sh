@@ -10,6 +10,7 @@ DIALOG_FILE="/mnt/SDCARD/Roms/PORTS/PortMaster/PortMasterDialog.txt"
 CONTROL_FILE="/mnt/SDCARD/Roms/PORTS/PortMaster/control.txt"
 CONTROL_FILE_MIYOO="/mnt/SDCARD/Roms/PORTS/PortMaster/miyoo/control.txt"
 CONTROL_FILE_ROOT="/mnt/SDCARD/Roms/PORTS/root/home/.local/share/PortMaster/control.txt"
+CONTROL_FILE_ROOT2="/mnt/SDCARD/Roms/PORTS/root/.local/share/PortMaster/control.txt"
 PLATFORM_FILE="/mnt/SDCARD/Roms/PORTS/PortMaster/pylibs/harbourmaster/platform.py"
 CONFIG_FILE="/mnt/SDCARD/Roms/PORTS/PortMaster/pylibs/harbourmaster/config.py"
 PORTOLD="/mnt/SDCARD/App/PortMaster/patchs/PORTOLD.txt"
@@ -62,7 +63,7 @@ done
     { print }
 ' "$DIALOG_FILE" > "$DIALOG_FILE.tmp" && mv "$DIALOG_FILE.tmp" "$DIALOG_FILE"
 
-for f in "$CONTROL_FILE" "$CONTROL_FILE_MIYOO" "$CONTROL_FILE_ROOT"; do
+for f in "$CONTROL_FILE" "$CONTROL_FILE_MIYOO" "$CONTROL_FILE_ROOT" "$CONTROL_FILE_ROOT2"; do
     replace_block "$f" "$CONTROLOLD" "$CONTROLNEW"
 done
 
