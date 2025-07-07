@@ -8,7 +8,7 @@
     "themecolor":"0088CF",
     "launch":"launch.sh",
     "rompath":"../../Roms/MDMSU",
-    "imgpath":"../../Roms/MDMSU/Imgs",
+    "imgpath":"../../Roms/MDMSU/media/images",
 	"gamelist":"../../Roms/MDMSU/gamelist.xml",
     "useswap":0,
     "shortname":0,
