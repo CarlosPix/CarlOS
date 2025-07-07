@@ -25,6 +25,8 @@ sed -i 's|\$raloc/retroarch\([[:space:]]\)|\$raloc/retroarch.flip\1|' "$port"
 sed -i 's|/\$directory/ports/|\$directory/|g' "$port"
 sed -i 's|/\$directory/ports|\$directory/|g' "$port"
 
+sed -i 's/\[\[ "\$CFW_NAME" =~ \^ArkOS\.\* \]\] \&\& cp "\${GAMEDIR}\/asoundrc" "\${HOME}\/\.asoundrc"/\[\[ "\$CFW_NAME" =~ \^Miyoo\* \]\] \&\& cp "\${GAMEDIR}\/asoundrc" "\${HOME}\/\.asoundrc"/' "$port"
+
 sync
 
 export HOME="/mnt/SDCARD/Roms/PORTS"
