@@ -199,22 +199,86 @@ def load_config():
     except Exception:
         return None
 
-def get_ssSystemID(system):
+def get_ssSystemIDs(system):
     mapping = {
-        "AMIGA": "64", "ARCADE": "75", "ARDUBOY": "263", "ATARI2600": "26", "ATARI5200": "40", "ATARI7800": "41",
-        "ATOMIS": "75", "C64": "66", "COLECO": "183", "CPC": "65", "CPS1": "6", "CPS2": "7", "CPS3": "8",
-        "DC": "23", "DOOM": "", "DOS": "135", "EASYRPG": "231", "FBNEO": "75", "FC": "3", "FDS": "106",
-        "FFMPEG": "", "GB": "9", "GBA": "12", "GBC": "10", "GG": "21", "GW": "52", "INTELL": "115", "JAVA": "",
-        "LOWRES": "", "LYNX": "28", "MAME": "75", "MD": "1", "MS": "2", "MSU1": "4", "MSX": "113", "MUGEN": "",
-        "N64": "14", "NAOMI": "23", "NDS": "15", "NEOCD": "70", "NEOGEO": "142", "NES": "3", "NGP": "25",
-        "ODYSSEY2": "104", "ONS": "", "OPENBOR": "214", "PCE": "31", "PCECD": "114", "PGM": "75", "PGM2": "75",
-        "PICO8": "", "PICO8F": "", "POKE": "", "PORTS": "137", "PS": "57", "PSP": "13", "SCUMMVM": "123",
-        "SEGACD": "20", "SG1000": "109", "SG32X": "19", "SFC": "4", "SGB": "127", "SNES": "4", "SPICO": "",
-        "SS": "22", "SUPERVISION": "207", "TIC80": "222", "VB": "11", "VECTREX": "102", "WOLF3D": "", "WS": "45",
-        "X68000": "79", "ZX": "76"
+        "AMIGA": ["64"],
+        "ARCADE": ["75", "6", "7", "8", "53", "56", "164", "227", "230"],
+        "ARDUBOY": ["263"],
+        "ATARI2600": ["26"],
+        "ATARI5200": ["40"],
+        "ATARI7800": ["41"],
+        "ATARI800": ["43"],
+        "ATARYST": ["42"],
+        "ATOMIS": ["53", "164"],
+        "C64": ["66"],
+        "COLECO": ["183"],
+        "CPC": ["65"],
+        "CPS1": ["6"],
+        "CPS2": ["7"],
+        "CPS3": ["8"],
+        "DAPHNE": ["49"],
+        "DC": ["23", "56", "227", "230"],
+        "DOOM": ["290"],
+        "DOS": ["135"],
+        "EASYRPG": ["231"],
+        "FBNEO": ["75", "142", "70", "6", "7", "8", "53", "56", "164", "227", "230"],
+        "FC": ["3"],
+        "FDS": ["106"],
+        "GB": ["9"],
+        "GBA": ["12"],
+        "GBC": ["10"],
+        "GG": ["21"],
+        "GW": ["52"],
+        "INTELL": ["115"],
+        "JAVA": ["262"],
+        "LOWRES": ["244"],
+        "LYNX": ["28"],
+        "MAME": ["75", "6", "7", "8", "53", "56", "142", "70", "164", "227", "230"],
+        "MD": ["1"],
+        "MDSU": ["1"],
+        "MS": ["2"],
+        "MSU1": ["210"],
+        "MSX": ["113"],
+        "MUGEN": ["254"],
+        "N64": ["14"],
+        "NAOMI": ["56", "227", "230"],
+        "NDS": ["15"],
+        "NEOCD": ["70"],
+        "NEOGEO": ["142", "70"],
+        "NES": ["3"],
+        "NGP": ["25"],
+        "ODYSSEY2": ["104"],
+        "OPENBOR": ["214"],
+        "PCE": ["31"],
+        "PCECD": ["114"],
+        "PGM": ["75", "6"],
+        "PICO8": ["234"],
+        "PICO8F": ["234"],
+        "POKE": ["211"],
+        "PORTS": ["137"],
+        "PS": ["57"],
+        "PSP": ["61"],
+        "SCUMMVM": ["123"],
+        "SEGACD": ["20"],
+        "SG1000": ["109"],
+        "SG32X": ["19"],
+        "SFC": ["4"],
+        "SGB": ["127"],
+        "SNES": ["4"],
+        "SPICO": ["250"],
+        "SS": ["22"],
+        "SUPERVISION": ["207"],
+        "TIC80": ["222"],
+        "VB": ["11"],
+        "VECTREX": ["102"],
+        "WOLF3D": ["255"],
+        "WS": ["45", "46"],
+        "WSC": ["46", "45"],
+        "X68000": ["79"],
+        "ZX": ["76"]
     }
-    sid = mapping.get(system.upper(), "")
-    return sid
+    sids = mapping.get(system.upper(), [])
+    return sids
 
 def get_hashes(filepath):
     crc32 = 0
@@ -301,7 +365,7 @@ class VirtualKeyboard:
                 continue
             _, _, evtype, code, value = struct.unpack("llHHi", data)
             if evtype == 1 and value == 1:
-                if code == 305:  # A
+                if code == 305:
                     row, col = self.cursor
                     if row < max_row:
                         if col < len(self.rows[row]):
@@ -317,7 +381,7 @@ class VirtualKeyboard:
                             self.done = True
                             self.result = self.input_text
                             return self.input_text
-                elif code == 304:  # B
+                elif code == 304:
                     self.done = True
                     self.result = None
                     return None
@@ -361,69 +425,78 @@ def process_rom(rom, system, mediatype, region, user, password, resultados, tota
         return
 
     romnom = quote(os.path.basename(rom))
-    url = (
-        "https://www.screenscraper.fr/api2/jeuInfos.php?"
-        f"devid={DEVID}&devpassword={DEVPASSWORD}"
-        f"&softname={SOFTNAME}"
-        f"&output=json"
-        f"&systemeid={get_ssSystemID(system)}"
-        f"&crc={crc32}&md5={md5}&sha1={sha1}"
-        f"&romnom={romnom}"
-        f"&romtaille={rom_size}"
-        f"&romtype=rom"
-    )
-    if user and password:
-        url += f"&ssid={user}&sspassword={password}"
-
+    sids = get_ssSystemIDs(system)
     medias = []
-    try:
-        r = requests.get(url, timeout=20)
-        if r.status_code == 200:
-            data = r.json()
-            medias = data.get("response", {}).get("jeu", {}).get("medias", [])
-    except Exception:
-        pass
-
-    if not medias:
-        url_nameonly = (
+    for sid in sids:
+        url = (
             "https://www.screenscraper.fr/api2/jeuInfos.php?"
             f"devid={DEVID}&devpassword={DEVPASSWORD}"
             f"&softname={SOFTNAME}"
             f"&output=json"
-            f"&systemeid={get_ssSystemID(system)}"
+            f"&systemeid={sid}"
+            f"&crc={crc32}&md5={md5}&sha1={sha1}"
             f"&romnom={romnom}"
+            f"&romtaille={rom_size}"
             f"&romtype=rom"
         )
         if user and password:
-            url_nameonly += f"&ssid={user}&sspassword={password}"
+            url += f"&ssid={user}&sspassword={password}"
         try:
-            r2 = requests.get(url_nameonly, timeout=20)
-            if r2.status_code == 200:
-                data2 = r2.json()
-                medias = data2.get("response", {}).get("jeu", {}).get("medias", [])
+            r = requests.get(url, timeout=20)
+            if r.status_code == 200:
+                data = r.json()
+                medias = data.get("response", {}).get("jeu", {}).get("medias", [])
+                if medias:
+                    break
         except Exception:
-            pass
+            continue
+
+    if not medias:
+        for sid in sids:
+            url_nameonly = (
+                "https://www.screenscraper.fr/api2/jeuInfos.php?"
+                f"devid={DEVID}&devpassword={DEVPASSWORD}"
+                f"&softname={SOFTNAME}"
+                f"&output=json"
+                f"&systemeid={sid}"
+                f"&romnom={romnom}"
+                f"&romtype=rom"
+            )
+            if user and password:
+                url_nameonly += f"&ssid={user}&sspassword={password}"
+            try:
+                r2 = requests.get(url_nameonly, timeout=20)
+                if r2.status_code == 200:
+                    data2 = r2.json()
+                    medias = data2.get("response", {}).get("jeu", {}).get("medias", [])
+                    if medias:
+                        break
+            except Exception:
+                continue
 
     if not medias:
         rombase = quote(os.path.splitext(rom)[0])
-        url_base = (
-            "https://www.screenscraper.fr/api2/jeuInfos.php?"
-            f"devid={DEVID}&devpassword={DEVPASSWORD}"
-            f"&softname={SOFTNAME}"
-            f"&output=json"
-            f"&systemeid={get_ssSystemID(system)}"
-            f"&romnom={rombase}"
-            f"&romtype=rom"
-        )
-        if user and password:
-            url_base += f"&ssid={user}&sspassword={password}"
-        try:
-            r3 = requests.get(url_base, timeout=20)
-            if r3.status_code == 200:
-                data3 = r3.json()
-                medias = data3.get("response", {}).get("jeu", {}).get("medias", [])
-        except Exception:
-            pass
+        for sid in sids:
+            url_base = (
+                "https://www.screenscraper.fr/api2/jeuInfos.php?"
+                f"devid={DEVID}&devpassword={DEVPASSWORD}"
+                f"&softname={SOFTNAME}"
+                f"&output=json"
+                f"&systemeid={sid}"
+                f"&romnom={rombase}"
+                f"&romtype=rom"
+            )
+            if user and password:
+                url_base += f"&ssid={user}&sspassword={password}"
+            try:
+                r3 = requests.get(url_base, timeout=20)
+                if r3.status_code == 200:
+                    data3 = r3.json()
+                    medias = data3.get("response", {}).get("jeu", {}).get("medias", [])
+                    if medias:
+                        break
+            except Exception:
+                continue
 
     imgurl = None
     if region == "auto":
@@ -449,30 +522,26 @@ def process_rom(rom, system, mediatype, region, user, password, resultados, tota
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; Carl-OS/1.0; +https://www.screenscraper.fr)"
     }
-    
     try:
         response = requests.get(imgurl, timeout=20, headers=headers)
         if response.status_code == 200 and response.headers.get("Content-Type", "").startswith("image"):
             try:
                 img = Image.open(io.BytesIO(response.content))
                 img = img.convert("RGBA")
-                
                 if mediatype in ("mixrbv1", "mixrbv2"):
                     img.thumbnail((320, 320), Image.LANCZOS)
                 else:
                     img.thumbnail((320, 240), Image.LANCZOS)
-                
                 img.save(imgpath, "PNG")
                 resultados["success"] += 1
-            except Exception as e:
+            except Exception:
                 resultados["fail"] += 1
         else:
             resultados["fail"] += 1
-        
         current = resultados["success"] + resultados["fail"] + resultados["existing"]
         progress_callback(current / total, resultados)
         return
-    except Exception as e:
+    except Exception:
         resultados["fail"] += 1
         current = resultados["success"] + resultados["fail"] + resultados["existing"]
         progress_callback(current / total, resultados)
@@ -480,15 +549,15 @@ def process_rom(rom, system, mediatype, region, user, password, resultados, tota
 
 def real_scraper(system, mediatype, region, user, password, num_motors, progress_callback):
     global cancel_scraping
-    ssSystemID = get_ssSystemID(system)
-    if not ssSystemID:
+    ssSystemIDs = get_ssSystemIDs(system)
+    if not ssSystemIDs:
         print(f"Skipping system '{system}' as it has no valid systemeid.")
         return
-    
+
     romspath = os.path.join(ROMS_ROOT, system)
     imgdir = os.path.join(romspath, "media", "images")
     os.makedirs(imgdir, exist_ok=True)
-    
+
     extensions = get_extensions(system)
     romfiles = []
     for root, dirs, files in os.walk(romspath):
@@ -498,26 +567,26 @@ def real_scraper(system, mediatype, region, user, password, num_motors, progress
             if os.path.splitext(f)[1][1:].lower() in extensions and not f.startswith('.'):
                 relpath = os.path.relpath(os.path.join(root, f), romspath)
                 romfiles.append(relpath)
-    
+
     total = len(romfiles)
     resultados = {"success": 0, "fail": 0, "existing": 0}
-    
+
     with ThreadPoolExecutor(max_workers=num_motors) as executor:
         futures = []
         for rom in romfiles:
             if cancel_scraping.is_set():
                 break
             futures.append(executor.submit(
-                process_rom, rom, system, mediatype, region, user, password, 
+                process_rom, rom, system, mediatype, region, user, password,
                 resultados, total, progress_callback
             ))
-        
+
         for future in as_completed(futures):
             if cancel_scraping.is_set():
                 for f in futures:
                     f.cancel()
                 break
-    
+
     progress_callback(1.0, resultados)
     cancel_scraping.clear()
 
@@ -530,7 +599,7 @@ def draw_card(surface, x, y, width, height, title, value, is_selected=False, ico
     if icon:
         surface.blit(icon, (x + 10, y + (height - icon.get_height()) // 2))
         icon_offset = icon.get_width() + 18
-        
+
     if title == "Start Scraping":
         lines = value.split('\n')
         if len(lines) >= 1:
@@ -586,8 +655,8 @@ def draw_progress_popup():
     pygame.draw.rect(screen, (100, 100, 100), (msg_rect_x, msg_rect_y, msg_rect_w, msg_rect_h), 2)
     screen.blit(msg_surface, (msg_rect_x + (msg_rect_w - msg_w)//2, msg_rect_y + (msg_rect_h - msg_h)//2))
 
-    pygame.display.update(pygame.Rect(rect_x, rect_y, rect_w, rect_h))        
-        
+    pygame.display.update(pygame.Rect(rect_x, rect_y, rect_w, rect_h))
+
 def draw_menu():
     screen.fill(COLORS['bg'])
     title_surface = font_large.render("ROM Scraper Utility", True, COLORS['accent'])
@@ -598,13 +667,13 @@ def draw_menu():
     x1 = x0 + card_w + 20
     y_step = card_h + 18
     positions = [
-        (x0, y0),         # 0 ROM System
-        (x1, y0),         # 1 Image Type
-        (x0, y0 + y_step),# 2 Region
-        (x1, y0 + y_step),# 3 Username
-        (x0, y0 + 2*y_step), # 4 Password
-        (x1, y0 + 2*y_step), # 5 Motors
-        (x0, y0 + 3*y_step), # 6 Start Scraping
+        (x0, y0),
+        (x1, y0),
+        (x0, y0 + y_step),
+        (x1, y0 + y_step),
+        (x0, y0 + 2*y_step),
+        (x1, y0 + 2*y_step),
+        (x0, y0 + 3*y_step),
     ]
     for i, item in enumerate(menuitems):
         is_selected = (i == selected)
@@ -618,9 +687,8 @@ def draw_menu():
         draw_card(screen, positions[i][0], positions[i][1], card_w, card_h, item["label"], value, is_selected, icon)
     help_surface = font_small.render("A: Edit/Start | B: Exit", True, COLORS['text_secondary'])
     screen.blit(help_surface, (40, 430))
-            
     pygame.display.flip()
-    
+
 def wait_for_close_popup(dev):
     while True:
         data = dev.read(24)
@@ -639,7 +707,6 @@ font_small = pygame.font.SysFont("monospace", 28)
 pygame.mouse.set_visible(False)
 
 IMAGE_TYPE_ICONS = load_image_type_icons()
-
 systems = get_systems()
 menuitems = [
     {"label": "ROM System", "options": systems, "index": 0, "value": systems[0] if systems else ""},
@@ -679,7 +746,6 @@ if config:
     menuitems[4]["value"] = "*" * len(config.get("screenscraper_password", ""))
     menuitems[4]["real"] = config.get("screenscraper_password", "")
     menuitems[5]["motors"] = config.get("motors", 1)
-    
     if config.get("screenscraper_username") and config.get("screenscraper_password"):
         max_motors = get_max_motors(
             config["screenscraper_username"],
@@ -688,7 +754,6 @@ if config:
         menuitems[5]["max_motors"] = max_motors
     else:
         menuitems[5]["max_motors"] = 1
-    
     menuitems[5]["value"] = f"Press A to Start\nMotors: {menuitems[5]['motors']} of {menuitems[5]['max_motors']}"
 
 keyboard = VirtualKeyboard(font_medium)
@@ -699,7 +764,7 @@ def progress_callback(p, r):
     resultados = r
     show_progress_popup = True
     draw_progress_popup()
-    
+
 with open(INPUT_DEVICE, "rb") as dev:
     running = True
     draw_menu()
@@ -716,8 +781,8 @@ with open(INPUT_DEVICE, "rb") as dev:
                 resultados = {"success": 0, "fail": 0, "existing": 0}
                 continue
         if evtype == 1 and value == 1:
-            if code == 305:  # A
-                if selected == 3:  # Username
+            if code == 305:
+                if selected == 3:
                     user = keyboard.run(screen, dev, prompt="Screenscraper username")
                     if user is not None:
                         menuitems[3]["options"][0] = user
@@ -729,7 +794,7 @@ with open(INPUT_DEVICE, "rb") as dev:
                             menuitems[5]["motors"] = min(menuitems[5].get("motors", 1), max_motors)
                             menuitems[5]["value"] = f"Press A to Start\nMotors: {menuitems[5]['motors']} of {max_motors}"
                             draw_menu()
-                elif selected == 4:  # Password
+                elif selected == 4:
                     password = keyboard.run(screen, dev, prompt="Screenscraper password")
                     if password is not None:
                         menuitems[4]["options"][0] = "*" * len(password)
@@ -742,7 +807,7 @@ with open(INPUT_DEVICE, "rb") as dev:
                             menuitems[5]["motors"] = min(menuitems[5].get("motors", 1), max_motors)
                             menuitems[5]["value"] = f"Press A to Start\nMotors: {menuitems[5]['motors']} of {max_motors}"
                             draw_menu()
-                elif selected == 5:  # Start Scraping
+                elif selected == 5:
                     system = menuitems[0]["options"][menuitems[0]["index"]]
                     mediatype = menuitems[1]["options"][menuitems[1]["index"]]
                     region = menuitems[2]["options"][menuitems[2]["index"]]
@@ -763,21 +828,20 @@ with open(INPUT_DEVICE, "rb") as dev:
                         if dev.peek(24):
                             d = dev.read(24)
                             _, _, e, c, v = struct.unpack("llHHi", d)
-                            if e == 1 and v == 1 and c == 304:  # B
+                            if e == 1 and v == 1 and c == 304:
                                 cancel_scraping.set()
                             else:
                                 continue
                         pygame.time.wait(100)
                     draw_progress_popup()
                     wait_for_close_popup(dev)
-                    
                     show_progress_popup = False
                     cancel_scraping.clear()
                     progress = 0
                     resultados = {"success": 0, "fail": 0, "existing": 0}
                     draw_menu()
-            elif code == 304:  # B
-                    running = False
+            elif code == 304:
+                running = False
         elif evtype == 3 and value != 0:
             if code == 17:
                 if value == -1:
@@ -788,9 +852,9 @@ with open(INPUT_DEVICE, "rb") as dev:
                 if selected == 5:
                     current_motors = menuitems[5]["motors"]
                     max_motors = menuitems[5]["max_motors"]
-                    if value == -1:  # Izquierda
+                    if value == -1:
                         new_motors = max(1, current_motors - 1)
-                    elif value == 1:  # Derecha
+                    elif value == 1:
                         new_motors = min(max_motors, current_motors + 1)
                     menuitems[5]["motors"] = new_motors
                     menuitems[5]["value"] = f"Press A to Start\nMotors: {new_motors} of {max_motors}"
