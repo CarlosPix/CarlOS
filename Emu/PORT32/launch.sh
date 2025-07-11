@@ -1,16 +1,14 @@
 #!/bin/sh
 
 # --- Path Configuration ---
-PORTS_DIR="$(dirname "$0")/../../Roms/PORTS"  # Base folder for ports (where .sh files are stored)
-LAUNCHERS_DIR="$(dirname "$0")/../../Emu/PORT32"  # Folder containing launchers (Launch.sh/launchPM.sh)
+LAUNCHERS_DIR="/mnt/SDCARD/Emu/PORT32"
 
 # --- Full path of the game to launch ---
-GAME_FULL_PATH="$1"
-GAME_NAME="$(basename "$GAME_FULL_PATH")"
+GAME_NAME=$(basename "$1")
 
 # --- Launcher Selection (CASE) ---
 case "$GAME_NAME" in
-    "AM2R.sh"|"ShovelKnight.sh")  # Games requiring 32-bit (customize this list)
+    "AM2R.sh"|"ShovelKnight.sh"|"sorr.sh" )
         LAUNCHER="$LAUNCHERS_DIR/launchP32.sh"
         ;;
     *)  # All other games (default PortMaster launcher)
@@ -19,4 +17,4 @@ case "$GAME_NAME" in
 esac
 
 # --- Execution ---
-"$LAUNCHER" "$GAME_FULL_PATH"
+"$LAUNCHER" "$1"
