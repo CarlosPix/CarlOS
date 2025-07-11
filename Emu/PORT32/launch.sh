@@ -17,4 +17,5 @@ case "$GAME_NAME" in
 esac
 
 # --- Execution ---
+"$LAUNCHERS_DIR/cpufreq.sh"
 "$LAUNCHER" "$1"
