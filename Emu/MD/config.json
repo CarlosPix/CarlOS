@@ -24,6 +24,10 @@
             "launch": "launch_genplus.sh"
         },
         {
+            "name": "GENESIS PLUS GX MOD",
+            "launch": "launch_genplus_mod.sh"
+        },
+        {
             "name": "GENESIS PLUS GX WIDE",
             "launch": "launch_genplus_wide.sh"
         }
