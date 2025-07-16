@@ -35,6 +35,69 @@ export directory="/mnt/SDCARD/Roms/PORTS"
 export XDG_DATA_HOME=${HOME}
 source "$controlfolder/funcs.txt"
 
+ASOUND_CONF="$HOME/.asoundrc"
+
+get_connected_audio_bt_mac() {
+    for mac in $(bluetoothctl devices | awk '{print $2}'); do
+        info=$(bluetoothctl info "$mac")
+        if echo "$info" | grep -q "Connected: yes"; then
+            name=$(echo "$info" | grep "Name" | head -n1 | cut -d ' ' -f2-)
+            icon=$(echo "$info" | grep "Icon" | awk '{print $2}')
+            if echo "$name" | grep -iqE "headset|speaker|audio|earbud|headphone"; then
+                echo "$mac"
+                return 0
+            fi
+            if [[ "$icon" == "audio-headset" || "$icon" == "audio-card" || "$icon" == "audio-headphones" ]]; then
+                echo "$mac"
+                return 0
+            fi
+        fi
+    done
+    return 1
+}
+
+mac=$(get_connected_audio_bt_mac)
+
+if [ -n "$mac" ]; then
+    cat > "$ASOUND_CONF" <<EOF
+pcm.!default {
+    type plug
+    slave.pcm {
+        type bluealsa
+        device "$mac"
+        profile "a2dp"
+    }
+}
+
+ctl.!default { type hw card 0 }
+EOF
+else
+    cat > "$ASOUND_CONF" <<EOF
+pcm.!default {
+    type plug
+    slave.pcm "dmixer"
+}
+
+pcm.dmixer  {
+    type dmix
+    ipc_key 1024
+    slave {
+        pcm "hw:0,0"
+        period_time 0
+        period_size 1024
+        buffer_size 4096
+        rate 44100
+    }
+    bindings {
+        0 0
+        1 1
+    }
+}
+
+ctl.!default { type hw card 0 }
+EOF
+fi
+
 cd "${directory}" && ./"$(basename "$port")"
 
 sync

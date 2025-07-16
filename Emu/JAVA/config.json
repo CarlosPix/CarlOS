@@ -6,7 +6,7 @@
     "themecolor":"FFFFFF",
     "launch":"launch.sh",
     "rompath":"../../Roms/JAVA",
-    "imgpath":"../../Imgs/JAVA",
+    "imgpath":"../../Roms/JAVA/media/images",
     "useswap":0,
     "shortname":0
 }
