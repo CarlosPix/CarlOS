@@ -16,6 +16,7 @@ CONFIG_FILE="/mnt/SDCARD/Roms/PORTS/PortMaster/pylibs/harbourmaster/config.py"
 PORTOLD="/mnt/SDCARD/App/PortMaster/patchs/PORTOLD.txt"
 PORTNEW="/mnt/SDCARD/App/PortMaster/patchs/PORTNEW.txt"
 CONTROLOLD="/mnt/SDCARD/App/PortMaster/patchs/CONTROLOLD.txt"
+CONTROLOLD2="/mnt/SDCARD/App/PortMaster/patchs/CONTROLOLD2.txt"
 CONTROLNEW="/mnt/SDCARD/App/PortMaster/patchs/CONTROLNEW.txt"
 CONFIGOLD="/mnt/SDCARD/App/PortMaster/patchs/CONFIGOLD.txt"
 CONFIGNEW="/mnt/SDCARD/App/PortMaster/patchs/CONFIGNEW.txt"
@@ -65,6 +66,7 @@ done
 
 for f in "$CONTROL_FILE" "$CONTROL_FILE_MIYOO" "$CONTROL_FILE_ROOT" "$CONTROL_FILE_ROOT2"; do
     replace_block "$f" "$CONTROLOLD" "$CONTROLNEW"
+	replace_block "$f" "$CONTROLOLD2" "$CONTROLNEW"
 done
 
 /mnt/SDCARD/miyoo355/bin/gawk '
