@@ -41,7 +41,7 @@ pcm.!default {
         type bluealsa
         device "$mac"
         profile "a2dp"
-		delay 64
+        delay 64
     }
 }
 ctl.!default {
