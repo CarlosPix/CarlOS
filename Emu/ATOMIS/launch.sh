@@ -13,7 +13,9 @@ $progdir./cpufreq.sh
 export HOME=$progdir
 
 get_connected_audio_bt_mac() {
-    for mac in $(bluetoothctl devices | awk '{print $2}'); do
+    if ! pgrep -x bluetoothd > /dev/null; then
+        return 1
+    fi    for mac in $(bluetoothctl devices | awk '{print $2}'); do
         if bluetoothctl info "$mac" | grep -q "Connected: yes"; then
             name=$(bluetoothctl info "$mac" | grep "Name" | cut -d ' ' -f2-)
             icon=$(bluetoothctl info "$mac" | grep "Icon" | awk '{print $2}')

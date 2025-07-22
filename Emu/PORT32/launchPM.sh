@@ -38,7 +38,9 @@ source "$controlfolder/funcs.txt"
 ASOUND_CONF="$HOME/.asoundrc"
 
 get_connected_audio_bt_mac() {
-    for mac in $(bluetoothctl devices | awk '{print $2}'); do
+    if ! pgrep -x bluetoothd > /dev/null; then
+        return 1
+    fi    for mac in $(bluetoothctl devices | awk '{print $2}'); do
         info=$(bluetoothctl info "$mac")
         if echo "$info" | grep -q "Connected: yes"; then
             name=$(echo "$info" | grep "Name" | head -n1 | cut -d ' ' -f2-)
