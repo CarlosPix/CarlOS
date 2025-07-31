@@ -9,7 +9,7 @@ if [ ! -f /tmp/userdata_ok ]; then
 
     if [ ! -f "$TESTFILE" ]; then
        fbdisplay /mnt/SDCARD/miyoo355/app/userdata.png &
-       mkfs.ext4 -L userdata /dev/mtdblock4
+       /usr/sbin/mkfs.ext4 -L userdata /dev/mtdblock4
        sync
        sleep 10
        reboot
