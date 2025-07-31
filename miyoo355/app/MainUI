@@ -2,14 +2,14 @@
 
 # check userdata partition
 if [ ! -f /tmp/userdata_ok ]; then
-   touch /tmp/userdata_ok
+    touch /tmp/userdata_ok
 
     TESTFILE="/userdata/.test_write"
     touch "$TESTFILE"
 
     if [ ! -f "$TESTFILE" ]; then
        fbdisplay /mnt/SDCARD/miyoo355/app/userdata.png &
-       /usr/sbin/mkfs.ext4 -L userdata /dev/mtdblock4
+       /usr/sbin/mkfs.ext4 -F -L userdata /dev/mtdblock4
        sync
        sleep 10
        reboot
