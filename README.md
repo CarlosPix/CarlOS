@@ -160,11 +160,6 @@ AlexisToretto for system testing and invaluable help with CarlOS theme design an
 
 # We thank Miyoo (Shenzhen le miyou technology co., ltd.) for providing the resources that made this project possible
 
-
-# 🛠️ Made with ♥ (and caffeine) ☕  
-
-This **Custom Firmware** is a **passion project**, built in our free time. Enjoy it? Consider [buying us a coffee](https://ko-fi.com/rogueteam)!  
-
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rogueteam)
 
 Thanks for being awesome! 🙌✨
